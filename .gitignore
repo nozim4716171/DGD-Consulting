@@ -1,0 +1,30 @@
+# Python fayllari
+*.pyc
+__pycache__/
+
+
+# Django
+*.sqlite3
+/media/
+staticfiles/
+
+
+# Venv (Virtual environment)
+env/
+*.log
+
+# Maxfiy fayllar
+.env
+
+
+# IDE (Integrated Development Environment) fayllari
+.vscode/
+.idea/
+
+
+# OS (Operatsion tizim) vaqtinchalik fayllari
+.DS_Store
+baza.db
+
+
+

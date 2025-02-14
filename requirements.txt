@@ -1,0 +1,9 @@
+Django>=4.0
+djangorestframework==3.15.2
+gunicorn==23.0.0
+psycopg2-binary==2.9.10  # Agar PostgreSQL ishlatilsa
+python-dotenv==1.0.1
+Pillow==11.0.0
+python>=3.10,<3.12
+python-decouple==3.8
+polib==1.2.0

@@ -1,0 +1,179 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load i18n %}
+
+{% block title %}{% blocktrans %}Foydalanish shartlari va qoidalari{% endblocktrans %}{% endblock title %}
+
+
+{% block content %}
+    <section class="wrapper bg-soft-primary !bg-[#edf2fc]">
+      <div class="container pt-10 pb-14 xl:pt-[4.5rem] lg:pt-[4.5rem] md:pt-[4.5rem] xl:pb-24 lg:pb-24 md:pb-24 !text-center">
+        <div class="flex flex-wrap mx-[-15px]">
+          <div class="md:w-10/12 lg:w-8/12 xl:w-7/12 xxl:w-6/12 w-full flex-[0_0_auto] px-[15px] max-w-full !mx-auto">
+            <h1 class="text-[calc(1.365rem_+_1.38vw)] font-bold leading-[1.2] xl:text-[2.4rem] !mb-3">{% blocktrans %}Foydalanish shartlari{% endblocktrans %}</h1>
+            <nav class="inline-block" aria-label="breadcrumb">
+              <ol class="breadcrumb flex flex-wrap bg-[none] mb-4 p-0 !rounded-none list-none">
+                <li class="breadcrumb-item flex text-[#60697b]"><a class=" text-inherit text-[#60697b]" href="{% url 'home' %}">{% blocktrans %}Bosh sahifa{% endblocktrans %}</a></li>
+                <li class="breadcrumb-item active flex text-[#60697b] pl-2 before:font-normal before:flex before:items-center before:text-[rgba(96,105,123,.35)] before:content-['\e931'] before:text-[0.9rem] before:-mt-px before:pr-2 before:font-Unicons" aria-current="page">{% blocktrans %}Foydalanish shartlari{% endblocktrans %}</li>
+              </ol>
+            </nav>
+            <!-- /nav -->
+          </div>
+          <!-- /column -->
+        </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.container -->
+    </section>
+    <!-- /section -->
+    <div class="container">
+      <div class="flex flex-wrap mx-0">
+        <aside class="xl:w-3/12 w-full flex-[0_0_auto] max-w-full sidebar !sticky h-full top-0 md:!mt-0 py-24 hidden  xl:block">
+          <div class="widget">
+            <nav id="sidebar-nav">
+              <ul class="pl-0 list-none text-inherit">
+<li><a class="nav-link scroll active" href="#terms-conditions">{% blocktrans %}1. Foydalanish Shartlari{% endblocktrans %}</a></li>
+<li class="mt-[0.35rem]"><a class="nav-link scroll" href="#privacy-policy">{% blocktrans %}2. Maxfiylik Siyosati{% endblocktrans %}</a></li>
+<li class="mt-[0.35rem]"><a class="nav-link scroll" href="#user-policy">{% blocktrans %}3. Foydalanuvchi Siyosati{% endblocktrans %}</a></li>
+<li class="mt-[0.35rem]"><a class="nav-link scroll" href="#copyrights">{% blocktrans %}4. Mualliflik Huquqlari{% endblocktrans %}</a></li>
+<li class="mt-[0.35rem]"><a class="nav-link scroll" href="#cookies">{% blocktrans %}5. Cookie-fayllar{% endblocktrans %}</a></li>
+<li class="mt-[0.35rem]"><a class="nav-link scroll" href="#account-billing">{% blocktrans %}6. Hisob va To‘lovlar{% endblocktrans %}</a></li>
+              </ul>
+            </nav>
+            <!-- /nav -->
+          </div>
+          <!-- /.widget -->
+        </aside>
+        <!-- /column -->
+        <div class="xl:w-8/12 w-full flex-[0_0_auto] max-w-full">
+          <section id="terms-conditions" class="wrapper pt-24">
+            <div class="card">
+              <div class="card-body !p-10">
+                <h2 class="!mb-3 !leading-[1.35]">{% blocktrans %}1. Foydalanish Shartlari{% endblocktrans %}</h2>
+                {% blocktrans %}<p>Ushbu shartlar <b>dgdconsulting.uz</b> xizmatlaridan foydalanish qoidalarini belgilaydi. Saytimizga kirish orqali ushbu shartlarga rioya qilishga rozilik bildirasiz.</p>
+                <p>Xizmatlar ko‘rsatish</p>{% endblocktrans %}
+                <ul class="pl-0 list-none bullet-bg bullet-soft-primary  !mb-0">
+                  <li class="relative mt-[0.35rem] flex items-center"><span class="pr-[.75rem]"><i class="uil uil-check w-4 h-4 text-[0.8rem] leading-none tracking-[normal] !text-center flex justify-center items-center bg-[#dce7f9] text-[#3f78e0] rounded-[100%] top-[0.2rem] before:content-['\e9dd'] before:align-middle before:table-cell"></i></span><span>{% blocktrans %}Saytimiz faqat qonuniy maqsadlarda foydalanish uchun mo‘ljallangan{% endblocktrans %}</span></li>
+                  <li class="relative mt-[0.35rem] flex items-center"><span class="pr-[.75rem]"><i class="uil uil-check w-4 h-4 text-[0.8rem] leading-none tracking-[normal] !text-center flex justify-center items-center bg-[#dce7f9] text-[#3f78e0] rounded-[100%] top-[0.2rem] before:content-['\e9dd'] before:align-middle before:table-cell"></i></span><span>{% blocktrans %}Foydalanuvchilar xizmatdan noqonuniy yoki noto‘g‘ri maqsadlarda foydalanmasliklari shart.{% endblocktrans %}</span></li>
+                  <li class="relative mt-[0.35rem] flex items-center"><span class="pr-[.75rem]"><i class="uil uil-check w-4 h-4 text-[0.8rem] leading-none tracking-[normal] !text-center flex justify-center items-center bg-[#dce7f9] text-[#3f78e0] rounded-[100%] top-[0.2rem] before:content-['\e9dd'] before:align-middle before:table-cell"></i></span><span>{% blocktrans %}Kompaniya xizmatni istalgan vaqtda o‘zgartirish yoki to‘xtatib qo‘yish huquqiga ega.{% endblocktrans %}</span></li>
+                </ul><br>
+                <p>{% blocktrans %}Javobgarlik{% endblocktrans %}</p>
+                <ul class="pl-0 list-none bullet-bg bullet-soft-primary  !mb-0">
+                  <li class="relative mt-[0.35rem] flex items-center"><span class="pr-[.75rem]"><i class="uil uil-check w-4 h-4 text-[0.8rem] leading-none tracking-[normal] !text-center flex justify-center items-center bg-[#dce7f9] text-[#3f78e0] rounded-[100%] top-[0.2rem] before:content-['\e9dd'] before:align-middle before:table-cell"></i></span><span>{% blocktrans %}Saytda mavjud ma’lumotlar faqat umumiy ma’lumot berish uchun mo‘ljallangan.{% endblocktrans %}</span></li>
+                  <li class="relative mt-[0.35rem] flex items-center"><span class="pr-[.75rem]"><i class="uil uil-check w-4 h-4 text-[0.8rem] leading-none tracking-[normal] !text-center flex justify-center items-center bg-[#dce7f9] text-[#3f78e0] rounded-[100%] top-[0.2rem] before:content-['\e9dd'] before:align-middle before:table-cell"></i></span><span>{% blocktrans %}Biz texnik xatoliklar yoki saytga kirishdagi uzilishlar uchun javobgar emasmiz.{% endblocktrans %}</span></li>
+                </ul>
+              </div>
+              <!--/.card-body -->
+            </div>
+            <!--/.card -->
+          </section>
+          <section id="privacy-policy" class="wrapper pt-24">
+            <div class="card">
+              <div class="card-body !p-10">
+                <h2 class="!mb-3 !leading-[1.35]">{% blocktrans %}2. Maxfiylik Siyosati{% endblocktrans %}</h2>
+                <p>{% blocktrans %}Ma’lumotlarni yig‘ish{% endblocktrans %}</p>
+                <p>{% blocktrans %}Biz foydalanuvchilardan quyidagi ma’lumotlarni yig‘amiz:{% endblocktrans %}</p>
+                <ul class="pl-0 list-none bullet-bg bullet-soft-primary">
+                  <li class="relative mt-[0.35rem] flex items-center"><span class="pr-[.75rem]"><i class="uil uil-check w-4 h-4 text-[0.8rem] leading-none tracking-[normal] !text-center flex justify-center items-center bg-[#dce7f9] text-[#3f78e0] rounded-[100%] top-[0.2rem] before:content-['\e9dd'] before:align-middle before:table-cell"></i></span><span>{% blocktrans %}Shaxsiy ma’lumotlar (ism, email, telefon raqami).{% endblocktrans %}</span></li>
+                  <li class="relative mt-[0.35rem] flex items-center"><span class="pr-[.75rem]"><i class="uil uil-check w-4 h-4 text-[0.8rem] leading-none tracking-[normal] !text-center flex justify-center items-center bg-[#dce7f9] text-[#3f78e0] rounded-[100%] top-[0.2rem] before:content-['\e9dd'] before:align-middle before:table-cell"></i></span><span>{% blocktrans %}Foydalanuvchi faoliyati ma’lumotlari (cookie-fayllar, IP-manzillar).{% endblocktrans %}</span></li>
+                </ul>
+                <p class="!mb-0">{% blocktrans %}Ma’lumotlardan foydalanish{% endblocktrans %}</p>
+                <ul class="pl-0 list-none bullet-bg bullet-soft-primary">
+                  <li class="relative mt-[0.35rem] flex items-center"><span class="pr-[.75rem]"><i class="uil uil-check w-4 h-4 text-[0.8rem] leading-none tracking-[normal] !text-center flex justify-center items-center bg-[#dce7f9] text-[#3f78e0] rounded-[100%] top-[0.2rem] before:content-['\e9dd'] before:align-middle before:table-cell"></i></span><span>{% blocktrans %}Sizning ma’lumotlaringiz xizmatlarni yaxshilash va shaxsiylashtirish uchun ishlatiladi.{% endblocktrans %}</span></li>
+                  <li class="relative mt-[0.35rem] flex items-center"><span class="pr-[.75rem]"><i class="uil uil-check w-4 h-4 text-[0.8rem] leading-none tracking-[normal] !text-center flex justify-center items-center bg-[#dce7f9] text-[#3f78e0] rounded-[100%] top-[0.2rem] before:content-['\e9dd'] before:align-middle before:table-cell"></i></span><span>{% blocktrans %}Ma’lumotlaringiz hech qanday sharoitda uchinchi tomonlarga ruxsatsiz uzatilmaydi.{% endblocktrans %}</span></li>
+                </ul>
+                <p class="!mb-0">{% blocktrans %}Ma’lumotlarni himoya qilish{% endblocktrans %}</p>
+                <ul class="pl-0 list-none bullet-bg bullet-soft-primary">
+                  <li class="relative mt-[0.35rem] flex items-center"><span class="pr-[.75rem]"><i class="uil uil-check w-4 h-4 text-[0.8rem] leading-none tracking-[normal] !text-center flex justify-center items-center bg-[#dce7f9] text-[#3f78e0] rounded-[100%] top-[0.2rem] before:content-['\e9dd'] before:align-middle before:table-cell"></i></span><span>{% blocktrans %}Ma’lumotlaringiz xavfsizligini ta’minlash uchun zamonaviy texnologiyalar ishlatiladi.{% endblocktrans %}</span></li>
+                </ul>
+              </div>
+              <!--/.card-body -->
+            </div>
+            <!--/.card -->
+          </section>
+          <section id="user-policy" class="wrapper pt-24">
+            <div class="card">
+              <div class="card-body !p-10">
+                <h2 class="!mb-3 !leading-[1.35]">{% blocktrans %}3. Foydalanuvchi Siyosati{% endblocktrans %}</h2>
+                <p class="!mb-0">{% blocktrans %}Foydalanuvchi majburiyatlari{% endblocktrans %}</p>
+                <ul class="pl-0 list-none bullet-bg bullet-soft-primary">
+                  <li class="relative mt-[0.35rem] flex items-center"><span class="pr-[.75rem]"><i class="uil uil-check w-4 h-4 text-[0.8rem] leading-none tracking-[normal] !text-center flex justify-center items-center bg-[#dce7f9] text-[#3f78e0] rounded-[100%] top-[0.2rem] before:content-['\e9dd'] before:align-middle before:table-cell"></i></span><span>{% blocktrans %}Saytdan noto‘g‘ri yoki noqonuniy maqsadlarda foydalanmaslik.{% endblocktrans %}</span></li>
+                  <li class="relative mt-[0.35rem] flex items-center"><span class="pr-[.75rem]"><i class="uil uil-check w-4 h-4 text-[0.8rem] leading-none tracking-[normal] !text-center flex justify-center items-center bg-[#dce7f9] text-[#3f78e0] rounded-[100%] top-[0.2rem] before:content-['\e9dd'] before:align-middle before:table-cell"></i></span><span>{% blocktrans %}Saytga zarar yetkazuvchi har qanday faoliyatni amalga oshirmaslik.{% endblocktrans %}</span></li>
+                </ul>
+                <p class="!mb-0">{% blocktrans %}Hisobni boshqarish{% endblocktrans %}</p>
+                <ul class="pl-0 list-none bullet-bg bullet-soft-primary">
+                  <li class="relative mt-[0.35rem] flex items-center"><span class="pr-[.75rem]"><i class="uil uil-check w-4 h-4 text-[0.8rem] leading-none tracking-[normal] !text-center flex justify-center items-center bg-[#dce7f9] text-[#3f78e0] rounded-[100%] top-[0.2rem] before:content-['\e9dd'] before:align-middle before:table-cell"></i></span><span>{% blocktrans %}Foydalanuvchi hisob ma’lumotlarini xavfsiz saqlash majburiyatiga ega.{% endblocktrans %}</span></li>
+                  <li class="relative mt-[0.35rem] flex items-center"><span class="pr-[.75rem]"><i class="uil uil-check w-4 h-4 text-[0.8rem] leading-none tracking-[normal] !text-center flex justify-center items-center bg-[#dce7f9] text-[#3f78e0] rounded-[100%] top-[0.2rem] before:content-['\e9dd'] before:align-middle before:table-cell"></i></span><span>{% blocktrans %}Agar hisob bilan bog‘liq ruxsatsiz faoliyat aniqlansa, darhol kompaniyaga xabar berilishi kerak.{% endblocktrans %}</span></li>
+                </ul>
+              </div>
+              <!--/.card-body -->
+            </div>
+            <!--/.card -->
+          </section>
+          <section id="copyrights" class="wrapper pt-24">
+            <div class="card">
+              <div class="card-body !p-10">
+                <h2 class="!mb-3 !leading-[1.35]">{% blocktrans %}4. Mualliflik Huquqlari{% endblocktrans %}</h2>
+                <ul class="pl-0 list-none bullet-bg bullet-soft-primary">
+                  <li class="relative mt-[0.35rem] flex items-center"><span class="pr-[.75rem]"><i class="uil uil-check w-4 h-4 text-[0.8rem] leading-none tracking-[normal] !text-center flex justify-center items-center bg-[#dce7f9] text-[#3f78e0] rounded-[100%] top-[0.2rem] before:content-['\e9dd'] before:align-middle before:table-cell"></i></span><span>{% blocktrans %}Saytda joylashtirilgan barcha matnlar, rasmlar, videolar va boshqa materiallar [sayt nomi] mulki hisoblanadi.{% endblocktrans %}</span></li>
+                  <li class="relative mt-[0.35rem] flex items-center"><span class="pr-[.75rem]"><i class="uil uil-check w-4 h-4 text-[0.8rem] leading-none tracking-[normal] !text-center flex justify-center items-center bg-[#dce7f9] text-[#3f78e0] rounded-[100%] top-[0.2rem] before:content-['\e9dd'] before:align-middle before:table-cell"></i></span><span>{% blocktrans %}Ushbu materiallarni ruxsatsiz ko‘chirish, nusxalash yoki tarqatish qat’iyan man etiladi.{% endblocktrans %}</span></li>
+                  <li class="relative mt-[0.35rem] flex items-center"><span class="pr-[.75rem]"><i class="uil uil-check w-4 h-4 text-[0.8rem] leading-none tracking-[normal] !text-center flex justify-center items-center bg-[#dce7f9] text-[#3f78e0] rounded-[100%] top-[0.2rem] before:content-['\e9dd'] before:align-middle before:table-cell"></i></span><span>{% blocktrans %}Mualliflik huquqlarining buzilishi qonuniy javobgarlikka olib kelishi mumkin.{% endblocktrans %}</span></li>
+                </ul>
+              <!--/.card-body -->
+            </div>
+            <!--/.card -->
+          </section>
+          <section id="cookies" class="wrapper pt-24">
+            <div class="card">
+              <div class="card-body !p-10">
+                <h2 class="!mb-3 !leading-[1.35]">{% blocktrans %}5. Cookie-fayllar{% endblocktrans %}</h2>
+                <p>{% blocktrans %}Cookie-fayllar nima?{% endblocktrans %}</p>
+                <p>{% blocktrans %}Cookie-fayllar foydalanuvchining qurilmasida saqlanadigan kichik ma’lumotlar bo‘lib, sayt faoliyatini optimallashtirish uchun ishlatiladi.{% endblocktrans %}</p>
+                <p class="!mb-0">{% blocktrans %}Biz qanday cookie-fayllarni ishlatamiz?{% endblocktrans %}</p>
+                <ul class="pl-0 list-none bullet-bg bullet-soft-primary">
+                  <li class="relative mt-[0.35rem] flex items-center"><span class="pr-[.75rem]"><i class="uil uil-check w-4 h-4 text-[0.8rem] leading-none tracking-[normal] !text-center flex justify-center items-center bg-[#dce7f9] text-[#3f78e0] rounded-[100%] top-[0.2rem] before:content-['\e9dd'] before:align-middle before:table-cell"></i></span><span>{% blocktrans %}Sessiya cookie-fayllari (sayt ishlashini ta’minlash uchun).{% endblocktrans %}</span></li>
+                  <li class="relative mt-[0.35rem] flex items-center"><span class="pr-[.75rem]"><i class="uil uil-check w-4 h-4 text-[0.8rem] leading-none tracking-[normal] !text-center flex justify-center items-center bg-[#dce7f9] text-[#3f78e0] rounded-[100%] top-[0.2rem] before:content-['\e9dd'] before:align-middle before:table-cell"></i></span><span>{% blocktrans %}Tahliliy cookie-fayllar (sayt faoliyati tahlili uchun).{% endblocktrans %}</span></li>
+                </ul>
+                <p class="!mb-0">{% blocktrans %}Cookie-fayllarni boshqarish{% endblocktrans %}</p>
+                <ul class="pl-0 list-none bullet-bg bullet-soft-primary">
+                  <li class="relative mt-[0.35rem] flex items-center"><span class="pr-[.75rem]"><i class="uil uil-check w-4 h-4 text-[0.8rem] leading-none tracking-[normal] !text-center flex justify-center items-center bg-[#dce7f9] text-[#3f78e0] rounded-[100%] top-[0.2rem] before:content-['\e9dd'] before:align-middle before:table-cell"></i></span><span>{% blocktrans %}Foydalanuvchilar cookie-fayllarni brauzer sozlamalaridan boshqarishlari yoki o‘chirishlari mumkin.{% endblocktrans %}</span></li>
+                </ul>
+              </div>
+              <!--/.card-body -->
+            </div>
+            <!--/.card -->
+          </section>
+          <section id="account-billing" class="wrapper py-24">
+            <div class="card">
+              <div class="card-body !p-10">
+                <h2 class="!mb-3 !leading-[1.35]">{% blocktrans %}6. Hisob va To'lovlar{% endblocktrans %}</h2>
+                <p class="!mb-0">{% blocktrans %}Hisob yaratish{% endblocktrans %}</p>
+                <ul class="pl-0 list-none bullet-bg bullet-soft-primary">
+                  <li class="relative mt-[0.35rem] flex items-center"><span class="pr-[.75rem]"><i class="uil uil-check w-4 h-4 text-[0.8rem] leading-none tracking-[normal] !text-center flex justify-center items-center bg-[#dce7f9] text-[#3f78e0] rounded-[100%] top-[0.2rem] before:content-['\e9dd'] before:align-middle before:table-cell"></i></span><span>{% blocktrans %}Foydalanuvchi ro‘yxatdan o‘tishda haqiqiy va dolzarb ma’lumotlarni taqdim etishi kerak.{% endblocktrans %}</span></li>
+                  <li class="relative mt-[0.35rem] flex items-center"><span class="pr-[.75rem]"><i class="uil uil-check w-4 h-4 text-[0.8rem] leading-none tracking-[normal] !text-center flex justify-center items-center bg-[#dce7f9] text-[#3f78e0] rounded-[100%] top-[0.2rem] before:content-['\e9dd'] before:align-middle before:table-cell"></i></span><span>{% blocktrans %}Foydalanuvchi hisob ma’lumotlarini sir saqlash majburiyatiga ega.{% endblocktrans %}</span></li>
+                </ul>
+                <p class="!mb-0">{% blocktrans %}To‘lovlar{% endblocktrans %}</p>
+                <ul class="pl-0 list-none bullet-bg bullet-soft-primary">
+                  <li class="relative mt-[0.35rem] flex items-center"><span class="pr-[.75rem]"><i class="uil uil-check w-4 h-4 text-[0.8rem] leading-none tracking-[normal] !text-center flex justify-center items-center bg-[#dce7f9] text-[#3f78e0] rounded-[100%] top-[0.2rem] before:content-['\e9dd'] before:align-middle before:table-cell"></i></span><span>{% blocktrans %}To‘lov shartlari xizmat turiga qarab farqlanadi.{% endblocktrans %}</span></li>
+                  <li class="relative mt-[0.35rem] flex items-center"><span class="pr-[.75rem]"><i class="uil uil-check w-4 h-4 text-[0.8rem] leading-none tracking-[normal] !text-center flex justify-center items-center bg-[#dce7f9] text-[#3f78e0] rounded-[100%] top-[0.2rem] before:content-['\e9dd'] before:align-middle before:table-cell"></i></span><span>{% blocktrans %}Noto‘g‘ri yoki noto‘liq to‘lov uchun foydalanuvchi javobgar hisoblanadi.{% endblocktrans %}</span></li>
+                </ul>
+                <p class="!mb-0">{% blocktrans %}Qaytarib berish siyosati{% endblocktrans %}</p>
+                <ul class="pl-0 list-none bullet-bg bullet-soft-primary">
+                  <li class="relative mt-[0.35rem] flex items-center"><span class="pr-[.75rem]"><i class="uil uil-check w-4 h-4 text-[0.8rem] leading-none tracking-[normal] !text-center flex justify-center items-center bg-[#dce7f9] text-[#3f78e0] rounded-[100%] top-[0.2rem] before:content-['\e9dd'] before:align-middle before:table-cell"></i></span><span>{% blocktrans %}To‘lovlar qaytarib berish bo‘yicha shartlar har bir xizmat uchun alohida belgilanadi.{% endblocktrans %}</span></li>
+                  <li class="relative mt-[0.35rem] flex items-center"><span class="pr-[.75rem]"><i class="uil uil-check w-4 h-4 text-[0.8rem] leading-none tracking-[normal] !text-center flex justify-center items-center bg-[#dce7f9] text-[#3f78e0] rounded-[100%] top-[0.2rem] before:content-['\e9dd'] before:align-middle before:table-cell"></i></span><span>{% blocktrans %}Noto‘g‘ri yoki noto‘liq to‘lov uchun foydalanuvchi javobgar hisoblanadi.{% endblocktrans %}</span></li>
+                </ul>
+              </div>
+              <!--/.card-body -->
+            </div>
+            <!--/.card -->
+          </section>
+        </div>
+        <!-- /column -->
+      </div>
+      <!-- /.row -->
+    </div>
+    <!-- /.container -->
+  </div>
+  <!-- /.content-wrapper -->
+
+{% endblock content %}

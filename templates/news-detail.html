@@ -1,0 +1,323 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load my_filters %}
+{% load i18n %}
+
+<!-- Yangilik haqida ma'lumotlar -->
+{% block title %}{{ news.title }}{% endblock title %}
+
+{% block content %}
+    {% with news.newsimage_set.all as images %}
+    {% if images %}
+    <!-- Agar yangilikda rasm bo'lsa -->
+    <section class="wrapper image-wrapper bg-image bg-overlay !text-white !bg-fixed bg-no-repeat bg-[center_center] bg-cover relative z-0 before:content-[''] before:block before:absolute before:z-[1] before:w-full before:h-full before:left-0 before:top-0 before:bg-[rgba(30,34,40,.5)]" data-image-src="{{ images.0.image.url }}">
+      <div class="container pt-32 pb-20 xl:pt-40 lg:pt-40 md:pt-40 xl:pb-36 lg:pb-36 md:pb-36 !text-center">
+        <div class="flex flex-wrap mx-[-15px]">
+          <div class="md:w-10/12 lg:w-10/12 xl:w-8/12 w-full flex-[0_0_auto] px-[15px] max-w-full !mx-auto">
+            <div class="post-header !mb-[.9rem]">
+              <div class="inline-flex uppercase tracking-[0.02rem] text-[0.7rem] font-bold text-white mb-[0.4rem] text-line relative align-top pl-[1.4rem] before:content-[''] before:absolute before:inline-block before:translate-y-[-60%] before:w-3 before:h-[0.05rem] before:left-0 before:top-2/4 before:bg-[#ffffff]">
+                <a class="!text-inherit opacity-100" rel="category">{{ news.category }}</a>
+              </div>
+              <h1 class="text-white text-[calc(1.365rem_+_1.38vw)] font-bold leading-[1.2] xl:text-[2.4rem] mb-4">{{ news.title }}</h1>
+              <ul class="text-[0.8rem] text-white m-0 p-0 list-none">
+                <li class="post-date inline-block"><i class="uil uil-calendar-alt pr-[0.2rem] align-[-.05rem]"></i><span>{{ news.created_at }}</span></li>
+                <li class="post-author inline-block before:content-[''] before:inline-block before:w-[0.2rem] before:h-[0.2rem] before:opacity-50 before:m-[0_.6rem_0_.4rem] before:rounded-[100%] before:align-[.15rem] before:bg-[#ffffff]">
+                  <a class="text-[0.8rem] text-white hover:!text-white"><i class="uil uil-user pr-[0.2rem] align-[-.05rem]"></i><span>{{ news.creator }}</span></a>
+                </li>
+                <li class="post-comments inline-block before:content-[''] before:inline-block before:w-[0.2rem] before:h-[0.2rem] before:opacity-50 before:m-[0_.6rem_0_.4rem] before:rounded-[100%] before:align-[.15rem] before:bg-[#ffffff]">
+                  <a class="text-[0.8rem] text-white hover:!text-white"><i class="uil uil-comment pr-[0.2rem] align-[-.05rem]"></i>{{ comment_count }}</a>
+                </li>
+                <li class="post-likes inline-block before:content-[''] before:inline-block before:w-[0.2rem] before:h-[0.2rem] before:opacity-50 before:m-[0_.6rem_0_.4rem] before:rounded-[100%] before:align-[.15rem] before:bg-[#ffffff]">
+                  <a href="?like_button=true" class="text-[0.8rem] {% if user_liked %}text-red-500{% else %}text-white hover:text-red-500{% endif %}">
+                      <i class="uil {% if user_liked %}uil-heart{% else %}uil-heart-alt{% endif %} pr-[0.2rem] align-[-.05rem]"></i>
+                      {{ like_count }}
+                  </a>
+              </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    {% elif news.video %}
+    <!-- Agar yangilikda video bo'lsa -->
+    <section class="wrapper video-wrapper bg-image bg-overlay !text-white !bg-fixed bg-no-repeat bg-[center_center] bg-cover relative z-0 before:content-[''] before:block before:absolute before:z-[1] before:w-full before:h-full before:left-0 before:top-0 before:bg-[rgba(30,34,40,.5)]">
+      <div class="container pt-32 pb-20 xl:pt-40 lg:pt-40 md:pt-40 xl:pb-36 lg:pb-36 md:pb-36 !text-center">
+        <div class="flex flex-wrap mx-[-15px]">
+          <div class="md:w-10/12 lg:w-10/12 xl:w-8/12 w-full flex-[0_0_auto] px-[15px] max-w-full !mx-auto">
+            <div class="post-header !mb-[.9rem]">
+              <div class="inline-flex uppercase tracking-[0.02rem] text-[0.7rem] font-bold text-white mb-[0.4rem] text-line relative align-top pl-[1.4rem] before:content-[''] before:absolute before:inline-block before:translate-y-[-60%] before:w-3 before:h-[0.05rem] before:left-0 before:top-2/4 before:bg-[#ffffff]">
+                <a class="!text-inherit opacity-100" rel="category">{{ news.category }}</a>
+              </div>
+              <h1 class="text-white text-[calc(1.365rem_+_1.38vw)] font-bold leading-[1.2] xl:text-[2.4rem] mb-4">{{ news.title }}</h1>
+              <ul class="text-[0.8rem] text-white m-0 p-0 list-none">
+                <li class="post-date inline-block"><i class="uil uil-calendar-alt pr-[0.2rem] align-[-.05rem]"></i><span>{{ news.created_at }}</span></li>
+                <li class="post-author inline-block before:content-[''] before:inline-block before:w-[0.2rem] before:h-[0.2rem] before:opacity-50 before:m-[0_.6rem_0_.4rem] before:rounded-[100%] before:align-[.15rem] before:bg-[#ffffff]">
+                  <a class="text-[0.8rem] text-white hover:!text-white"><i class="uil uil-user pr-[0.2rem] align-[-.05rem]"></i><span>{{ news.creator }}</span></a>
+                </li>
+                <li class="post-comments inline-block before:content-[''] before:inline-block before:w-[0.2rem] before:h-[0.2rem] before:opacity-50 before:m-[0_.6rem_0_.4rem] before:rounded-[100%] before:align-[.15rem] before:bg-[#ffffff]">
+                  <a class="text-[0.8rem] text-white hover:!text-white"><i class="uil uil-comment pr-[0.2rem] align-[-.05rem]"></i>{{ comment_count }}</a>
+                </li>
+                <li class="post-likes inline-block before:content-[''] before:inline-block before:w-[0.2rem] before:h-[0.2rem] before:opacity-50 before:m-[0_.6rem_0_.4rem] before:rounded-[100%] before:align-[.15rem] before:bg-[#ffffff]">
+                  <a href="?like_button=true" class="text-[0.8rem] {% if user_liked %}text-[#ff0000]{% else %}text-white hover:text-[#ff0000]{% endif %}">
+                      <i class="uil {% if user_liked %}uil-heart{% else %}uil-heart-alt{% endif %} pr-[0.2rem] align-[-.05rem]"></i>
+                      {{ like_count }}
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <!-- Video Section -->
+            <div class="video-container mt-6">
+              <video autoplay muted loop width="100%" class="rounded-lg shadow-md">
+                <source src="{{ news.video.url }}" type="video/mp4">
+                {% blocktrans %}Your browser does not support the video tag.{% endblocktrans %}
+              </video>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    {% else %}
+    <!-- Agar na rasm, na video mavjud bo'lsa -->
+    <section class="wrapper no-media-wrapper !text-center pt-32 pb-20">
+      <div class="container">
+        <h1 class="text-[2rem] font-bold">{% blocktrans %}No Media Available{% endblocktrans %}</h1>
+      </div>
+    </section>
+    {% endif %}
+    {% endwith %}
+    <!-- /section -->
+    <section class="wrapper !bg-[#ffffff]">
+      <div class="container py-[4.5rem] xl:!py-24 lg:!py-24 md:!py-24">
+        <div class="flex flex-wrap mx-[-15px] xl:mx-[-35px] lg:mx-[-20px]">
+          <div class="xl:w-8/12 lg:w-8/12 w-ful flex-[0_0_auto] xl:px-[35px] lg:px-[20px] px-[15px] max-w-full xl:order-2 lg:order-2">
+            <div class="blog single">
+              <div class="card">
+                {% with news.newsimage_set.all as images %}
+                {% if images %}
+                  <figure class="card-img-top"><img src="{{ images.0.image.url }}" alt="image"></figure>
+                {% elif news.video %}
+                <div class="card-img-top">
+                  <video controls width="100%">
+                      <source src="{{ news.video.url }}" type="video/mp4">
+                      {% blocktrans %}Your browser does not support the video tag.{% endblocktrans %}
+                  </video>
+                </div>
+                {% endif %}
+                <div class="card-body flex-[1_1_auto] p-[40px] xl:p-[2.8rem_3rem_2.8rem] lg:p-[2.8rem_3rem_2.8rem] md:p-[2.8rem_3rem_2.8rem]">
+                  <div class="classic-view">
+                    <article class="post mb-8">
+                      <div class="relative mb-5">
+                        <h2 class="h1 !mb-4 !leading-[1.3]">{{ news.title }}</h2>
+                        {% if images|length > 1 %}
+                        <p>{{ news.description|truncatewords:100 }}</p>
+                        <div class="flex flex-wrap mx-[-15px] mt-3 mb-10">
+                          {% for image in images|slice:":4" %}
+                            <div class="xl:w-6/12 lg:w-6/12 md:w-6/12 w-full flex-[0_0_auto] px-[15px] max-w-full mt-[30px]">
+                              <figure class="overflow-hidden translate-y-0 group rounded cursor-dark"><a href="{{ image.image.url }}" data-glightbox="title: {{ news.title }}" data-gallery="post"> <img src="{{ image.image.url }}" alt="image"></a></figure>
+                            </div>
+                            <!--/column -->
+                          {% endfor %}
+                          {% with news.description|slicewords:"100" as remaining_description %}
+                            {% if remaining_description %}
+                            <p>{{ remaining_description }}</p>
+                            {% endif %}
+                          {% endwith %}
+                        </div>
+                        {% else %}
+                            <p>{{ news.description }}</p>
+                        {% endif %}
+                        <!-- /.row -->
+                      </div>
+                      <!-- /.post-content -->
+                      <div class="post-footer xl:flex xl:!flex-row xl:!justify-between lg:flex lg:!flex-row lg:!justify-between md:flex md:!flex-row md:!justify-between !items-center !mt-8">
+                        <div class="mb-0 xl:!mb-2 lg:!mb-2 md:!mb-2">
+                          <div class="dropdown share-dropdown btn-group">
+                            <button class="btn btn-sm btn-red text-white !bg-[#e2626b] border-[#e2626b] hover:text-white hover:bg-[#e2626b] hover:border-[#e2626b] focus:shadow-[rgba(92,140,229,1)] active:text-white active:bg-[#e2626b] active:border-[#e2626b] disabled:text-white disabled:bg-[#e2626b] disabled:border-[#e2626b] !rounded-[50rem] btn-icon btn-icon-start dropdown-toggle !mb-0 mr-0 hover:translate-y-[-0.15rem] hover:shadow-[0_0.25rem_0.75rem_rgba(30,34,40,0.15)]" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              <i class="uil uil-share-alt mr-[0.3rem] text-[0.8rem] before:content-['\ecb0']"></i>{% blocktrans %}Ulashish{% endblocktrans %}</button>
+                            <div class="dropdown-menu !shadow-[rgba(30,34,40,0.06)_0px_0px_25px_0px]">
+    <a class="dropdown-item text-[0.7rem] !p-[.25rem_1.15rem]" href="https://twitter.com/intent/tweet?url={{ request.build_absolute_uri }}&text={{ news.title }}" target="_blank"><i class="uil uil-twitter w-4 text-[0.8rem] pr-[0.4rem] align-[-.1rem] before:content-['\ed59']"></i>Twitter</a>
+    <a class="dropdown-item text-[0.7rem] !p-[.25rem_1.15rem]" href="https://www.facebook.com/sharer/sharer.php?u={{ request.build_absolute_uri }}" target="_blank"><i class="uil uil-facebook-f w-4 text-[0.8rem] pr-[0.4rem] align-[-.1rem] before:content-['\eae2']" ></i>Facebook</a>
+    <a class="dropdown-item text-[0.7rem] !p-[.25rem_1.15rem]" href="https://telegram.me/share/url?url={{ request.build_absolute_uri }}&text={{ news.title }}" target="_blank" ><i class="uil uil-telegram w-4 text-[0.8rem] pr-[0.4rem] align-[-.1rem] before:content-['\ebd1']"></i>Telegram</a>
+                            </div>
+                            <!--/.dropdown-menu -->
+                          </div>
+                          <!--/.share-dropdown -->
+                        </div>
+                      </div>
+                      <!-- /.post-footer -->
+                    </article>
+                    <!-- /.post -->
+                  </div>
+                  <!-- /.classic-view -->
+                  <hr>
+                  <h3 class="!mb-6">{% blocktrans %}Mavzuga oid{% endblocktrans %}</h3>
+                  <div class="swiper-container blog grid-view mb-24 relative z-10" data-margin="30" data-dots="true" data-items-md="2" data-items-xs="1">
+                    <div class="swiper">
+                      <div class="swiper-wrapper">
+                        {% for i in similar_news %}
+                        <div class="swiper-slide">
+                          <article>
+                        {% with i.newsimage_set.all as images %}
+                        {% if images %}
+                        <figure class="overlay overlay-1 hover-scale group rounded !mb-5">
+                          <a href="{% url 'newsdetail' i.slug %}"><img class="!transition-all !duration-[0.35s] !ease-in-out group-hover:scale-105" src="{{ images.0.image.url }}" alt="image"></a>
+                          <figcaption class="group-hover:opacity-100 absolute w-full h-full opacity-0 text-center px-4 py-3 inset-0 z-[5] pointer-events-none p-2">
+                            <h5 class="from-top  !mb-0 absolute w-full translate-y-[-80%] p-[.75rem_1rem] left-0 top-2/4">Batafsil</h5>
+                          </figcaption>
+                        </figure>
+                        {% elif i.video  %}
+                        <figure class="overlay overlay-1 hover-scale group rounded !mb-5">
+                          <a href="{% url 'newsdetail' i.slug %}"><video class="object-cover object-center w-full h-full rounded group-hover:scale-105" controls> <source src="{{ i.video.url }}" type="video/mp4"> </video></a>
+                          <figcaption class="group-hover:opacity-100 absolute w-full h-full opacity-0 text-center px-4 py-3 inset-0 z-[5] pointer-events-none p-2">
+                            <h5 class="from-top  !mb-0 absolute w-full translate-y-[-80%] p-[.75rem_1rem] left-0 top-2/4">Batafsil</h5>
+                          </figcaption>
+                        </figure>
+                        {% endif %}
+                        {% endwith %}
+                            <div class="post-header !mb-[.9rem]">
+                              <div class="inline-flex mb-[.4rem] uppercase tracking-[0.02rem] text-[0.7rem] font-bold text-[#aab0bc] relative align-top pl-[1.4rem] before:content-[''] before:absolute before:inline-block before:translate-y-[-60%] before:w-3 before:h-[0.05rem] before:left-0 before:top-2/4 before:bg-[#3f78e0]">
+                                <a class="hover" rel="category">{{ i.category }}</a>
+                              </div>
+                              <!-- /.post-category -->
+                              <h2 class="post-title h3 !mt-1 !mb-3"><a class="text-[#343f52] hover:text-[#3f78e0]" href="{% url 'newsdetail' i.slug %}">{{ i.title|truncatewords:4 }}</a></h2>
+                            </div>
+                            <!-- /.post-header -->
+                            <div class="post-footer">
+                              <ul class="text-[0.7rem] text-[#aab0bc] m-0 p-0 list-none  !mb-0">
+                                <li class="post-date inline-block"><i class="uil uil-calendar-alt pr-[0.2rem] align-[-.05rem] before:content-['\e9ba']"></i><span>{{ i.created_at|date:"d M, Y" }}</span></li>
+                              </ul>
+                              <!-- /.post-meta -->
+                            </div>
+                            <!-- /.post-footer -->
+                          </article>
+                          <!-- /article -->
+                        </div>
+                        {% endfor %}
+                      </div>
+                      <!--/.swiper-wrapper -->
+                    </div>
+                    <!-- /.swiper -->
+                  </div>
+                  <!-- /.swiper-container -->
+                  <hr>
+                  <div id="comments" class="relative !m-0">
+                    <h3 class="!mb-6">{% blocktrans %}Izohlar{% endblocktrans %} ({{ comment_count }})</h3>
+                    <ol id="singlecomments" class="commentlist m-0 p-0 list-none">
+                      {% for i in comments %}
+                      <li class="comment mt-8">
+                        <div class="comment-header xl:flex lg:flex md:flex items-center !mb-[.5rem]">
+                          <div class="flex items-center">
+                            <div>
+                              <h6 class="m-0 mb-[0.2rem]"><a class="text-[#343f52] hover:text-[#3f78e0]">{{ i.name }}</a></h6>
+                              <ul class="text-[0.7rem] text-[#aab0bc] m-0 p-0 list-none">
+                                <li><i class="uil uil-calendar-alt pr-[0.2rem] align-[-.05rem] before:content-['\e9ba']"></i>{{ i.created_at }}</li>
+                              </ul>
+                              <!-- /.post-meta -->
+                            </div>
+                            <!-- /div -->
+                          </div>
+                        </div>
+                        <!-- /.comment-header -->
+                        <p>{{ i.comment }}</p>
+                      </li>
+                      {% empty %}
+                      <p class="text-[#707070] text-center">{% blocktrans %}Izohlar yo'q.{% endblocktrans %}</p>
+                      {% endfor %}
+                    </ol>
+                  </div>
+                  <!-- /#comments -->
+                  <hr>
+                  <h3 class="!mb-3">{% blocktrans %}Fikringizni bildirishni xohlaysizmi?{% endblocktrans %}</h3>
+                  <p class="!mb-7">{% blocktrans %}Kerakli maydonlar * bilan belgilangan.{% endblocktrans %}</p>
+                  <form class="comment-form" method="post">{% csrf_token %}
+                    <div class="form-floating relative !mb-4">
+                      {{ form.name }}
+                      <label class="inline-block text-[#959ca9] text-[.75rem] absolute z-[2] h-full overflow-hidden text-start text-ellipsis whitespace-nowrap pointer-events-none border origin-[0_0] px-4 py-[0.6rem] border-solid border-transparent left-0 top-0 font-Manrope" for="c-name">{% blocktrans %}Ismingizni kiriting *{% endblocktrans %}</label>
+                    </div>
+                    <div class="form-floating relative !mb-4">
+                      {{ form.comment }}
+                      <label class="inline-block text-[#959ca9] text-[.75rem] absolute z-[2] h-full overflow-hidden text-start text-ellipsis whitespace-nowrap pointer-events-none border origin-[0_0] px-4 py-[0.6rem] border-solid border-transparent left-0 top-0 font-Manrope">{% blocktrans %}Matn kiriting *{% endblocktrans %}</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary text-white !bg-[#3f78e0] border-[#3f78e0] hover:text-white hover:bg-[#3f78e0] hover:border-[#3f78e0] focus:shadow-[rgba(92,140,229,1)] active:text-white active:bg-[#3f78e0] active:border-[#3f78e0] disabled:text-white disabled:bg-[#3f78e0] disabled:border-[#3f78e0] !rounded-[50rem] !mb-0 hover:translate-y-[-0.15rem] hover:shadow-[0_0.25rem_0.75rem_rgba(30,34,40,0.15)]">{% blocktrans %}Yuborish{% endblocktrans %}</button>
+                  </form>
+                  <!-- /.comment-form -->
+                </div>
+                <!-- /.card-body -->
+              {% endwith %}
+              </div>
+              <!-- /.card -->
+            </div>
+            </div>
+          <!-- /column -->
+          <aside class="xl:w-4/12 lg:w-4/12 w-full flex-[0_0_auto] xl:px-[35px] lg:px-[20px] px-[15px] max-w-full sidebar mt-[3rem] xl:!mt-6 lg:!mt-6">
+            <!-- /.widget -->
+            <div class="widget mt-[40px]">
+              <h4 class="widget-title !mb-3">{% blocktrans %}Biz haqimizda{% endblocktrans %}</h4>
+              {% blocktrans %}<p>Bizning kompaniya — <strong>DGD Consulting</strong>, geologiya va tabiiy resurslarni o‘rganish sohasida yetakchi tashkilotlardan biridir. Biz yer qa’rini tadqiq qilish, mineral resurslarni qidirish va baholash, shuningdek, ekologik barqarorlikni ta’minlash bo‘yicha keng ko‘lamli xizmatlar ko‘rsatamiz.</p>{% endblocktrans %}
+              <nav class="nav social">
+                <a class=" text-[1rem] transition-all duration-[0.2s] ease-in-out translate-y-0 motion-reduce:transition-none hover:translate-y-[-0.15rem] m-[0_.7rem_0_0]" href="https://telegram.me"><i class=" text-[1rem] text-[#5daed5] before:content-['\ed59'] uil uil-telegram"></i></a>
+                <a class=" text-[1rem] transition-all duration-[0.2s] ease-in-out translate-y-0 motion-reduce:transition-none hover:translate-y-[-0.15rem] m-[0_.7rem_0_0]" href="https://facebook.com"><i class=" text-[1rem] text-[#4470cf] before:content-['\eae2'] uil uil-facebook-f"></i></a>
+                <a class=" text-[1rem] transition-all duration-[0.2s] ease-in-out translate-y-0 motion-reduce:transition-none hover:translate-y-[-0.15rem] m-[0_.7rem_0_0]" href="https://www.twitter.com"><i class=" text-[1rem] text-[#e94d88] before:content-['\eaa2'] uil uil-twitter"></i></a>
+                <a class=" text-[1rem] transition-all duration-[0.2s] ease-in-out translate-y-0 motion-reduce:transition-none hover:translate-y-[-0.15rem] m-[0_.7rem_0_0]" href="https://www.instagram.com"><i class=" text-[1rem] text-[#d53581] before:content-['\eb9c'] uil uil-instagram"></i></a>
+                <a class=" text-[1rem] transition-all duration-[0.2s] ease-in-out translate-y-0 motion-reduce:transition-none hover:translate-y-[-0.15rem] m-[0_.7rem_0_0]" href="https://www.youtube.com"><i class=" text-[1rem] text-[#c8312b] before:content-['\edb5'] uil uil-youtube"></i></a>
+              </nav>
+              <!-- /.social -->
+            </div>
+            <!-- /.widget -->
+            <div class="widget mt-[40px]">
+              <h4 class="widget-title !mb-3">{% blocktrans %}So'nggi yangiliklar{% endblocktrans %}</h4>
+              <ul class="m-0 p-0 list-none">
+                  {% for i in last_news %}
+                  <li class="clear-both block overflow-hidden border-b border-[#e5e7eb] pb-3 mb-3 last:border-none last:pb-0 last:mb-0">
+                      {% with i.newsimage_set.all as images %}
+                      {% if images %}
+                      <figure class="float-left w-16 h-16 mr-4 !rounded-[.4rem] overflow-hidden shadow-sm">
+                          <a href="{% url 'newsdetail' i.slug %}">
+                              <img class="w-full h-full object-cover !rounded-[.4rem]" src="{{ images.0.image.url }}" alt="image">
+                          </a>
+                      </figure>
+                      {% elif i.video %}
+                      <figure class="float-left w-16 h-16 mr-4 !rounded-[.4rem] overflow-hidden shadow-sm">
+                          <a href="{% url 'newsdetail' i.slug %}">
+                              <img class="w-full h-full object-cover !rounded-[.4rem]" src="{{ i.video.thumbnail.url }}" alt="video">
+                          </a>
+                      </figure>
+                      {% endif %}
+                      {% endwith %}
+                      <div class="!relative ml-[4.5rem]">
+                          <!-- Title -->
+                          <h6 class="text-sm font-semibold text-[#343f52] hover:text-[#3f78e0] transition-colors">
+                              <a href="{% url 'newsdetail' i.slug %}">
+                                  {{ i.title|truncatewords:6 }}
+                              </a>
+                          </h6>
+                          
+                          <!-- Sana -->
+                          <ul class="text-[0.7rem] text-[#aab0bc] m-0 p-0 list-none mt-1">
+                              <li class="post-date inline-block">
+                                  <i class="uil uil-calendar-alt pr-[0.2rem] align-[-.05rem] before:content-['\e9ba']"></i>
+                                  <span>{{ i.created_at|date:"d M, Y" }}</span>
+                              </li>
+                              <li class="post-author inline-block" style="margin-left: 40px;">
+                                <i class="uil uil-user pr-[0.2rem] align-[-.05rem] before:content-['\e9ba']"></i>
+                                <span>{{ i.creator }}</span>
+                            </li>
+                          </ul>
+                          
+                        </ul>
+                      </div>
+                  </li>
+                  {% endfor %}
+              </ul>
+            </div>
+          </aside>
+          <!-- /column .sidebar -->
+        </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.container -->
+    </section>
+    <!-- /section -->
+  </div>
+{% endblock content %}

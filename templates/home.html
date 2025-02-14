@@ -1,0 +1,500 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load i18n %}
+
+
+{% block title %}DGD Consulting{% endblock title %}
+
+{% block content %}
+    <section
+      class="wrapper  bg-[#262b32] opacity-100  angled lower-start relative border-0
+     before:content-[''] before:block before:absolute before:z-0 before:border-y-transparent before:border-[#262b32] before:border-0 before:border-solid before:right-0 after:bottom-[-4rem] after:content-[''] after:block after:absolute after:z-0 after:border-l-[100vw] after:border-r-transparent after:border-b-[4rem] after:border-y-transparent after:border-[#262b32] after:border-0 after:border-solid after:right-0">
+      <div class="container pt-7 xl:pt-12 lg:pt-12 md:pt-12 pb-8">
+        <div class="flex flex-wrap mx-0 mt-[-50px] items-center">
+          <div class="lg:w-6/12 xl:w-6/12 w-full flex-[0_0_auto] max-w-full px-0 mt-[50px]" data-cues="slideInDown"
+            data-group="page-title" data-delay="600">
+            <h1 class="text-[calc(1.375rem_+_1.5vw)] font-bold leading-[1.15] xl:text-[2.5rem] text-white mb-4">{% blocktrans %}“Ilm bilan yer qa’rini o‘rganamiz”{% endblocktrans %}<br><span class="typer !text-[#54a8c7]  whitespace-nowrap" data-delay="100" data-words="{% trans 'mehnatimiz bilan,kon ochamiz' %}"></span><span
+                class="cursor text-[#54a8c7] " data-owner="typer"></span></h1>
+            <p class="lead !text-[1.2rem] !leading-[1.5] text-white mb-7 md:!pr-32 xl:pr-0 lg:pr-0 xxl:!pr-20">{% blocktrans %}Biz loyihalaringizning 
+            har bir bosqichida ishonchli yechimlarni taqdim etish maqsadida geologik izlanishlarni sinchkovlik bilan rejalashtiramiz va amalga oshiramiz.{% endblocktrans %}</p>
+            <div>
+              <a
+                class="btn btn-lg btn-aqua text-white !bg-[#54a8c7] border-[#54a8c7] hover:text-white hover:bg-[#54a8c7] hover:border-[#54a8c7] focus:shadow-[rgba(79,152,181,1)] active:text-[#343f52] active:bg-[#54a8c7] active:border-[#54a8c7] disabled:text-[#343f52] disabled:bg-[#54a8c7] disabled:border-[#54a8c7] rounded" href="{% url 'contact' %}">{% trans 'Batafsil' %}</a>
+            </div>
+          </div>
+          <!-- /column -->
+          <div
+            class="lg:w-5/12 xl:w-5/12 w-full flex-[0_0_auto] max-w-full px-0 mt-[50px] lg:!ml-[8.33333333%] xl:!ml-[8.33333333%] mb-[-8rem] relative z-[3]"
+            data-cues="slideInDown">
+            <div class="!relative">
+              <a href="{% static 'assets/media/main.mp4' %}"
+                class="btn btn-circle btn-aqua text-white !bg-[#54a8c7] border-[#54a8c7] hover:text-white hover:bg-[#54a8c7] hover:border-[#54a8c7] focus:shadow-[rgba(79,152,181,1)] active:text-[#343f52] active:bg-[#54a8c7] active:border-[#54a8c7] disabled:text-[#343f52] disabled:bg-[#54a8c7] disabled:border-[#54a8c7] btn-play ripple !mx-auto !mb-6 !absolute text-[calc(1.355rem_+_1.26vw)] xl:text-[2.3rem] !w-[3.5rem] !h-[3.5rem] !inline-flex !items-center !justify-center !leading-none !p-0 !rounded-[100%] before:!bg-[#54a8c7] after:!bg-[#54a8c7] before:content-[''] before:block before:absolute before:opacity-80 before:animate-[ripple-1_2s_infinite_ease-in-out] before:z-[-1] before:rounded-[50%] before:inset-0 after:opacity-60 after:animate-[ripple-2_2s_infinite_ease-in-out] after:content-[''] after:block after:absolute after:z-[-1] after:rounded-[50%] after:inset-0 after:[animation-delay:.5s]"
+                style="top:50%; left: 50%; transform: translate(-50%,-50%); z-index:3;" data-glightbox><i
+                  class="icn-caret-right ml-[0.15rem] !relative z-[2] before:content-['\e900'] text-[calc(1.355rem_+_1.26vw)]"></i></a>
+              <figure class="!rounded-[.4rem] !shadow-[0_0.25rem_1.75rem_rgba(30,34,40,0.07)]"><img
+                  class="!rounded-[.4rem]" src="{% static 'assets/media/cover.jpg' %}"
+                  srcset="{% static 'assets/media/cover.jpg' %} 2x" alt="image"></figure>
+            </div>
+            <!-- /div -->
+          </div>
+          <!-- /column -->
+        </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.container -->
+    </section>
+    <!-- /section -->
+    <section class="wrapper !bg-[#ffffff]">
+      <div class="container pt-36 xl:pt-[12.5rem] lg:pt-[12.5rem] md:pt-[12.5rem] pb-24 xl:pb-32 lg:pb-32 md:pb-32">
+        <div class="flex flex-wrap mx-[-15px]">
+          <div class="lg:w-8/12 xl:w-7/12 xxl:w-6/12 w-full flex-[0_0_auto] px-[15px] max-w-full">
+            <h2
+              class="text-[0.8rem] uppercase inline-flex !leading-[1.35] text-line relative align-top pl-[1.4rem] tracking-[0.02rem] before:content-[''] before:absolute before:inline-block before:translate-y-[-60%] before:w-3 before:h-[0.05rem] before:left-0 before:top-2/4 before:bg-[#54a8c7]  text-[#54a8c7]  !mb-3">
+              {% blocktrans %}Biz nima qilamiz?{% endblocktrans %}</h2>
+            <h3 class="text-[calc(1.315rem_+_0.78vw)] font-bold xl:text-[1.9rem] !leading-[1.25] mb-9">{% blocktrans %}Biz taklif qilayotgan xizmatlar geologiya sohasidagi ehtiyojlaringizni qondirish uchun maxsus ishlab chiqilgan.{% endblocktrans %}</h3>
+          </div>
+          <!-- /column -->
+        </div>
+        <!-- /.row -->
+        <div
+          class="flex flex-wrap mx-[-15px] xl:mx-[-20px] lg:mx-[-20px] md:mx-[-20px] mt-[-40px] !mb-[4.5rem] xl:!mb-[8rem] lg:!mb-[8rem] md:!mb-[8rem]">
+          <div
+            class="md:w-6/12 lg:w-3/12 xl:w-3/12 w-full flex-[0_0_auto] px-[15px] xl:px-[20px] lg:px-[20px] md:px-[20px] mt-[40px] max-w-full">
+            <div class="icon btn btn-block btn-lg btn-soft-aqua pointer-events-none !mb-6"> <i
+                class="uil uil-search"></i> </div>
+            <h4 class="!text-[1rem] !leading-[1.45]">{% blocktrans %}Geologik tadqiqotlar olib boramiz{% endblocktrans %}</h4>
+            <p class="!mb-3">{% blocktrans %}Yerni o’rganish, foydali qazilmalarni aniqlash va tabiiy resurslarni baholash bo’yicha ilmiy va amaliy ishlarni olib boramiz.{% endblocktrans %}</p>
+            <a href="{% url 'contact' %}" class="more hover text-[#54a8c7] focus:text-[#54a8c7] hover:text-[#54a8c7]">{% trans "Ko'proq" %}</a>
+          </div>
+          <!--/column -->
+          <div
+            class="md:w-6/12 lg:w-3/12 xl:w-3/12 w-full flex-[0_0_auto] px-[15px] xl:px-[20px] lg:px-[20px] md:px-[20px] mt-[40px] max-w-full">
+            <div class="icon btn btn-block btn-lg btn-soft-aqua pointer-events-none !mb-6"> <i
+                class="uil uil-analysis"></i> </div>
+            <h4 class="!text-[1rem] !leading-[1.45]">{% blocktrans %}Geofizik tahlillarni o’tkazamiz{% endblocktrans %}</h4>
+            <p class="!mb-3">{% blocktrans %}Yerning fizik xususiyatlarini aniqlash uchun zamonaviy texnologiyalar va uskunalardan foydalanamiz, bu esa tabiiy resurslardan samarali foydalanishga imkon beradi.{% endblocktrans %}</p>
+            <a href="{% url 'contact' %}" class="more hover text-[#54a8c7] focus:text-[#54a8c7] hover:text-[#54a8c7]">{% trans "Ko'proq" %}</a>
+          </div>
+          <!--/column -->
+          <div
+            class="md:w-6/12 lg:w-3/12 xl:w-3/12 w-full flex-[0_0_auto] px-[15px] xl:px-[20px] lg:px-[20px] md:px-[20px] mt-[40px] max-w-full">
+            <div class="icon btn btn-block btn-lg btn-soft-aqua pointer-events-none !mb-6"> <i
+                class="uil uil-map"></i> </div>
+            <h4 class="!text-[1rem] !leading-[1.45]">{% blocktrans%}Geologik xaritalar yaratamiz{% endblocktrans %} </h4>
+            <p class="!mb-3">{% blocktrans %}Hududlarning tuzilmasi va geologik xususiyatlarini aks ettiruvchi yuqori aniqlikdagi xaritalarni ishlab chiqib, bilim va qaror qabul qilishni yangi bosqichga olib chiqamiz.{% endblocktrans %}</p>
+            <a href="{% url 'contact' %}" class="more hover text-[#54a8c7] focus:text-[#54a8c7] hover:text-[#54a8c7]">{% trans "Ko'proq" %}</a>
+          </div>
+          <!--/column -->
+          <div
+            class="md:w-6/12 lg:w-3/12 xl:w-3/12 w-full flex-[0_0_auto] px-[15px] xl:px-[20px] lg:px-[20px] md:px-[20px] mt-[40px] max-w-full">
+            <div class="icon btn btn-block btn-lg btn-soft-aqua pointer-events-none !mb-6"> <i
+                class="uil uil-setting"></i> </div>
+            <h4 class="!text-[1rem] !leading-[1.45]">{% blocktrans %}Resurslarni boshqarishda yordam beramiz{% endblocktrans %}</h4>
+            <p class="!mb-3">{% blocktrans %}Foydali qazilmalardan oqilona foydalanish va barqaror rivojlanishni ta’minlash bo‘yicha professional maslahatlar beramiz.{% endblocktrans %}</p>
+            <a href="{% url 'contact' %}" class="more hover text-[#54a8c7] focus:text-[#54a8c7] hover:text-[#54a8c7]">{% trans "Ko'proq" %}</a>
+          </div>
+          <!--/column -->
+        </div>
+        <!--/.row -->
+        <div
+          class="flex flex-wrap mx-[-15px] xsm:mt-[-50px] mt-[-80px] xl:mx-[-7.5px] lg:mx-[-7.5px] mb-24 md:!mb-[8rem] items-center">
+          <div
+            class="md:w-8/12 lg:w-6/12 xl:w-6/12 w-full flex-[0_0_auto] xl:px-[7.5px] lg:px-[7.5px] px-[15px] max-w-full !relative mt-[80px]">
+            <div
+              class="shape bg-dot rellax !w-[7rem] !h-[12.5rem] absolute z-[1] opacity-50 !bg-[radial-gradient(#54a8c7_2px,transparent_2.5px)]"
+              data-rellax-speed="1" style="top: -2rem; left: -1.9rem;"></div>
+            <div class="shape !rounded-[.4rem] !bg-[#edf2fc] rellax xl:block lg:block md:block !absolute z-[1]"
+              data-rellax-speed="0" style="bottom: -1.8rem; right: -1.5rem; width: 85%; height: 90%; "></div>
+            <figure class="!rounded-[.4rem] relative z-[2]"><img class="!rounded-[.4rem]"
+                src="https://www.micon-international.com/wp-content/uploads/2021/03/P1030961-scaled.jpg" srcset="https://www.micon-international.com/wp-content/uploads/2021/03/P1030961-scaled.jpg 2x" alt="image"></figure>
+          </div>
+          <!--/column -->
+          <div
+            class="lg:w-5/12 xl:w-4/12 xl:!ml-[8.33333333%] lg:!ml-[8.33333333%] w-full flex-[0_0_auto] xl:px-[7.5px] lg:px-[7.5px] px-[15px] max-w-full mt-[80px]">
+            <h2
+              class="text-[0.8rem] uppercase inline-flex !leading-[1.35] text-line relative align-top pl-[1.4rem] tracking-[0.02rem] before:content-[''] before:absolute before:inline-block before:translate-y-[-60%] before:w-3 before:h-[0.05rem] before:left-0 before:top-2/4 before:bg-[#54a8c7] text-[#54a8c7]  !mb-3">
+              {% blocktrans %}Bu qanday ishlaydi?{% endblocktrans %}</h2>
+            <h3 class="text-[calc(1.315rem_+_0.78vw)] font-bold xl:text-[1.9rem] !leading-[1.25] mb-7">{% blocktrans %}Bu yerda muvaffaqiyatga erishishning 3 asosiy bosqichi keltirilgan.{% endblocktrans %}</h3>
+            <div class="flex flex-row !mb-6">
+              <div>
+                <span class="icon btn btn-block btn-soft-aqua pointer-events-none mr-5"><span
+                    class="number !text-[0.9rem]">1</span></span>
+              </div>
+              <div>
+                <h4 class="!mb-1 !text-[1rem] !leading-[1.45]">{% blocktrans %}Tahlil va ma’lumotlarni yig’ish{% endblocktrans %}</h4>
+                <p class="!mb-0">{% blocktrans %}Biz hududni o‘rganish uchun dastlabki tahlillarni o‘tkazamiz. Bu bosqichda geologik xaritalar, tuproq namunalarini yig‘ish va zamonaviy uskunalar yordamida ma’lumotlarni to‘playmiz.{% endblocktrans %}</p>
+              </div>
+            </div>
+            <div class="flex flex-row !mb-6">
+              <div>
+                <span class="icon btn btn-block btn-soft-aqua pointer-events-none mr-5"><span
+                    class="number !text-[0.9rem]">2</span></span>
+              </div>
+              <div>
+                <h4 class="!mb-1 !text-[1rem] !leading-[1.45]">{% blocktrans %}Tahlil natijalarini o‘rganish va rejalashtirish{% endblocktrans %}</h4>
+                <p class="!mb-0">{% blocktrans %}Olingan ma’lumotlarni maxsus dasturlar yordamida tahlil qilib, geologik xaritalar va modellar yaratamiz. Bu bizga qazilma resurslarini aniqlash va ekologik xavflarni baholash imkonini beradi.{% endblocktrans %}</p>
+              </div>
+            </div>
+            <div class="flex flex-row">
+              <div>
+                <span class="icon btn btn-block btn-soft-aqua pointer-events-none mr-5"><span
+                    class="number !text-[0.9rem]">3</span></span>
+              </div>
+              <div>
+                <h4 class="!mb-1 !text-[1rem] !leading-[1.45]">{% blocktrans %}Natijalarni amalga tatbiq etish{% endblocktrans %}</h4>
+                <p class="!mb-0">{% blocktrans %}Yaratilgan xaritalar va hisobotlar asosida foydali qazilmalarni qazib olish, qurilish yoki boshqa loyihalarni rejalashtirish va amalga oshirish bo‘yicha aniq tavsiyalarni taqdim etamiz.{% endblocktrans %}</p>
+              </div>
+            </div>
+          </div>
+          <!--/column -->
+        </div>
+        <!--/.row -->
+        <div class="flex flex-wrap mx-[-15px] xsm:mt-[-50px] mt-[-80px] xl:mx-[-7.5px] lg:mx-[-7.5px] items-center">
+          <div
+            class="md:w-8/12 lg:w-6/12 xl:w-6/12 w-full flex-[0_0_auto] px-[15px] mt-[50px] xl:mt-[80px] lg:mt-[80px] md:mt-[80px] sm:mt-[80px] xl:px-[7.5px] lg:px-[7.5px] max-w-full xl:!ml-[8.33333333%] lg:!ml-[8.33333333%] xl:!order-2 lg:!order-2 !relative">
+            <div class="shape !rounded-[50%] bg-line aqua rellax !w-[8rem] !h-[8rem] !absolute z-[1] opacity-50"
+              data-rellax-speed="1" style="top: -2rem; right: -1.9rem;"></div>
+            <div class="shape rounded !bg-[#edf2fc] rellax xl:block lg:block md:block absolute z-[1]"
+              data-rellax-speed="0" style="bottom: -1.8rem; left: -1.5rem; width: 85%; height: 90%; "></div>
+            <figure class="rounded-[0.4rem] relative z-[2]"><img class="rounded-[.4rem]"
+                src="https://media.istockphoto.com/id/1922473185/photo/businessman-touching-on-screen-to-target-customer-for-buyer-persona-customer-behavior.jpg?s=612x612&w=0&k=20&c=Rcf_x9kSu4oMMYkzTK1df7xS2X5qmIxzxQm-yya0yuI=" srcset="https://media.istockphoto.com/id/1922473185/photo/businessman-touching-on-screen-to-target-customer-for-buyer-persona-customer-behavior.jpg?s=612x612&w=0&k=20&c=Rcf_x9kSu4oMMYkzTK1df7xS2X5qmIxzxQm-yya0yuI= 2x" alt="image"></figure>
+          </div>
+          <!--/column -->
+          <div
+            class="xl:w-5/12 lg:w-5/12 w-full flex-[0_0_auto] px-[15px] mt-[50px] xl:mt-[80px] lg:mt-[80px] md:mt-[80px] sm:mt-[80px] xl:px-[7.5px] lg:px-[7.5px] max-w-full">
+            <h2
+              class="text-[0.8rem] uppercase inline-flex !leading-[1.35] text-line relative align-top pl-[1.4rem] tracking-[0.02rem] before:content-[''] before:absolute before:inline-block before:translate-y-[-60%] before:w-3 before:h-[0.05rem] before:left-0 before:top-2/4 before:bg-[#54a8c7] text-[#54a8c7]  !mb-3">
+              {% blocktrans %}Nega aynan bizni tanlashingiz kerak?{% endblocktrans %}</h2>
+            <h3 class="text-[calc(1.315rem_+_0.78vw)] font-bold xl:text-[1.9rem] !leading-[1.25] mb-7">{% blocktrans %}Mijozlarimiz bizni tanlashlariga sabablar{% endblocktrans %}</h3>
+            <div class="accordion accordion-wrapper" id="accordionExample">
+              <div class="card plain accordion-item">
+                <div class="card-header !mb-0 !p-[0_0_.8rem_0] !border-0 !bg-inherit" id="headingOne">
+                  <button
+                    class="before:!text-[#54a8c7] hover:!text-[#54a8c7] !p-[0_0_0_1.1rem] !text-[.9rem] accordion-button"
+                    data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
+                    aria-controls="collapseOne">{% blocktrans %}Tajriba va Ishonch{% endblocktrans %}</button>
+                </div>
+                <!--/.card-header -->
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                  data-bs-parent="#accordionExample">
+                  <div
+                    class="card-body flex-[1_1_auto]  pb-4 xl:p-[2rem_2.5rem_1.25rem] lg:p-[2rem_2.5rem_1.25rem] md:p-[2rem_2.5rem_1.25rem]">
+                    <p>{% blocktrans %}Bizning jamoamiz tajribali geologlar va soha mutaxassislaridan iborat bo‘lib, har bir loyihada aniqlik va ishonchlilikni ta’minlaydi.{% endblocktrans %}</p>
+                  </div>
+                  <!--/.card-body -->
+                </div>
+                <!--/.accordion-collapse -->
+              </div>
+              <!--/.accordion-item -->
+              <div class="card plain accordion-item">
+                <div class="card-header !mb-0 !p-[0_0_.8rem_0] !border-0 !bg-inherit" id="headingTwo">
+                  <button class="before:!text-[#54a8c7] hover:!text-[#54a8c7] !p-[0_0_0_1.1rem] !text-[.9rem] collapsed"
+                    data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
+                    aria-controls="collapseTwo">{% blocktrans %}Zamonaviy Texnologiyalar{% endblocktrans %}</button>
+                </div>
+                <!--/.card-header -->
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                  data-bs-parent="#accordionExample">
+                  <div
+                    class="card-body flex-[1_1_auto]  pb-4 xl:p-[2rem_2.5rem_1.25rem] lg:p-[2rem_2.5rem_1.25rem] md:p-[2rem_2.5rem_1.25rem]">
+                    <p>{% blocktrans %}Biz eng ilg‘or asbob-uskunalar va innovatsion usullarni qo‘llab, sizning ehtiyojlaringizga mos keladigan samarali va aniq natijalarni taqdim etamiz.{% endblocktrans %}</p>
+                  </div>
+                  <!--/.card-body -->
+                </div>
+                <!--/.accordion-collapse -->
+              </div>
+              <!--/.accordion-item -->
+              <div class="card plain accordion-item">
+                <div class="card-header !mb-0 !p-[0_0_.8rem_0] !border-0 !bg-inherit" id="headingThree">
+                  <button class="before:!text-[#54a8c7] hover:!text-[#54a8c7] !p-[0_0_0_1.1rem] !text-[.9rem] collapsed"
+                    data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
+                    aria-controls="collapseThree">{% blocktrans %}Mijozga Yo‘naltirilgan Xizmat{% endblocktrans %}</button>
+                </div>
+                <!--/.card-header -->
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                  data-bs-parent="#accordionExample">
+                  <div
+                    class="card-body flex-[1_1_auto]  pb-4 xl:p-[2rem_2.5rem_1.25rem] lg:p-[2rem_2.5rem_1.25rem] md:p-[2rem_2.5rem_1.25rem]">
+                    <p>{% blocktrans %}Har bir mijozning ehtiyojlariga individual yondashamiz va ularning maqsadlariga erishishda ishonchli hamkor bo‘lamiz. Ekologik xavfsizlikni ta’minlashga e’tibor qaratib, tabiiy resurslardan oqilona va barqaror foydalanishni maqsad qilganmiz.{% endblocktrans %}</p>
+                  </div>
+                  <!--/.card-body -->
+                </div>
+                <!--/.accordion-collapse -->
+              </div>
+              <!--/.accordion-item -->
+            </div>
+            <!--/.accordion -->
+          </div>
+          <!--/column -->
+        </div>
+        <!--/.row -->
+      </div>
+      <!-- /.container -->
+    </section>
+    <!-- /section -->
+    <section
+      class="wrapper image-wrapper bg-image bg-overlay !bg-fixed bg-no-repeat bg-[center_center] bg-cover relative z-0 before:content-[''] before:block before:absolute before:z-[1] before:w-full before:h-full before:left-0 before:top-0 before:bg-[rgba(30,34,40,.5)]"
+      data-image-src="https://coringmagazine.com/wp-content/uploads/2022/04/11-1.png">
+      <div class="container py-[8rem]">
+        <div class="flex flex-wrap mx-[-15px]">
+          <div class="xl:w-8/12 lg:w-8/12 w-full flex-[0_0_auto] px-[15px] max-w-full">
+            <h2
+              class="text-[0.8rem] uppercase inline-flex !leading-[1.35] text-line relative align-top pl-[1.4rem] tracking-[0.02rem] before:content-[''] before:absolute before:inline-block before:translate-y-[-60%] before:w-3 before:h-[0.05rem] before:left-0 before:top-2/4 before:bg-[#ffffff] text-white !mb-3">
+              {% blocktrans %}“Bizning hamkorlar safimizga qo’shiling”{% endblocktrans %}</h2>
+            <h3
+              class="text-[calc(1.315rem_+_0.78vw)] font-bold xl:text-[1.9rem] !leading-[1.25] !mb-6 text-white xxl:pr-32">
+              {% blocktrans %}Bizga 20+ geologik loyiha ishonib topshirilgan. Bizning xizmatlardan foydalanib, ularga qo‘shiling va tabiiy resurslaringizdan samarali foydalaning.{% endblocktrans %}</h3>
+            <a href="{% url 'contact' %}" class="btn btn-white !rounded-[.4rem] !text-[.85rem] !mb-0 whitespace-nowrap">{% blocktrans %}Bizga qo‘shiling{% endblocktrans %}</a>
+          </div>
+          <!-- /column -->
+        </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.container -->
+    </section>
+    <!-- /section -->
+    <section
+      class="wrapper !bg-[#ffffff]  angled upper-end relative border-0
+     before:top-[-4rem] before:content-[''] before:block before:absolute before:z-0 before:border-l-transparent before:border-r-[100vw] before:border-t-[4rem] before:border-y-transparent before:border-[#fefefe] before:border-0 before:border-solid before:right-0 after:content-[''] after:block after:absolute after:z-0 after:border-y-transparent after:border-[#fefefe] after:border-0 after:border-solid after:right-0">
+      <div class="container py-[4.5rem] xl:!py-24 lg:!py-24 md:!py-24">
+        <div class="flex flex-wrap mx-[-15px]">
+          <div class="lg:w-9/12 xl:w-8/12 xxl:w-7/12 w-full flex-[0_0_auto] px-[15px] max-w-full">
+            <h2
+              class="text-[0.8rem] uppercase inline-flex !leading-[1.35] text-line relative align-top pl-[1.4rem] tracking-[0.02rem] before:content-[''] before:absolute before:inline-block before:translate-y-[-60%] before:w-3 before:h-[0.05rem] before:left-0 before:top-2/4 before:bg-[#54a8c7] text-[#54a8c7]  !mb-3">
+              {% blocktrans %}Geologik Tadqiqotlar{% endblocktrans %}</h2>
+            <h3 class="text-[calc(1.315rem_+_0.78vw)] font-bold xl:text-[1.9rem] !leading-[1.25] mb-9">{% blocktrans %}Yer qatlamlarini chuqur o'rganish va innovatsion yechimlarga ega loyihalarimiz bilan tanishing.{% endblocktrans %}</h3>
+          </div>
+          <!-- /column -->
+        </div>
+        <!-- /.row -->
+        <div class="swiper-container blog grid-view mb-10 relative z-10" data-margin="30" data-dots="true"
+          data-items-xl="3" data-items-md="2" data-items-xs="1">
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              {% for i in projects  %}
+              <div class="swiper-slide">
+                <article>
+                  <figure class="overlay overlay-1 hover-scale rounded !mb-6 group"><a href="#"> <img
+                        class="!transition-all !duration-[0.35s] !ease-in-out group-hover:scale-105"
+                        src="{{ i.image.url }}" alt="image"></a>
+                  </figure>
+                  <div class="post-header">
+                    <h2 class="post-title h3 !mb-3 !text-[1.15rem] !leading-[1.4]"><a
+                        class="text-[#343f52] hover:text-[#54a8c7]" href="#">{{ i.title }}</a></h2>
+                  </div>
+                  <!-- /.post-header -->
+                  <div class="post-footer">
+                    <ul class="text-[0.7rem] text-[#aab0bc] m-0 p-0 list-none">
+                        <li class="post-date inline-block">
+                            <i class="uil uil-calendar-alt pr-[0.2rem] align-[-.05rem] before:content-['\e9ba']"></i>
+                            <span>{{ i.created_at }}</span>
+                        </li>
+                
+                        <li class="post-comments inline-block before:content-[''] before:inline-block before:w-[0.2rem] before:h-[0.2rem] before:opacity-50 before:mx-[0.6rem] before:my-0 before:rounded-[100%] before:bg-[#aab0bc] before:align-[0.15rem] !text-[.75rem]">
+                            <a class="text-[#aab0bc] hover:text-[#54a8c7]" href="#">
+                                <i class="uil uil-file-alt !text-[.75rem] pr-[0.2rem] align-[-.05rem] before:content-['\eaec']"></i>
+                                {{ i.events }}
+                            </a>
+                        </li>
+                    </ul>
+                  </div>                
+                  <!-- /.post-footer -->
+                </article>
+                <!-- /article -->
+              </div>
+              {% endfor %}
+            </div>
+            <!-- /.swiper-wrapper -->
+          </div>
+          <!-- /.swiper -->
+        </div>
+        <!-- /.swiper-container -->
+      </div>
+      <!-- /.container -->
+    </section>
+    <!-- /section -->
+    <section class="wrapper !bg-[#edf2fc]">
+      <div class="container py-[4.5rem] xl:pt-28 lg:pt-28 md:pt-28 xl:pb-[12.5rem] lg:pb-[12.5rem] md:pb-[12.5rem]">
+        <div class="flex flex-wrap mx-[-15px] xl:mx-[-35px] lg:mx-[-20px] mt-[-50px] xl:mt-0 lg:mt-0 mb-2 items-end">
+          <div
+            class="xl:w-4/12 lg:w-4/12 w-full flex-[0_0_auto] px-[15px] xl:px-[35px] lg:px-[20px] mt-[50px] xl:mt-0 lg:mt-0 max-w-full">
+            <h2
+              class="text-[0.8rem] uppercase inline-flex !leading-[1.35] text-line relative align-top pl-[1.4rem] tracking-[0.02rem] before:content-[''] before:absolute before:inline-block before:translate-y-[-60%] before:w-3 before:h-[0.05rem] before:left-0 before:top-2/4 before:bg-[#54a8c7] text-[#54a8c7]  !mb-3">
+              {% blocktrans %}Bizning loyihalarimiz{% endblocktrans %}</h2>
+            <h3 class="text-[calc(1.315rem_+_0.78vw)] font-bold xl:text-[1.9rem] !leading-[1.25] !mb-0 xxl:!pr-20">{% blocktrans %}Biz o‘z ishlarimizdan faxrlanamiz{% endblocktrans %}</h3>
+          </div>
+          <!-- /column -->
+          <div
+            class="lg:w-8/12 xl:w-8/12 w-full flex-[0_0_auto] px-[15px] xl:px-[35px] lg:px-[20px] mt-[50px] max-w-full xl:!mt-2 lg:!mt-2">
+            <div class="flex flex-wrap mx-[-15px] items-center counter-wrapper mt-[-30px] !text-center">
+              <div class="xl:w-4/12 lg:w-4/12 md:w-4/12 w-full flex-[0_0_auto] px-[15px] mt-[30px] max-w-full">
+                <h3
+                  class="counter counter-lg text-[calc(1.35rem_+_1.2vw)] tracking-[normal] !leading-none mb-[.5rem] xl:text-[2.25rem] ">
+                  20+</h3>
+                <p class="font-medium !mb-0">{% blocktrans %}Bajarilgan loyihalar{% endblocktrans %}</p>
+              </div>
+              <!--/column -->
+              <div class="xl:w-4/12 lg:w-4/12 md:w-4/12 w-full flex-[0_0_auto] px-[15px] mt-[30px] max-w-full">
+                <h3
+                  class="counter counter-lg text-[calc(1.35rem_+_1.2vw)] tracking-[normal] !leading-none mb-[.5rem] xl:text-[2.25rem] ">
+                  10+</h3>
+                <p class="font-medium !mb-0">{% blocktrans %}Mamnun mijozlar{% endblocktrans %}</p>
+              </div>
+              <!--/column -->
+              <div class="xl:w-4/12 lg:w-4/12 md:w-4/12 w-full flex-[0_0_auto] px-[15px] mt-[30px] max-w-full">
+                <h3
+                  class="counter counter-lg text-[calc(1.35rem_+_1.2vw)] tracking-[normal] !leading-none mb-[.5rem] xl:text-[2.25rem] ">
+                  20+</h3>
+                <p class="font-medium !mb-0">{% blocktrans %}Erishilgan yutuqlar{% endblocktrans %}</p>
+              </div>
+              <!--/column -->
+            </div>
+            <!--/.row -->
+          </div>
+          <!-- /column -->
+        </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.container -->
+    </section>
+    <!-- /section -->
+    <section
+      class="wrapper !bg-[#ffffff]  angled upper-end lower-start relative border-0
+     before:top-[-4rem] before:content-[''] before:block before:absolute before:z-0 before:border-l-transparent before:border-r-[100vw] before:border-t-[4rem] before:border-y-transparent before:border-[#fefefe] before:border-0 before:border-solid before:right-0 after:bottom-[-4rem] after:content-[''] after:block after:absolute after:z-0 after:border-l-[100vw] after:border-r-transparent after:border-b-[4rem] after:border-y-transparent after:border-[#fefefe] after:border-0 after:border-solid after:right-0">
+      <div class="container py-24 xl:!py-[8rem] lg:!py-[8rem] md:!py-[8rem] !relative">
+        <div
+          class="relative mt-[-8rem] xl:!mt-[-17.5rem] lg:!mt-[-17.5rem] md:!mt-[-17.5rem] mb-24 xl:!mb-[8rem] lg:!mb-[8rem] md:!mb-[8rem]">
+          <div class="shape !rounded-[50%] bg-line aqua rellax !w-[8rem] !h-[8rem] absolute opacity-50"
+            data-rellax-speed="1" style="top: -2rem; right: -2.7rem; z-index:0;"></div>
+          <div class="shape !rounded-[50%] !bg-[#eff7fa] rellax !w-[8rem] !h-[8rem] absolute" data-rellax-speed="1"
+            style="bottom: -1rem; left: -3rem; z-index:0;"></div>
+          <div class="card !shadow-[0_0.25rem_1.75rem_rgba(30,34,40,0.07)]">
+            <div class="flex flex-wrap mx-0">
+              <div
+                class="lg:w-6/12 xl:w-6/12 w-full flex-[0_0_auto] max-w-full image-wrapper bg-image rounded-t-[0.4rem] rounded-lg-start bg-cover bg-[center_center] bg-no-repeat bg-scroll relative z-0 xl:rounded-tl-[0.4rem] xl:rounded-tr-none xl:rounded-br-none xl:rounded-bl-[0.4rem] lg:rounded-tl-[0.4rem] lg:rounded-tr-none lg:rounded-br-none lg:rounded-bl-[0.4rem] md:min-h-[25rem] sm:min-h-[25rem] xsm:min-h-[25rem]"
+                data-image-src="https://img.freepik.com/premium-photo/startup-business-team-meeting-modern-bright-office-interior-brainstorming-working-laptop-computer_484651-17110.jpg?semt=ais_hybrid">
+              </div>
+              <!--/column -->
+              <div class="xl:w-6/12 lg:w-6/12 w-full flex-[0_0_auto] max-w-full">
+                <div class="!p-10 xl:!p-[4rem] lg:!p-[4rem] md:!p-12">
+                  <div class="swiper-container dots-closer mb-4 relative z-10" data-margin="30" data-dots="true">
+                    <div class="swiper">
+                      <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                          <blockquote
+                            class="icon icon-top !text-[1.05rem] !text-center relative pt-[3.75rem] p-0 border-0 !leading-[1.7] font-medium m-[0_0_1rem] before:translate-x-[-52%] before:left-2/4 before:content-['\201c'] before:text-[#aab0bc] before:opacity-30 before:text-[6.5rem] before:font-normal before:absolute before:leading-none before:z-[1] before:top-0">
+                            <p>{% blocktrans %}“Moliyaviy qarorlaringiz uchun aniq tahlil va strategik yechimlar. Bizning maqsadimiz – sizning muvaffaqiyatingizni raqamlar orqali kafolatlash. Ishonchli va chuqur tahlil yordamida moliyaviy istiqbollaringizni yangi cho‘qqilarga olib chiqing.”{% endblocktrans %}</p>
+                            <div class="flex items-center justify-center !text-center">
+                              <div class="info !pl-0">
+                                <h5 class="!mb-1 !text-[.95rem] !leading-[1.5]">Coriss Ambady</h5>
+                                <p class="!mb-0 !text-[.85rem]">{% blocktrans %}Moliyaviy menejer{% endblocktrans %}</p>
+                              </div>
+                            </div>
+                          </blockquote>
+                        </div>
+                        <!--/.swiper-slide -->
+                        <div class="swiper-slide">
+                          <blockquote
+                            class="icon icon-top !text-[1.05rem] !text-center relative pt-[3.75rem] p-0 border-0 !leading-[1.7] font-medium m-[0_0_1rem] before:translate-x-[-52%] before:left-2/4 before:content-['\201c'] before:text-[#aab0bc] before:opacity-30 before:text-[6.5rem] before:font-normal before:absolute before:leading-none before:z-[1] before:top-0">
+                            <p>{% blocktrans %}“Ijodkorlik va strategiya orqali biznesingizni yangi darajaga olib chiqamiz. Samarali marketing echimlari bilan mijozlaringizni jalb qilish va brendingizni mustahkamlashga yordam beramiz. Har bir loyiha – bu muvaffaqiyat sari qadam.”{% endblocktrans %}</p>
+                            <div class="flex items-center justify-center !text-center">
+                              <div class="info !pl-0">
+                                <h5 class="!mb-1 !text-[.95rem] !leading-[1.5]">Cory Zamora</h5>
+                                <p class="!mb-0 !text-[.85rem]">{% blocktrans %}Marketing mutaxassisi{% endblocktrans %}</p>
+                              </div>
+                            </div>
+                          </blockquote>
+                        </div>
+                        <!--/.swiper-slide -->
+                        <div class="swiper-slide">
+                          <blockquote
+                            class="icon icon-top !text-[1.05rem] !text-center relative pt-[3.75rem] p-0 border-0 !leading-[1.7] font-medium m-[0_0_1rem] before:translate-x-[-52%] before:left-2/4 before:content-['\201c'] before:text-[#aab0bc] before:opacity-30 before:text-[6.5rem] before:font-normal before:absolute before:leading-none before:z-[1] before:top-0">
+                            <p>{% blocktrans %}“Yer qa’rining sirlarini ochib, kelajak imkoniyatlarini yaratamiz. Geologik tadqiqotlarimiz aniq tahlil va ishonchli natijalarga asoslangan. Resurslaringizni samarali boshqarish va rivojlantirish uchun mukammal yechimlar taqdim etamiz.”{% endblocktrans %}</p>
+                            <div class="flex items-center justify-center !text-center">
+                              <div class="info !pl-0">
+                                <h5 class="!mb-1 !text-[.95rem] !leading-[1.5]">Nikolas Brooten</h5>
+                                <p class="!mb-0 !text-[.85rem]">{% blocktrans %}Geological Engineer{% endblocktrans %}</p>
+                              </div>
+                            </div>
+                          </blockquote>
+                        </div>
+                        <!--/.swiper-slide -->
+                      </div>
+                      <!-- /.swiper-wrapper -->
+                    </div>
+                    <!-- /.swiper -->
+                  </div>
+                  <!-- /.swiper-container -->
+                </div>
+                <!--/div -->
+              </div>
+              <!--/column -->
+            </div>
+            <!--/.row -->
+          </div>
+          <!-- /.card -->
+        </div>
+        <!-- /div -->
+        <!--/.row -->
+        <div class="flex flex-wrap mx-[-15px] mt-[-80px] xl:mx-[-7.5px] lg:mx-[-7.5px] items-center">
+          <div
+            class="md:w-8/12 lg:w-6/12 xl:w-6/12 w-full flex-[0_0_auto] mt-[80px] xl:px-[7.5px] lg:px-[7.5px] px-[15px] max-w-full !relative">
+            <div
+              class="shape bg-dot primary rellax !w-[7rem] !h-[12.5rem] absolute z-[1] opacity-50 bg-[radial-gradient(#3f78e0_2px,transparent_2.5px)]"
+              data-rellax-speed="1" style="top: -2rem; left: -1.9rem;"></div>
+            <div class="shape !rounded-[.4rem] !bg-[#edf2fc] rellax xl:block lg:block md:block !absolute z-[1]"
+              data-rellax-speed="0" style="bottom: -1.8rem; right: -1.5rem; width: 85%; height: 90%; "></div>
+            <figure class="rounded-[0.4rem] relative z-[2]"><img class="rounded-[.4rem]"
+                src="https://media.istockphoto.com/id/1450058572/photo/businessman-using-a-laptop-and-touching-on-virtual-screen-contact-icons-consists-of-telephone.jpg?s=612x612&w=0&k=20&c=R5wzCGHu6ZS-8EQpJ2Z1tkSbKGGdJH4apVhFM18EXSM=" srcset="https://media.istockphoto.com/id/1450058572/photo/businessman-using-a-laptop-and-touching-on-virtual-screen-contact-icons-consists-of-telephone.jpg?s=612x612&w=0&k=20&c=R5wzCGHu6ZS-8EQpJ2Z1tkSbKGGdJH4apVhFM18EXSM= 2x" alt="image">
+            </figure>
+          </div>
+          <!--/column -->
+          <div
+            class="lg:w-5/12 xl:w-4/12 xl:!ml-[8.33333333%] lg:!ml-[8.33333333%] w-full flex-[0_0_auto] mt-[80px] xl:px-[7.5px] lg:px-[7.5px] px-[15px] max-w-full">
+            <h2
+              class="text-[0.8rem] uppercase inline-flex !leading-[1.35] text-line relative align-top pl-[1.4rem] tracking-[0.02rem] before:content-[''] before:absolute before:inline-block before:translate-y-[-60%] before:w-3 before:h-[0.05rem] before:left-0 before:top-2/4 before:bg-[#54a8c7] text-[#54a8c7]  !mb-3">
+              {% blocktrans %}Bog'lanish{% endblocktrans %}</h2>
+            <h2 class="text-[calc(1.315rem_+_0.78vw)] font-bold xl:text-[1.9rem] !leading-[1.25] !mb-8">
+              {% blocktrans %}Biz bilan bog‘laning va birgalikda yangi marralarni zabt etamiz!{% endblocktrans %}</h2>
+            <div class="flex flex-row">
+              <div>
+                <div class="icon text-[#54a8c7]  xl:text-[1.4rem] text-[calc(1.265rem_+_0.18vw)] mr-6 mt-[-0.25rem]"> <i
+                    class="uil uil-location-pin-alt before:content-['\ebd8']"></i> </div>
+              </div>
+              <div>
+                <h5 class="!mb-1 !text-[0.95rem] !leading-[1.5]">{% blocktrans %}Manzil{% endblocktrans %}</h5>
+                <address class=" not-italic leading-[inherit] mb-4">{% blocktrans %}Navro'z ko'chasi, 10/06 Yangidarxon tumani,{% endblocktrans %} <br
+                    class="hidden xl:block lg:block md:block">{% blocktrans %}Toshkent, O'zbekiston{% endblocktrans %}</address>
+              </div>
+            </div>
+            <div class="flex flex-row">
+              <div>
+                <div class="icon text-[#54a8c7]  xl:text-[1.4rem] text-[calc(1.265rem_+_0.18vw)] mr-6 mt-[-0.25rem]"> <i
+                    class="uil uil-phone-volume before:content-['\ec50']"></i> </div>
+              </div>
+              <div>
+                <h5 class="!mb-1 !text-[0.95rem] !leading-[1.5]">{% blocktrans %}Telefon raqam{% endblocktrans %}</h5>
+                <p>+99833 111 20 23 <br>+99833 019 98 33</p>
+              </div>
+            </div>
+            <div class="flex flex-row">
+              <div>
+                <div class="icon text-[#54a8c7]  xl:text-[1.4rem] text-[calc(1.265rem_+_0.18vw)] mr-6 mt-[-0.25rem]"> <i
+                    class="uil uil-envelope before:content-['\eac8']"></i> </div>
+              </div>
+              <div>
+                <h5 class="!mb-1 !text-[0.95rem] !leading-[1.5]">{% blocktrans %}Elektron pochta manzili{% endblocktrans %}</h5>
+                <p class="!mb-0"><a href="mailto:dgdconsulting2011@gmail.com" class="text-[#60697b]">dgdconsulting2011@gmail.com</a></p>
+              </div>
+            </div>
+          </div>
+          <!--/column -->
+        </div>
+        <!--/.row -->
+      </div>
+      <!-- /.container -->
+    </section>
+    <!-- /section -->
+  </div>
+{% endblock content %}
+ 
