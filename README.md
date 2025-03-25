@@ -91,7 +91,7 @@ python manage.py runserver --noreload
 
 Agar loyihaga oid savollaringiz bo‘lsa, quyidagi manzillar orqali bog‘laning:
 
-📧 Email: support@dgdconsulting.uz  
+📧 Email: dgdconsulting2011@gmail.com
 🌐 Veb-sayt: [dgdconsulting.uz](http://dgdconsulting.uz)  
 📍 Manzil: Toshkent, O‘zbekiston  
 
