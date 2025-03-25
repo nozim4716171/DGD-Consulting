@@ -4,10 +4,10 @@ DGD Consulting - bu geologik tadqiqotlar**, resurslarni boshqarish** va innovats
 
 🚀 Loyiha Xususiyatlari
 
-✅ Geologik Izlanishlar** - Tabiiy resurslarni aniq baholash va kartografiya qilish  
-✅ Foydali Qazilma Tahlillari** - Xomashyo bazasini kengaytirish uchun yuqori sifatli tahlillar  
-✅ Geofizik Tadqiqotlar** - Raqamli xaritalar va yer osti tadqiqotlari  
-✅ Resurslarni Boshqarish** - Barqaror rivojlanish va tabiiy resurslardan foydalanish  
+✅ Geologik Izlanishlar - Tabiiy resurslarni aniq baholash va kartografiya qilish  
+✅ Foydali Qazilma Tahlillari - Xomashyo bazasini kengaytirish uchun yuqori sifatli tahlillar  
+✅ Geofizik Tadqiqotlar- Raqamli xaritalar va yer osti tadqiqotlari  
+✅ Resurslarni Boshqarish - Barqaror rivojlanish va tabiiy resurslardan foydalanish  
 
 ---
 
@@ -91,7 +91,7 @@ python manage.py runserver --noreload
 
 Agar loyihaga oid savollaringiz bo‘lsa, quyidagi manzillar orqali bog‘laning:
 
-📧 Email: dgdconsulting2011@gmail.com
+📧 Email: dgdconsulting2011@gmail.com       
 🌐 Veb-sayt: [dgdconsulting.uz](http://dgdconsulting.uz)  
 📍 Manzil: Toshkent, O‘zbekiston  
 
