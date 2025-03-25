@@ -1,17 +1,18 @@
-# DGD Consulting Translations.
-# Copyright (C) 2025 DGD Consulting
-# This file is distributed under the same license as the DGD Consulting package.
-# John Doe <john.doe@example.com>, 2025.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: 1.0\n"
-"Report-Msgid-Bugs-To: support@example.com\n"
-"POT-Creation-Date: 2025-02-04 20:57+0500\n"
-"PO-Revision-Date: 2025-02-04 21:00+0500\n"
-"Last-Translator: Jane Smith <jane.smith@example.com>\n"
-"Language-Team: English <en@example.com>\n"
-"Language: en\n"
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-03-22 11:33+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -143,7 +144,7 @@ msgstr "You have already liked this news."
 
 #: main/views.py:89
 msgid "Sharhingiz muvaffaqiyatli yuborildi!"
-msgstr "Your comment has been successfully submitted!"
+msgstr "Your comment has been submitted successfully!"
 
 #: main/views.py:92
 msgid "Sharh yuborishda xatolik yuz berdi. Iltimos, qayta urinib ko'ring."
@@ -151,7 +152,7 @@ msgstr "An error occurred while submitting the comment. Please try again."
 
 #: main/views.py:136
 msgid "Sizning so'rovingiz qabul qilindi!"
-msgstr "Your request has been accepted!"
+msgstr "Your request has been received!"
 
 #: main/views.py:139
 msgid "Xatolik yuz berdi. Iltimos, qayta urinib ko'ring."
@@ -159,7 +160,7 @@ msgstr "An error occurred. Please try again."
 
 #: templates/404.html:5
 msgid "Sahifa topilmadi"
-msgstr "Page Not Found"
+msgstr "Page not found"
 
 #: templates/404.html:18
 msgid "Xatolik"
@@ -170,11 +171,12 @@ msgid ""
 "Siz qidirgan sahifa mavjud emas yoki boshqa joyga ko'chirilgan. Boshqa "
 "sahifani sinab ko'ring yoki quyidagi tugma orqali bosh sahifaga o'ting."
 msgstr ""
-"The page you are looking for does not exist or has been moved elsewhere. Try another page or go to the homepage using the button below."
+"The page you are looking for does not exist or has been moved. Try another "
+"page or go back to the homepage using the button below."
 
 #: templates/404.html:20
 msgid "Bosh sahifaga qaytish"
-msgstr "Return to Homepage"
+msgstr "Return to homepage"
 
 #: templates/about.html:6 templates/base.html:91 templates/base.html:217
 msgid "Kompaniya haqida"
@@ -185,16 +187,8 @@ msgid "DGD Consulting kompaniyasi haqida"
 msgstr "About DGD Consulting Company"
 
 #: templates/about.html:14
-msgid ""
-"“Ilm bilan yer qa’rini o‘rganamiz”"
-msgstr ""
-"“We explore the depths of the earth with science”"
-
-#: templates/about.html:14
-msgid ""
-"“mehnat bilan konlarni bunyod etamiz!”"
-msgstr ""
-"“build mines with labor!”"
+msgid "Ilm bilan yer qa’rini o‘rganamiz, mehnat bilan konlarni bunyod etamiz!"
+msgstr "We explore the depths of the Earth through science and build mines through hard work!"
 
 #: templates/about.html:41 templates/news-detail.html:256
 msgid "Biz haqimizda"
@@ -206,7 +200,7 @@ msgid ""
 "savollarga javob berish uchun qidiruv dasturlarini ko'rib chiqamiz, "
 "baholaymiz, loyihalashtiramiz va amalga oshiramiz."
 msgstr ""
-"We review, evaluate, design, and implement exploration programs to answer important geological questions at various stages of geological exploration."
+"At various stages of geological exploration, we review, assess, design, and implement exploration programs to address key geological questions."
 
 #: templates/about.html:43
 msgid ""
@@ -217,24 +211,33 @@ msgid ""
 "foydalanamiz va ilg'or qidiruv ma'lumotlar bazalarini yaratish va ular bilan "
 "ishlashda yuqori malakaga egamiz."
 msgstr ""
-"Our geologists have knowledge and experience in the mechanisms of mineralization formation and distribution in various geological conditions.\n"
-"            We use various modern software from field geological work to data processing and evaluation stages and have high expertise in creating and working with advanced exploration databases."
+"Our geologists have expertise in the mechanisms of mineralization formation and distribution under various geological conditions.\n"
+"From field geological work to data processing and evaluation, we utilize a variety of modern software and have high-level skills in building and working with advanced exploration databases."
 
 #: templates/about.html:49
-msgid "Qidiruv dasturlarini ishlab chiqish va amalga oshirish."
-msgstr "Development and implementation of exploration programs."
+msgid ""
+"Ma’dan (noma’dan) kon zaxiralarini hisoblash uchun razvedka "
+"konditsiyalarining Texnik Iqtisodiy Asoslari (TIA) ishlarini amalga oshirish."
+msgstr ""
+"Conducting Technical and Economic Justification (TEJ) studies for exploration conditions to estimate mineral (or non-mineral) deposit reserves."
 
 #: templates/about.html:50
-msgid "Geologik jarayonlar bo‘yicha chuqur bilim."
-msgstr "Deep knowledge of geological processes."
+msgid ""
+"Ma’dan va qamrovchi tog’ jinslarining moddiy tarkibini o’rganish uchun "
+"mineralogik-petrografik tadqiqotlar o’tkazish."
+msgstr ""
+"Conducting mineralogical and petrographic studies to examine the material composition of ores and host rocks."
 
 #: templates/about.html:56
-msgid "Zamonaviy texnologiyalardan foydalanish."
-msgstr "Utilization of modern technologies."
+msgid ""
+"Mineralogik va petrografik tadqiqotlart uchun shaffof shlif va anshliflar "
+"tayyorlab berish"
+msgstr ""
+"Preparing transparent thin and polished sections for mineralogical and petrographic studies."
 
 #: templates/about.html:57
-msgid "Ma’lumotlar bazasi yaratish va boshqarish."
-msgstr "Database creation and management."
+msgid "Topogeodezik xizmat ko’rsatish."
+msgstr "Providing topographic and geodetic services."
 
 #: templates/about.html:70
 msgid "Jamoamiz bilan hamkorlik qilish imkoniyatlari."
@@ -242,7 +245,7 @@ msgstr "Opportunities to collaborate with our team."
 
 #: templates/about.html:84
 msgid "Ekspert geologik maslahat xizmatlari"
-msgstr "Expert geological consulting services."
+msgstr "Expert Geological Consulting Services"
 
 #: templates/about.html:85
 msgid "Geologiya sohasida professional maslahat xizmatlarini taqdim etamiz."
@@ -250,21 +253,20 @@ msgstr "We provide professional consulting services in the field of geology."
 
 #: templates/about.html:99
 msgid "Mukammal loyiha hujjatlarini tayyorlash"
-msgstr "Preparation of excellent project documents"
+msgstr "Preparation of High-Quality Project Documentation"
 
 #: templates/about.html:100
 msgid ""
 "Loyihalar uchun puxta ishlangan va yuqori sifatli hujjatlarni tayyorlash "
 "xizmatlarini taklif etamiz."
 msgstr ""
-"We offer services for preparing well-crafted and high-quality documents for projects."
+"We offer services for preparing well-structured and high-quality documentation for projects."
 
 #: templates/about.html:114
 msgid ""
 "Samarali geologik qidiruv ishlarini amalga\n"
 "                      oshirish"
-msgstr ""
-"Conducting effective geological exploration works"
+msgstr "Carrying out effective geological exploration work"
 
 #: templates/about.html:116
 msgid ""
@@ -275,21 +277,21 @@ msgstr ""
 
 #: templates/about.html:126
 msgid "Bizning maqsadimiz"
-msgstr "Our goal"
+msgstr "Our Goal"
 
 #: templates/about.html:127
 msgid ""
 "Mijozlarimizga yuqori sifatli xizmatlar ko‘rsatish va ularning loyihalarini "
 "yangi rivojlanish bosqichiga olib chiqishdir."
 msgstr ""
-"To provide high-quality services to our clients and take their projects to a new level of development."
+"To provide our clients with high-quality services and take their projects to a new stage of development."
 
 #: templates/about.html:128
 msgid ""
 "Har bir loyihaga individual yondashuv asosida ishlaymiz va zamonaviy "
 "texnologiyalardan foydalanamiz."
 msgstr ""
-"We work on each project with an individual approach and use modern technologies."
+"We approach each project individually and use modern technologies."
 
 #: templates/about.html:129
 msgid ""
@@ -299,12 +301,12 @@ msgid ""
 "aniq va ishonchli natijalarni taqdim etamiz."
 msgstr ""
 "We strictly adhere to international standards in all our work.\n"
-"            We organize special geological research at a high level, using advanced technologies and methodologies to provide accurate and reliable results."
+"We conduct specialized geological research at a high level, using advanced technologies and methodologies to deliver accurate and reliable results."
 
 #: templates/about.html:131 templates/blog.html:48 templates/blog.html:108
-#: templates/home.html:23
+#: templates/home.html:22
 msgid "Batafsil"
-msgstr "Read More"
+msgstr "Read more"
 
 #: templates/about.html:154
 msgid ""
@@ -312,7 +314,7 @@ msgid ""
 "oshirilgan tadqiqotlar bilan bog‘liq. Ushbu bilim va amaliy harakatlarning "
 "kombinatsiyasi muvaffaqiyatning kalitidir.”"
 msgstr ""
-"“Every discovery in the field of geology is related to a deep understanding of the earth and the research carried out. The combination of this knowledge and practical actions is the key to success.”"
+"“In geology, every discovery is connected to a deep understanding of the Earth and thorough research. The combination of knowledge and practical action is the key to success.”"
 
 #: templates/about.html:158
 msgid "Geolog"
@@ -323,9 +325,9 @@ msgid ""
 "“Rivojlanish va muvaffaqiyat sirlari sabr-toqat va uzluksiz harakatlardan "
 "iboratdir. Har bir kichik harakat katta natijalar sari yo‘l ochadi.”"
 msgstr ""
-"“The secrets of development and success consist of patience and continuous effort. Every small action paves the way for great results.”"
+"“The secrets of growth and success lie in patience and continuous effort. Every small step paves the way to great results.”"
 
-#: templates/about.html:170 templates/home.html:404
+#: templates/about.html:170 templates/home.html:405
 msgid "Marketing mutaxassisi"
 msgstr "Marketing Specialist"
 
@@ -336,7 +338,7 @@ msgid ""
 "muvaffaqiyatli yo‘lni tanlashda emas, balki to‘g‘ri yo‘nalishda harakat "
 "qilishda hamdir.\""
 msgstr ""
-"\"In life, when we plan to achieve high-quality results, we must always act with determination and consistency. The result is not only in choosing the successful path but also in moving in the right direction.\""
+"\"When we aim for high-quality results in life, we must act with determination and consistency. Success lies not only in choosing the right path, but also in moving in the right direction.\""
 
 #: templates/about.html:182
 msgid "Moliya analitigi"
@@ -344,20 +346,20 @@ msgstr "Financial Analyst"
 
 #: templates/about.html:207
 msgid "Bizning professional jamoa."
-msgstr "Our professional team."
+msgstr "Our Professional Team."
 
 #: templates/about.html:260 templates/contact.html:194
 msgid "Yakunlangan loyihalar"
-msgstr "Completed projects"
+msgstr "Completed Projects"
 
-#: templates/about.html:266 templates/contact.html:199 templates/home.html:342
-#: templates/service.html:222
+#: templates/about.html:266 templates/contact.html:199 templates/home.html:343
+#: templates/service.html:228
 msgid "Mamnun mijozlar"
-msgstr "Satisfied customers"
+msgstr "Satisfied Clients"
 
 #: templates/about.html:272
 msgid "Professional xodimlar"
-msgstr "Professional staff"
+msgstr "Professional Staff"
 
 #: templates/about.html:278
 msgid "Kutilayotgan loyihalar"
@@ -368,23 +370,23 @@ msgid ""
 "Biz bilan hamkorlik qilishga tayyormisiz? Unda, biz bilan bog‘laning va "
 "birgalikda yangi marralarni zabt etamiz!"
 msgstr ""
-"Are you ready to collaborate with us? Then, contact us and together we will conquer new heights!"
+"Ready to collaborate with us? Then contact us and together we’ll reach new heights!"
 
-#: templates/about.html:307 templates/home.html:466
+#: templates/about.html:307 templates/home.html:467
 msgid "Manzil"
 msgstr "Address"
 
 #: templates/about.html:308
 msgid "Navro'z ko'chasi, 10/06 Yangidarxon tumani"
-msgstr "Navro'z Street, 10/06 Yangidarxon District"
+msgstr "10/06 Navruz Street, Yangidarxon District"
 
-#: templates/about.html:308 templates/contact.html:51 templates/home.html:468
+#: templates/about.html:308 templates/contact.html:51 templates/home.html:469
 msgid "Toshkent, O'zbekiston"
 msgstr "Tashkent, Uzbekistan"
 
-#: templates/about.html:316 templates/contact.html:60 templates/home.html:477
+#: templates/about.html:316 templates/contact.html:60 templates/home.html:478
 msgid "Telefon raqam"
-msgstr "Phone Number"
+msgstr "Phone number"
 
 #: templates/about.html:325 templates/base.html:245 templates/contact.html:133
 msgid "Elektron pochta"
@@ -407,7 +409,7 @@ msgid "Yangiliklar"
 msgstr "News"
 
 #: templates/base.html:138 templates/contact.html:5 templates/contact.html:18
-#: templates/home.html:457
+#: templates/home.html:458
 msgid "Bog'lanish"
 msgstr "Contact"
 
@@ -419,8 +421,9 @@ msgstr "All rights reserved."
 msgid ""
 "Navruz ko'chasi, 10/06 Yangidarxon tumani,\n"
 "                Toshkent, O'zbekiston"
-msgstr "Navruz Street, 10/06 Yangidarxon District,\n"
-"                Tashkent, Uzbekistan"
+msgstr ""
+"10/06 Navruz Street, Yangidarxon District,\n"
+"Tashkent, Uzbekistan"
 
 #: templates/base.html:215
 msgid "Ma'lumot"
@@ -439,12 +442,12 @@ msgid ""
 "Yangiliklarimiz va takliflarimizdan xabardor bo'lish uchun elektron "
 "pochtangizni kiriting..."
 msgstr ""
-"Enter your email to stay updated with our news and offers..."
+"Enter your email address to stay updated on our news and offers..."
 
 #: templates/base.html:246 templates/contact.html:164
 #: templates/news-detail.html:242
 msgid "Yuborish"
-msgstr "Submit"
+msgstr "Send"
 
 #: templates/blog.html:13
 msgid "Kompaniya yangiliklari"
@@ -455,7 +458,7 @@ msgid ""
 "Yangiliklar bo‘limimizga xush kelibsiz! Ushbu bo‘limda kompaniyamizga oid "
 "so‘nggi yangiliklar va dolzarb maqolalarni topishingiz mumkin."
 msgstr ""
-"Welcome to our news section! Here you can find the latest news and relevant articles about our company."
+"Welcome to our news section! Here you can find the latest updates and relevant articles about our company."
 
 #: templates/blog.html:35 templates/blog.html:96 templates/news-detail.html:73
 #: templates/news-detail.html:103
@@ -470,46 +473,46 @@ msgstr "Contact Us"
 msgid "Ofis manzili"
 msgstr "Office Address"
 
-#: templates/contact.html:51 templates/home.html:467
+#: templates/contact.html:51 templates/home.html:468
 msgid "Navro'z ko'chasi, 10/06 Yangidarxon tumani,"
-msgstr "Navro'z Street, 10/06 Yangidarxon District,"
+msgstr "10/06 Navruz Street, Yangidarxon District,"
 
-#: templates/contact.html:70 templates/home.html:487
+#: templates/contact.html:70 templates/home.html:488
 msgid "Elektron pochta manzili"
-msgstr "Email Address"
+msgstr "Email address"
 
 #: templates/contact.html:103
 msgid "Qayta qo'ng'iroq"
-msgstr "Callback"
+msgstr "Request a Callback"
 
 #: templates/contact.html:104
 msgid ""
 "Kontakt ma'lumotlaringizni qoldiring va menejerimiz sizga tez orada javob "
 "beradi"
 msgstr ""
-"Leave your contact information and our manager will get back to you soon."
+"Leave your contact information and our manager will get back to you shortly."
 
 #: templates/contact.html:111
 msgid "Ism"
-msgstr "Name"
+msgstr "First Name"
 
 #: templates/contact.html:112 templates/contact.html:121
 #: templates/contact.html:135 templates/contact.html:149
 #: templates/contact.html:158
 msgid "To'g'ri kiritildi!"
-msgstr "Correctly Entered!"
+msgstr "Entered correctly!"
 
 #: templates/contact.html:113
 msgid "Iltimos, ismingizni kiriting."
-msgstr "Please enter your name."
+msgstr "Please enter your first name."
 
 #: templates/contact.html:120
 msgid "Familya"
-msgstr "Surname"
+msgstr "Last Name"
 
 #: templates/contact.html:122
 msgid "Iltimos, familiyangizni kiriting."
-msgstr "Please enter your surname."
+msgstr "Please enter your last name."
 
 #: templates/contact.html:136
 msgid "Iltimos, elektron pochta manzilini kiriting."
@@ -517,7 +520,7 @@ msgstr "Please enter your email address."
 
 #: templates/contact.html:147
 msgid "Telefon raqamingiz"
-msgstr "Your Phone Number"
+msgstr "Your phone number"
 
 #: templates/contact.html:150
 msgid "Iltimos, telefon raqamingizni kiriting."
@@ -544,259 +547,256 @@ msgstr ""
 
 #: templates/contact.html:204
 msgid "Tajribali mutaxassislar"
-msgstr "Experienced specialists"
+msgstr "Experienced Specialists"
 
 #: templates/home.html:16
-msgid "Ye'r qarini ilmimiz bilan o'rganamiz"
-msgstr "We study the Earth's crust with our knowledge"
+msgid "“Ilm bilan yer qa’rini o‘rganamiz”"
+msgstr "“We explore the depths of the Earth through science”"
 
-#: templates/home.html:17
+#: templates/home.html:16
 msgid "mehnatimiz bilan,kon ochamiz"
-msgstr "With our hard work, we open mines"
+msgstr "with our hard work, we discover mines"
 
-#: templates/home.html:19
+#: templates/home.html:18
 msgid ""
 "Biz loyihalaringizning \n"
 "            har bir bosqichida ishonchli yechimlarni taqdim etish maqsadida "
 "geologik izlanishlarni sinchkovlik bilan rejalashtiramiz va amalga oshiramiz."
 msgstr ""
-"We meticulously plan and conduct geological research to provide reliable "
-"solutions at every stage of your projects."
+"We carefully plan and carry out geological research to provide reliable solutions at every stage of your projects."
 
-#: templates/home.html:54 templates/service.html:80
+#: templates/home.html:53 templates/service.html:82
 msgid "Biz nima qilamiz?"
 msgstr "What do we do?"
 
-#: templates/home.html:55 templates/service.html:81
+#: templates/home.html:54 templates/service.html:83
 msgid ""
 "Biz taklif qilayotgan xizmatlar geologiya sohasidagi ehtiyojlaringizni "
 "qondirish uchun maxsus ishlab chiqilgan."
 msgstr ""
-"Our services are specifically designed to meet your needs in the field of geology."
+"The services we offer are specifically designed to meet your needs in the field of geology."
 
-#: templates/home.html:66 templates/service.html:31
-msgid "Geologik tadqiqotlar olib boramiz"
-msgstr "We conduct geological research"
+#: templates/home.html:65
+msgid "Geologik qidiruv ishlarini amalga oshirish"
+msgstr "Conducting Geological Exploration Works"
 
-#: templates/home.html:67 templates/service.html:32
+#: templates/home.html:66
 msgid ""
-"Yerni o’rganish, foydali qazilmalarni aniqlash va tabiiy resurslarni "
-"baholash bo’yicha ilmiy va amaliy ishlarni olib boramiz."
+"Geologik qidiruv ishlarni amalga Milliy va Xalqaro standartlarga (CRIRSCO/"
+"JORC) mos ravishda amalga oshiramiz."
 msgstr ""
-"We conduct scientific and practical work to study the Earth, identify "
-"mineral resources, and assess natural resources."
+"We carry out geological exploration works in accordance with national and international standards (CRIRSCO/JORC)."
 
-#: templates/home.html:68 templates/home.html:77 templates/home.html:86
-#: templates/home.html:95 templates/service.html:82
+#: templates/home.html:67 templates/home.html:76 templates/home.html:85
+#: templates/home.html:94 templates/service.html:84
 msgid "Ko'proq"
 msgstr "Learn more"
 
-#: templates/home.html:75 templates/service.html:43
-msgid "Geofizik tahlillarni o’tkazamiz"
-msgstr "We conduct geophysical analysis"
+#: templates/home.html:74
+msgid "Tog’ lahmlarini o’tish (kanava/kichik shurf)"
+msgstr "Trenching and Pitting (canals/small excavations)"
 
-#: templates/home.html:76 templates/service.html:44
+#: templates/home.html:75
 msgid ""
-"Yerning fizik xususiyatlarini aniqlash uchun zamonaviy texnologiyalar va "
-"uskunalardan foydalanamiz, bu esa tabiiy resurslardan samarali foydalanishga "
-"imkon beradi."
+"Malakali mutaxassislarimizga va moddiy texnik-bazamizga tayangan holda turli "
+"tog’ lahmlari o’tish ishlarini baharish."
 msgstr ""
-"We use modern technologies and equipment to determine the physical properties "
-"of the Earth, enabling efficient utilization of natural resources."
+"Based on our skilled specialists and technical resources, we perform various trenching and pitting operations."
 
-#: templates/home.html:84 templates/service.html:55
-msgid "Geologik xaritalar yaratamiz"
-msgstr "We create geological maps"
+#: templates/home.html:83
+msgid "Geologik qidiruv ishlari va boshqalar uchun burg’ulash ishlari"
+msgstr "Drilling works for geological exploration and more"
 
-#: templates/home.html:85 templates/service.html:56
+#: templates/home.html:84
 msgid ""
-"Hududlarning tuzilmasi va geologik xususiyatlarini aks ettiruvchi yuqori "
-"aniqlikdagi xaritalarni ishlab chiqib, bilim va qaror qabul qilishni yangi "
-"bosqichga olib chiqamiz."
+"Burg’ulash (Reverse Circulation drilling/Diamond drilling) ishlari "
+"hajmlarini sifatli amalga oshiramiz."
 msgstr ""
-"We develop high-precision maps that reflect the structure and geological "
-"characteristics of regions, bringing knowledge and decision-making to a new level."
+"We perform high-quality Reverse Circulation (RC) and Diamond drilling operations."
 
-#: templates/home.html:93 templates/service.html:67
-msgid "Resurslarni boshqarishda yordam beramiz"
-msgstr "We assist in resource management"
+#: templates/home.html:92
+msgid "Geologik hujjatlashtirish"
+msgstr "Geological Documentation"
 
-#: templates/home.html:94 templates/service.html:68
+#: templates/home.html:93
 msgid ""
-"Foydali qazilmalardan oqilona foydalanish va barqaror rivojlanishni "
-"ta’minlash bo‘yicha professional maslahatlar beramiz."
+"Tog’ lahmlari va kernlarini an’anaviy va zamonaviy raqamli texnologiyalar "
+"yordamida geologik hujjatlashtiramiz."
 msgstr ""
-"We provide professional advice on the rational use of mineral resources and "
-"ensuring sustainable development."
+"We document trenches and drill cores using both traditional and modern digital technologies."
 
-#: templates/home.html:117
+#: templates/home.html:116
 msgid "Bu qanday ishlaydi?"
 msgstr "How does it work?"
 
-#: templates/home.html:118
+#: templates/home.html:117
 msgid "Bu yerda muvaffaqiyatga erishishning 3 asosiy bosqichi keltirilgan."
-msgstr "Here are the three main steps to achieving success."
+msgstr "Here are the 3 main steps to success."
+
+#: templates/home.html:124
+msgid "Tog’ lahmlari va burg’u quduqlarini geologik namunalash"
+msgstr "Geological Sampling of Trenches and Drill Holes"
 
 #: templates/home.html:125
-msgid "Tahlil va ma’lumotlarni yig’ish"
-msgstr "Analysis and data collection"
-
-#: templates/home.html:126 templates/service.html:114
 msgid ""
-"Biz hududni o‘rganish uchun dastlabki tahlillarni o‘tkazamiz. Bu bosqichda "
-"geologik xaritalar, tuproq namunalarini yig‘ish va zamonaviy uskunalar "
-"yordamida ma’lumotlarni to‘playmiz."
+"Namunalash ishlarini sifatli QA/QC talablari darajasida amalga oshiramiz."
 msgstr ""
-"We conduct initial analyses to study the area. At this stage, we collect geological maps, soil samples, and data using modern equipment."
+"We perform sampling works in accordance with high-level QA/QC requirements."
+
+#: templates/home.html:134
+msgid "Maxsus geologik takliflar"
+msgstr "Special Geological Offers"
 
 #: templates/home.html:135
-msgid "Tahlil natijalarini o‘rganish va rejalashtirish"
-msgstr "Studying Analysis Results and Planning"
-
-#: templates/home.html:136 templates/service.html:119
 msgid ""
-"Olingan ma’lumotlarni maxsus dasturlar yordamida tahlil qilib, geologik "
-"xaritalar va modellar yaratamiz. Bu bizga qazilma resurslarini aniqlash va "
-"ekologik xavflarni baholash imkonini beradi."
+"Yer ustini geologik-strukturaviy o’rganish bo’yicha geologik marshrutlar "
+"kabi maxsus ishlarni taklif etamiz."
 msgstr ""
-"We analyze the obtained data using specialized software to create geological maps and models. This allows us to identify mineral resources and assess environmental risks."
+"We offer special works such as geological field routes for surface structural-geological studies."
+
+#: templates/home.html:144
+msgid ""
+"Foydali qazilmalarning birlamchi oreollar bo’yicha geokimyoviy xaritalash"
+msgstr "Geochemical Mapping of Primary Ore Halos of Mineral Deposits"
 
 #: templates/home.html:145
-msgid "Natijalarni amalga tatbiq etish"
-msgstr "Implementing Results"
-
-#: templates/home.html:146 templates/service.html:124
 msgid ""
-"Yaratilgan xaritalar va hisobotlar asosida foydali qazilmalarni qazib olish, "
-"qurilish yoki boshqa loyihalarni rejalashtirish va amalga oshirish bo‘yicha "
-"aniq tavsiyalarni taqdim etamiz."
+"Birlamchi oreollar asosida geokimyoviy xaritalash kristalli fundament "
+"ochilmalari ko‘p joylarda ma’danli minerallashuv va metosomatik "
+"o‘zgarishlarni yer ustida aniqlashda samaralidir. Biz zamonaviy texnologik "
+"yechimlarni taklif qilamiz: namunalarni xalqaro standartlar asosida olish, "
+"dala ishlarini raqamli geologik hujjatlashtirish, trek va nuqtalarni "
+"belgilash, \n"
+"                  fotosuratlarni GIS tizimiga integratsiya qilish orqali ish "
+"sifati va samaradorligini ta’minlaymiz.\n"
+"                  "
 msgstr ""
-"Based on the created maps and reports, we provide precise recommendations for mining, construction, or other project planning and implementation."
-
-#: templates/home.html:168
-msgid "Nega aynan bizni tanlashingiz kerak?"
-msgstr "Why Choose Us?"
+"Geochemical mapping based on primary ore halos is effective in identifying surface mineralization and metasomatic alterations in crystalline basement outcrops. We offer modern technological solutions: sampling in accordance with international standards, digital geological documentation of fieldwork, marking tracks and points, and integrating photos into GIS systems to ensure high quality and efficiency."
 
 #: templates/home.html:169
-msgid "Mijozlarimiz bizni tanlashlariga sabablar"
-msgstr "Reasons Why Our Clients Choose Us"
+msgid "Nega aynan bizni tanlashingiz kerak?"
+msgstr "Why Should You Choose Us?"
 
-#: templates/home.html:176
+#: templates/home.html:170
+msgid "Mijozlarimiz bizni tanlashlariga sabablar"
+msgstr "Reasons Our Clients Choose Us"
+
+#: templates/home.html:177
 msgid "Tajriba va Ishonch"
 msgstr "Experience and Trust"
 
-#: templates/home.html:183
+#: templates/home.html:184
 msgid ""
 "Bizning jamoamiz tajribali geologlar va soha mutaxassislaridan iborat "
 "bo‘lib, har bir loyihada aniqlik va ishonchlilikni ta’minlaydi."
 msgstr ""
 "Our team consists of experienced geologists and industry specialists, ensuring accuracy and reliability in every project."
 
-#: templates/home.html:194
+#: templates/home.html:195
 msgid "Zamonaviy Texnologiyalar"
 msgstr "Modern Technologies"
 
-#: templates/home.html:201
+#: templates/home.html:202
 msgid ""
 "Biz eng ilg‘or asbob-uskunalar va innovatsion usullarni qo‘llab, sizning "
 "ehtiyojlaringizga mos keladigan samarali va aniq natijalarni taqdim etamiz."
 msgstr ""
-"We use the latest equipment and innovative methods to provide effective and precise results tailored to your needs."
+"We utilize the most advanced tools and innovative methods to deliver efficient and accurate results tailored to your needs."
 
-#: templates/home.html:212
+#: templates/home.html:213
 msgid "Mijozga Yo‘naltirilgan Xizmat"
-msgstr "Customer-Oriented Service"
+msgstr "Client-Oriented Service"
 
-#: templates/home.html:219
+#: templates/home.html:220
 msgid ""
 "Har bir mijozning ehtiyojlariga individual yondashamiz va ularning "
 "maqsadlariga erishishda ishonchli hamkor bo‘lamiz. Ekologik xavfsizlikni "
 "ta’minlashga e’tibor qaratib, tabiiy resurslardan oqilona va barqaror "
 "foydalanishni maqsad qilganmiz."
 msgstr ""
-"We take an individual approach to each client’s needs and serve as a reliable partner in achieving their goals. We prioritize environmental safety and strive for the responsible and sustainable use of natural resources."
+"We take an individual approach to each client's needs and serve as a reliable partner in achieving their goals. We prioritize environmental safety and aim for the responsible and sustainable use of natural resources."
 
-#: templates/home.html:244
+#: templates/home.html:245
 msgid "“Bizning hamkorlar safimizga qo’shiling”"
 msgstr "“Join Our Network of Partners”"
 
-#: templates/home.html:247
+#: templates/home.html:248
 msgid ""
 "Bizga 20+ geologik loyiha ishonib topshirilgan. Bizning xizmatlardan "
 "foydalanib, ularga qo‘shiling va tabiiy resurslaringizdan samarali "
 "foydalaning."
 msgstr ""
-"We have been entrusted with over 20 geological projects. Join them by using our services and make the most of your natural resources."
+"Over 20 geological projects have been entrusted to us. Join them by using our services and utilize your natural resources efficiently."
 
-#: templates/home.html:248
+#: templates/home.html:249
 msgid "Bizga qo‘shiling"
 msgstr "Join Us"
 
-#: templates/home.html:265
+#: templates/home.html:266
 msgid "Geologik Tadqiqotlar"
 msgstr "Geological Research"
 
-#: templates/home.html:266
+#: templates/home.html:267
 msgid ""
 "Yer qatlamlarini chuqur o'rganish va innovatsion yechimlarga ega "
 "loyihalarimiz bilan tanishing."
 msgstr ""
-"Explore our projects that feature in-depth studies of the Earth's layers and innovative solutions."
+"Explore our projects with deep subsurface studies and innovative solutions."
 
-#: templates/home.html:324
+#: templates/home.html:325
 msgid "Bizning loyihalarimiz"
 msgstr "Our Projects"
 
-#: templates/home.html:325
+#: templates/home.html:326
 msgid "Biz o‘z ishlarimizdan faxrlanamiz"
 msgstr "We Take Pride in Our Work"
 
-#: templates/home.html:335 templates/service.html:217
+#: templates/home.html:336 templates/service.html:223
 msgid "Bajarilgan loyihalar"
 msgstr "Completed Projects"
 
-#: templates/home.html:349
+#: templates/home.html:350
 msgid "Erishilgan yutuqlar"
 msgstr "Achievements"
 
-#: templates/home.html:387
+#: templates/home.html:388
 msgid ""
 "“Moliyaviy qarorlaringiz uchun aniq tahlil va strategik yechimlar. Bizning "
 "maqsadimiz – sizning muvaffaqiyatingizni raqamlar orqali kafolatlash. "
 "Ishonchli va chuqur tahlil yordamida moliyaviy istiqbollaringizni yangi "
 "cho‘qqilarga olib chiqing.”"
 msgstr ""
-"“Accurate analysis and strategic solutions for your financial decisions. Our goal is to ensure your success through numbers. Take your financial prospects to new heights with reliable and in-depth analysis.”"
+"“Accurate analysis and strategic solutions for your financial decisions. Our goal is to ensure your success through numbers. Reach new heights in your financial future with reliable and thorough analysis.”"
 
-#: templates/home.html:391
+#: templates/home.html:392
 msgid "Moliyaviy menejer"
 msgstr "Financial Manager"
 
-#: templates/home.html:400
+#: templates/home.html:401
 msgid ""
 "“Ijodkorlik va strategiya orqali biznesingizni yangi darajaga olib chiqamiz. "
 "Samarali marketing echimlari bilan mijozlaringizni jalb qilish va "
 "brendingizni mustahkamlashga yordam beramiz. Har bir loyiha – bu "
 "muvaffaqiyat sari qadam.”"
 msgstr ""
-"“We take your business to the next level through creativity and strategy. With effective marketing solutions, we help attract customers and strengthen your brand. Every project is a step toward success.”"
+"“We take your business to the next level through creativity and strategy. Our effective marketing solutions help attract customers and strengthen your brand. Every project is a step toward success.”"
 
-#: templates/home.html:413
+#: templates/home.html:414
 msgid ""
 "“Yer qa’rining sirlarini ochib, kelajak imkoniyatlarini yaratamiz. Geologik "
 "tadqiqotlarimiz aniq tahlil va ishonchli natijalarga asoslangan. "
 "Resurslaringizni samarali boshqarish va rivojlantirish uchun mukammal "
 "yechimlar taqdim etamiz.”"
 msgstr ""
-"“We uncover the secrets of the Earth's depths and create future opportunities. Our geological research is based on precise analysis and reliable results. We offer optimal solutions for effective resource management and development.”"
+"“We uncover the secrets of the Earth and create opportunities for the future. Our geological research is based on precise analysis and reliable results. We provide excellent solutions for effective resource management and development.”"
 
-#: templates/home.html:417
+#: templates/home.html:418
 msgid "Geological Engineer"
 msgstr "Geological Engineer"
 
-#: templates/home.html:459
+#: templates/home.html:460
 msgid "Biz bilan bog‘laning va birgalikda yangi marralarni zabt etamiz!"
-msgstr "Contact us and let's conquer new milestones together!"
+msgstr "Contact us and let’s reach new heights together!"
 
 #: templates/news-detail.html:84
 msgid "No Media Available"
@@ -820,7 +820,7 @@ msgstr "No comments."
 
 #: templates/news-detail.html:231
 msgid "Fikringizni bildirishni xohlaysizmi?"
-msgstr "Would you like to share your opinion?"
+msgstr "Want to leave a comment?"
 
 #: templates/news-detail.html:232
 msgid "Kerakli maydonlar * bilan belgilangan."
@@ -842,13 +842,11 @@ msgid ""
 "ekologik barqarorlikni ta’minlash bo‘yicha keng ko‘lamli xizmatlar "
 "ko‘rsatamiz.</p>"
 msgstr ""
-"<p>Our company — <strong>DGD Consulting</strong> is one of the leading organizations "
-"in the field of geology and natural resource exploration. We provide a wide range of services, including subsurface research, "
-"mineral resource exploration and evaluation, as well as ensuring environmental sustainability.</p>"
+"<p>Our company — <strong>DGD Consulting</strong>, is one of the leading organizations in the field of geology and natural resource research. We provide a wide range of services in subsurface exploration, mineral resource assessment, and ensuring environmental sustainability.</p>"
 
 #: templates/news-detail.html:269
 msgid "So'nggi yangiliklar"
-msgstr "Latest news"
+msgstr "Latest News"
 
 #: templates/service.html:12
 msgid "Bizning xizmatlar"
@@ -859,59 +857,154 @@ msgid ""
 "Biz geologiya sohasida mijozlar bilan uzoq muddatli hamkorlikni yo‘lga "
 "qo‘yishga e’tibor qaratadigan innovatsion kompaniyamiz."
 msgstr ""
-"We are an innovative company focused on establishing long-term partnerships with clients in the field of geology."
+"We are an innovative company focused on building long-term partnerships with clients in the field of geology."
 
-#: templates/service.html:109
+#: templates/service.html:31
+msgid "Geologik ishlar uchun hujjatlar tayyorlash"
+msgstr "Preparation of Documents for Geological Works"
+
+#: templates/service.html:32
+msgid ""
+"Istiqbolli maydonlarda foydali qazilmalarni qidirish va qazib olish uchun "
+"litsenziya hujjatlarini tayyorlash va maslahat berish."
+msgstr ""
+"Preparation and consulting services for licensing documents required for exploration and mining of prospective areas."
+
+#: templates/service.html:43
+msgid "Loyihalarni samaradorligini baholashga ekspert-konsalting xizmati"
+msgstr "Expert Consulting Services for Project Efficiency Evaluation"
+
+#: templates/service.html:44
+msgid ""
+"Geologik qidiruv ishlari va foydali qazilmalarni qazib olishning amalga "
+"oshirilishini baholash va samaradorlikni oshirish uchun kerakli tavsiyalarni "
+"berish."
+msgstr ""
+"Evaluation of geological exploration and mining activities, along with recommendations to improve efficiency."
+
+#: templates/service.html:55
+msgid ""
+"Loyihalarning atrof-muhitga ta’sirini kamaytirish bo’yicha ekologik qismini "
+"ishlab chiqish"
+msgstr "Developing the Environmental Component to Minimize Project Impact"
+
+#: templates/service.html:56
+msgid ""
+"Geologik qidiruv ishlari va foydali qazilmalarni qazib olishda atrof-muhitga "
+"ta’sirni kamaytirish bo’yicha kompleks chora-tadbirlarni ishlab chiqish va "
+"ekologik hujjatlarni professional tarzda tayyorlab berish."
+msgstr ""
+"Developing comprehensive measures to reduce environmental impact during geological exploration and mining, and preparing professional environmental documentation."
+
+#: templates/service.html:67
+msgid "Geologik qidiruv ishlari uchun loyiha-smeta tayyorlash."
+msgstr "Preparation of Project Estimates for Geological Exploration"
+
+#: templates/service.html:68
+msgid ""
+"Loyiha-smetalarni tuzishda O’zbekiston Respublikasi Qonunchiligi, Tog’-kon "
+"va Geologiya Vazirligi talablariga mos tarzda shakllantirishib berish.\n"
+"                      Geologik qidiruv ishlari va foydali qazilmalarni qazib "
+"olish uchun loyiha-smeta hujjatlarini, hamda ish hajmlarini amalga oshirish "
+"uchun kalendar-grafik va boshqa hujjatlarni professional tarzda tayyorlab "
+"berish.\n"
+"                      "
+msgstr ""
+"Project estimates are prepared in accordance with the legislation of the Republic of Uzbekistan and the requirements of the Ministry of Mining and Geology.\n"
+"We professionally prepare project-estimate documentation, work volumes, schedules, and other related documents for geological exploration and mining."
+
+#: templates/service.html:111
 msgid "Bizning jarayon"
 msgstr "Our Process"
 
-#: templates/service.html:110
+#: templates/service.html:112
 msgid ""
 "Geologik tadqiqotlar jarayonining modelini yaratish bo‘yicha bilishingiz "
 "kerak bo‘lgan barcha ma’lumotlarni bilib oling."
 msgstr ""
-"Learn all the key information about the process of creating geological research models."
+"Learn everything you need to know about building a model for the geological research process."
 
-#: templates/service.html:113
-msgid "1. Tahlil va ma’lumotlarni yig’ish"
-msgstr "1. Data Collection and Analysis"
+#: templates/service.html:115
+msgid "1. Atmogeokimyoviy oreollarni o’rganish"
+msgstr "1. Studying Atmogeochemical Halos"
 
-#: templates/service.html:118
-msgid "2. Tahlil natijalarini o‘rganish va rejalashtirish"
-msgstr "2. Reviewing Analysis Results and Planning"
+#: templates/service.html:116
+msgid ""
+"Geologik qidiruv ishlarida atmogeokimyoviy oreollar bo’yicha geokimyoviy "
+"xaritalash maydon zamonaviy yotqiziqlar bilan qoplangan landshaf "
+"sharoitlarida, yopiq ma’danli minerallashuv bilan bog’liq chuqur yer yoriqli "
+"strukturalarni yer ustida ajratishda samarali hisoblanadi. Bunda tuproqning "
+"yuza qismida Hg, yonuvchi gazlar (metan, propan va b.)ni aniqlashga "
+"asoslanadi. Germaniya va Rossiyadan keltrilgan yuqori aniqlikka ega, "
+"zamonaviy asbob-uskunalar qo’llaniladi.\n"
+"                  Ekologik maqsadda ham qo’llash imkoniyati mavjud.\n"
+"                  "
+msgstr ""
+"In geological exploration, geochemical mapping using atmogeochemical halos is effective for detecting deep fault-related concealed mineralization in landscapes covered by modern sediments. The method is based on detecting mercury and combustible gases (methane, propane, etc.) in the soil surface. We use high-precision, modern instruments imported from Germany and Russia.\n"
+"This method can also be used for environmental purposes."
+
+#: templates/service.html:122
+msgid ""
+"2. Foydali qazilmalarning ikkilamchi oreollar bo’yicha geokimyoviy xaritalash"
+msgstr "2. Geochemical Mapping of Secondary Halos of Mineral Deposits"
 
 #: templates/service.html:123
-msgid "3.Natijalarni amalga tatbiq etish"
-msgstr "3. Implementing Results"
+msgid ""
+"Ikkilamchi oreollar bo’yicha geokimyoviy xaritalash maydon bo’yicha kristal "
+"fundament ochilmalari juda kam va mavjud bo’lmagan landshaf sharoitlarida, "
+"yopiq ma’danli minerallashuvni yer ustida ajratishda samarali hisoblanadi.\n"
+"                  Ishni amalga oshirishda eng zamonaviy yechimlarni taklif "
+"qilamiz. Har bir namunani xalqaro standartlar asosida olishni, dala ishlari "
+"jarayonini zamonaviy texnologik yechimlar asosida geologik hujjatlashtirish, "
+"treyklari va namunalash nuqtalari, hamda olingan fotosuratlari GIS-tizimga "
+"integratsiya qilinganligi amalga oshiradigan ish sifati va samaradorligini "
+"ta’minlaydi.\n"
+"                  "
+msgstr ""
+"Geochemical mapping of secondary halos is effective in identifying concealed mineralization in areas with scarce or no crystalline basement outcrops.\n"
+"We offer the most modern solutions for implementation. Each sample is collected according to international standards. Fieldwork is geologically documented using digital solutions, with tracks, sampling points, and photos integrated into GIS systems, ensuring high quality and efficiency."
 
-#: templates/service.html:145
+#: templates/service.html:129
+msgid "3. Yotqiziqlarning biostratigrafik (nisbiy) yoshini o’rganib berish"
+msgstr "3. Studying the Biostratigraphic (Relative) Age of Deposits"
+
+#: templates/service.html:130
+msgid ""
+"Karbonat tog’ jinslaridan topilgan (paleontologik) mikro va makroskopik  "
+"organiq qoldiqlar asosida tog’ jinslarining nisbiy yoshini aniqlash orqali "
+"foydali qazilmalarga boy bo’lgan kuchli dislokatsiyaga uchragan kesmalarni "
+"ketma – ketligini tiklashda keng qo’llaniladi."
+msgstr ""
+"Based on paleontological micro- and macroscopic organic remains found in carbonate rocks, the relative age of rock layers is determined. This method is widely used to reconstruct the sequence of strongly dislocated sections rich in mineral resources."
+
+#: templates/service.html:151
 msgid ""
 "Biz mijozlarimiz uchun hayotni yengillashtiruvchi tezkor geologik "
 "yechimlarni taqdim etamiz."
 msgstr ""
-"We provide fast geological solutions to make life easier for our clients."
+"We provide fast and effective geological solutions that simplify life for our clients."
 
-#: templates/service.html:148
+#: templates/service.html:154
 msgid "Geologik tadqiqotlar"
 msgstr "Geological Research"
 
-#: templates/service.html:152
+#: templates/service.html:158
 msgid "Strategik rejalashtirish"
 msgstr "Strategic Planning"
 
-#: templates/service.html:156
+#: templates/service.html:162
 msgid "Ma’lumotlar tahlili"
 msgstr "Data Analysis"
 
-#: templates/service.html:160
+#: templates/service.html:166
 msgid "Loyiha ishlab chiqish"
 msgstr "Project Development"
 
-#: templates/service.html:175
+#: templates/service.html:181
 msgid "Innovatsion geologik yechimlar bilan ishonchli natijalarga erishing."
 msgstr "Achieve reliable results with innovative geological solutions."
 
-#: templates/service.html:176
+#: templates/service.html:182
 msgid ""
 "Geologik tadqiqotlar natijasida yer osti boyliklarini aniq baholash va "
 "ekspluatatsiya qilish imkoniyatlari aniqlanadi.\n"
@@ -920,44 +1013,49 @@ msgid ""
 "ta’minlaydi. Zamonaviy texnologiyalar yordamida har bir loyiha uchun "
 "ishonchli yechimlar ishlab chiqiladi."
 msgstr ""
-"Geological research helps accurately assess and determine the potential for underground resource exploitation. "
-"Detailed analyses of mineral reserves, soil composition, and rock structures ensure the precision of geological processes. "
-"Reliable solutions are developed for each project using modern technologies."
+"Geological research enables accurate assessment and efficient utilization of underground resources.\n"
+"Detailed analysis of mineral reserves, soil composition, and rock structure ensures precision in geological processes. With modern technologies, we develop reliable solutions for each project."
 
-#: templates/service.html:181
-msgid "Geologik qidiruv ishlari va tahlil."
-msgstr "Geological exploration and analysis."
-
-#: templates/service.html:182
-msgid "Qurilish uchun muhandislik-geologik tadqiqotlar."
-msgstr "Engineering and geological studies for construction."
+#: templates/service.html:187
+msgid "Geokimyoviy ma’lumotlarni geostatistik qayta ishlash."
+msgstr "Geostatistical processing of geochemical data."
 
 #: templates/service.html:188
-msgid "Yer osti va usti resurslarini aniqlash."
-msgstr "Identification of underground and surface resources."
+msgid "Yerni masofadan zondlash ma’lumotlarini qayta ishlash."
+msgstr "Processing of remote sensing data."
 
-#: templates/service.html:189
-msgid "Mineral va foydali qazilma konlarini baholash."
-msgstr "Evaluation of mineral and valuable resource deposits."
+#: templates/service.html:194
+msgid ""
+"Sun’iy intellect (AI) texnologiyalari asosida geologik qidiruv ishlari uchun "
+"zamonaviy yechimlar ishlab chiqish."
+msgstr ""
+"Development of modern geological exploration solutions based on Artificial Intelligence (AI) technologies."
 
-#: templates/service.html:206
+#: templates/service.html:195
+msgid ""
+"Foydali qazilmalarning zahiralar (resurslar)ini an’anaviy va zamonaviy "
+"usulda amalga oshirish."
+msgstr ""
+"Estimation of mineral reserves (resources) using both traditional and modern methods."
+
+#: templates/service.html:212
 msgid "Bizning kompaniyamizning ajralmas qismiga aylaning"
-msgstr "Become an integral part of our company"
+msgstr "Become an Integral Part of Our Company"
 
-#: templates/service.html:207
+#: templates/service.html:213
 msgid ""
 "Bizga ishonch bildirgan 5000+ mijozlar qatoriga qo‘shiling va biznesingizni "
 "rivojlantiring!"
 msgstr ""
-"Join over 5000 clients who trust us and grow your business!"
+"Join our network of 5000+ satisfied clients and grow your business with us!"
 
-#: templates/service.html:227
+#: templates/service.html:233
 msgid "Tajribali xodimlar"
 msgstr "Experienced Staff"
 
 #: templates/termscond.html:5
 msgid "Foydalanish shartlari va qoidalari"
-msgstr "Terms and Conditions"
+msgstr "Terms and Conditions of Use"
 
 #: templates/termscond.html:13 templates/termscond.html:17
 msgid "Foydalanish shartlari"
@@ -977,7 +1075,7 @@ msgstr "3. User Policy"
 
 #: templates/termscond.html:38 templates/termscond.html:116
 msgid "4. Mualliflik Huquqlari"
-msgstr "4. Copyright"
+msgstr "4. Copyrights"
 
 #: templates/termscond.html:39 templates/termscond.html:129
 msgid "5. Cookie-fayllar"
@@ -994,24 +1092,19 @@ msgid ""
 "qilishga rozilik bildirasiz.</p>\n"
 "                <p>Xizmatlar ko‘rsatish</p>"
 msgstr ""
-"<p>These terms define the rules for using <b>dgdconsulting.uz</b> services. By accessing our site, "
-"you agree to comply with these terms.</p>\n"
-"                <p>Service Provision</p>"
+"<p>These terms define the rules for using <b>dgdconsulting.uz</b> services. By accessing our website, you agree to comply with these terms.</p>\n"
+"<p>Service Provision</p>"
 
 #: templates/termscond.html:56
 msgid "Saytimiz faqat qonuniy maqsadlarda foydalanish uchun mo‘ljallangan"
-msgstr "Our website is intended for lawful purposes only."
+msgstr "Our website is intended for lawful use only"
 
 #: templates/termscond.html:57
-msgid ""
-"Foydalanuvchilar xizmatdan noqonuniy yoki noto‘g‘ri maqsadlarda "
-"foydalanmasliklari shart."
-msgstr "Users must not use the service for illegal or improper purposes."
+msgid "Foydalanuvchilar xizmatdan noqonuniy yoki noto‘g‘ri maqsadlarda foydalanmasliklari shart."
+msgstr "Users must not use the service for any illegal or inappropriate purposes."
 
 #: templates/termscond.html:58
-msgid ""
-"Kompaniya xizmatni istalgan vaqtda o‘zgartirish yoki to‘xtatib qo‘yish "
-"huquqiga ega."
+msgid "Kompaniya xizmatni istalgan vaqtda o‘zgartirish yoki to‘xtatib qo‘yish huquqiga ega."
 msgstr "The company reserves the right to modify or suspend the service at any time."
 
 #: templates/termscond.html:60
@@ -1020,10 +1113,10 @@ msgstr "Liability"
 
 #: templates/termscond.html:62
 msgid "Saytda mavjud ma’lumotlar faqat umumiy ma’lumot berish uchun mo‘ljallangan."
-msgstr "The information on this site is intended for general informational purposes only."
+msgstr "The information on the site is intended for general informational purposes only."
 
 #: templates/termscond.html:63
-msgid "Biz texnik xatoliklar yoki saytga kirishdagi uzilishlar uchun javobgar emasiz."
+msgid "Biz texnik xatoliklar yoki saytga kirishdagi uzilishlar uchun javobgar emasmiz."
 msgstr "We are not responsible for technical errors or interruptions in site access."
 
 #: templates/termscond.html:74
@@ -1048,11 +1141,11 @@ msgstr "Use of Data"
 
 #: templates/termscond.html:82
 msgid "Sizning ma’lumotlaringiz xizmatlarni yaxshilash va shaxsiylashtirish uchun ishlatiladi."
-msgstr "Your information is used to improve and personalize services."
+msgstr "Your data is used to improve and personalize our services."
 
 #: templates/termscond.html:83
 msgid "Ma’lumotlaringiz hech qanday sharoitda uchinchi tomonlarga ruxsatsiz uzatilmaydi."
-msgstr "Your data will not be shared with third parties without your permission under any circumstances."
+msgstr "Your information will never be shared with third parties without permission."
 
 #: templates/termscond.html:85
 msgid "Ma’lumotlarni himoya qilish"
@@ -1068,11 +1161,11 @@ msgstr "User Responsibilities"
 
 #: templates/termscond.html:100
 msgid "Saytdan noto‘g‘ri yoki noqonuniy maqsadlarda foydalanmaslik."
-msgstr "Do not use the site for illegal or improper purposes."
+msgstr "Do not use the site for unlawful or improper purposes."
 
 #: templates/termscond.html:101
 msgid "Saytga zarar yetkazuvchi har qanday faoliyatni amalga oshirmaslik."
-msgstr "Do not engage in any activities that may harm the website."
+msgstr "Do not engage in any activity that could harm the website."
 
 #: templates/termscond.html:103
 msgid "Hisobni boshqarish"
@@ -1084,11 +1177,11 @@ msgstr "Users are responsible for keeping their account information secure."
 
 #: templates/termscond.html:106
 msgid "Agar hisob bilan bog‘liq ruxsatsiz faoliyat aniqlansa, darhol kompaniyaga xabar berilishi kerak."
-msgstr "If unauthorized activity related to an account is detected, it must be reported to the company immediately."
+msgstr "If unauthorized activity is detected, it must be reported to the company immediately."
 
 #: templates/termscond.html:118
 msgid "Saytda joylashtirilgan barcha matnlar, rasmlar, videolar va boshqa materiallar [sayt nomi] mulki hisoblanadi."
-msgstr "All text, images, videos, and other materials on the site are the property of [site name]."
+msgstr "All texts, images, videos, and other materials on the site are the property of [site name]."
 
 #: templates/termscond.html:119
 msgid "Ushbu materiallarni ruxsatsiz ko‘chirish, nusxalash yoki tarqatish qat’iyan man etiladi."
@@ -1096,27 +1189,27 @@ msgstr "Unauthorized copying, reproduction, or distribution of these materials i
 
 #: templates/termscond.html:120
 msgid "Mualliflik huquqlarining buzilishi qonuniy javobgarlikka olib kelishi mumkin."
-msgstr "Violation of copyright laws may result in legal consequences."
+msgstr "Violation of copyright may result in legal consequences."
 
 #: templates/termscond.html:130
 msgid "Cookie-fayllar nima?"
-msgstr "What are Cookies?"
+msgstr "What Are Cookies?"
 
 #: templates/termscond.html:131
 msgid "Cookie-fayllar foydalanuvchining qurilmasida saqlanadigan kichik ma’lumotlar bo‘lib, sayt faoliyatini optimallashtirish uchun ishlatiladi."
-msgstr "Cookies are small pieces of data stored on a user's device that help optimize site functionality."
+msgstr "Cookies are small data files stored on the user's device and are used to optimize website functionality."
 
 #: templates/termscond.html:132
 msgid "Biz qanday cookie-fayllarni ishlatamiz?"
-msgstr "What types of cookies do we use?"
+msgstr "What Types of Cookies Do We Use?"
 
 #: templates/termscond.html:134
 msgid "Sessiya cookie-fayllari (sayt ishlashini ta’minlash uchun)."
-msgstr "Session cookies (to ensure the site functions properly)."
+msgstr "Session cookies (to ensure the website functions properly)."
 
 #: templates/termscond.html:135
 msgid "Tahliliy cookie-fayllar (sayt faoliyati tahlili uchun)."
-msgstr "Analytical cookies (to analyze site performance)."
+msgstr "Analytical cookies (for analyzing website performance)."
 
 #: templates/termscond.html:137
 msgid "Cookie-fayllarni boshqarish"
@@ -1124,7 +1217,7 @@ msgstr "Managing Cookies"
 
 #: templates/termscond.html:139
 msgid "Foydalanuvchilar cookie-fayllarni brauzer sozlamalaridan boshqarishlari yoki o‘chirishlari mumkin."
-msgstr "Users can manage or delete cookies from their browser settings."
+msgstr "Users can manage or delete cookies via their browser settings."
 
 #: templates/termscond.html:149
 msgid "6. Hisob va To'lovlar"
@@ -1136,11 +1229,11 @@ msgstr "Account Creation"
 
 #: templates/termscond.html:152
 msgid "Foydalanuvchi ro‘yxatdan o‘tishda haqiqiy va dolzarb ma’lumotlarni taqdim etishi kerak."
-msgstr "The user must provide valid and up-to-date information during registration."
+msgstr "Users must provide accurate and up-to-date information when registering."
 
 #: templates/termscond.html:153
 msgid "Foydalanuvchi hisob ma’lumotlarini sir saqlash majburiyatiga ega."
-msgstr "The user is responsible for keeping their account information confidential."
+msgstr "Users are responsible for keeping their account information confidential."
 
 #: templates/termscond.html:155
 msgid "To‘lovlar"
@@ -1160,4 +1253,4 @@ msgstr "Refund Policy"
 
 #: templates/termscond.html:162
 msgid "To‘lovlar qaytarib berish bo‘yicha shartlar har bir xizmat uchun alohida belgilanadi."
-msgstr "Refund conditions are determined separately for each service."
+msgstr "Refund terms are specified separately for each service."

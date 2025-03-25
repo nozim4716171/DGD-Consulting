@@ -1,4 +1,4 @@
-# DGD Consulting Translation File.
+# DGD Consulting Translations.
 # Copyright (C) 2025 DGD Consulting
 # This file is distributed under the same license as the DGD Consulting package.
 # John Doe <john.doe@example.com>, 2025.
@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: DGD Consulting 1.0\n"
 "Report-Msgid-Bugs-To: support@example.com\n"
-"POT-Creation-Date: 2025-02-04 20:56+0500\n"
-"PO-Revision-Date: 2025-02-05 10:00+0500\n"
-"Last-Translator: Jane Smith <jane.smith@example.com>\n"
+"POT-Creation-Date: 2025-03-22 11:32+0500\n"
+"PO-Revision-Date: 2025-03-22 11:32+0500\n"
+"Last-Translator: John Doe <john.doe@example.com>\n"
 "Language-Team: Uzbek <uz@li.org>\n"
 "Language: uz\n"
 "MIME-Version: 1.0\n"
@@ -19,178 +19,178 @@ msgstr ""
 
 #: main/models.py:7 main/models.py:74
 msgid "Name"
-msgstr ""
+msgstr "Ism"
 
 #: main/models.py:20 main/models.py:111
 msgid "Title"
-msgstr ""
+msgstr "Sarlavha"
 
 #: main/models.py:21
 msgid "Description"
-msgstr ""
+msgstr "Tavsif"
 
 #: main/models.py:22
 msgid "Category"
-msgstr ""
+msgstr "Kategoriya"
 
 #: main/models.py:23
 msgid "Slug"
-msgstr ""
+msgstr "Slug (havola uchun nom)"
 
 #: main/models.py:24
 msgid "Creator"
-msgstr ""
+msgstr "Muallif"
 
 #: main/models.py:27
 msgid "is_active"
-msgstr ""
+msgstr "Faolmi"
 
 #: main/models.py:28
 msgid "Video"
-msgstr ""
+msgstr "Video"
 
 #: main/models.py:41 main/models.py:73 main/models.py:87
 msgid "News"
-msgstr ""
+msgstr "Yangiliklar"
 
 #: main/models.py:57 main/models.py:125
 msgid "First name"
-msgstr ""
+msgstr "Ism"
 
 #: main/models.py:58 main/models.py:126
 msgid "Last name"
-msgstr ""
+msgstr "Familiya"
 
 #: main/models.py:59
 msgid "Phone number"
-msgstr ""
+msgstr "Telefon raqami"
 
 #: main/models.py:61
 msgid "Message"
-msgstr ""
+msgstr "Xabar"
 
 #: main/models.py:75
 msgid "Comment"
-msgstr ""
+msgstr "Izoh"
 
 #: main/models.py:88
 msgid "Count"
-msgstr ""
+msgstr "Soni"
 
 #: main/models.py:101
 msgid "Ekspeditsiya"
-msgstr ""
+msgstr "Ekspeditsiya"
 
 #: main/models.py:102
 msgid "konferensiya"
-msgstr ""
+msgstr "Konferensiya"
 
 #: main/models.py:103
 msgid "Amaliy seminar"
-msgstr ""
+msgstr "Amaliy seminar"
 
 #: main/models.py:104
 msgid "Geologik sayohatlar"
-msgstr ""
+msgstr "Geologik sayohatlar"
 
 #: main/models.py:105
 msgid "Vebinarlar"
-msgstr ""
+msgstr "Vebinarlar"
 
 #: main/models.py:106
 msgid "Kashfiyotlar"
-msgstr ""
+msgstr "Kashfiyotlar"
 
 #: main/models.py:107
 msgid "Treninglar"
-msgstr ""
+msgstr "Treninglar"
 
 #: main/models.py:108
 msgid "Forumlar"
-msgstr ""
+msgstr "Forumlar"
 
 #: main/models.py:109
 msgid "Ilmiy taqdimotlar"
-msgstr ""
+msgstr "Ilmiy taqdimotlar"
 
 #: main/models.py:112
 msgid "Events"
-msgstr ""
+msgstr "Tadbirlar"
 
 #: main/models.py:113
 msgid "Created At"
-msgstr ""
+msgstr "Yaratilgan sana"
 
 #: main/models.py:127
 msgid "Position"
-msgstr ""
+msgstr "Lavozim"
 
 #: main/models.py:129
 msgid "Instagram link URL"
-msgstr ""
+msgstr "Instagram havola manzili"
 
 #: main/models.py:130
 msgid "Facebook link URL"
-msgstr ""
+msgstr "Facebook havola manzili"
 
 #: main/models.py:131
 msgid "Telegram link URL"
-msgstr ""
+msgstr "Telegram havola manzili"
 
 #: main/views.py:79
 msgid "Siz ushbu yangilikni allaqachon yoqtirgansiz."
-msgstr ""
+msgstr "Siz ushbu yangilikni allaqachon yoqtirgansiz."
 
 #: main/views.py:89
 msgid "Sharhingiz muvaffaqiyatli yuborildi!"
-msgstr ""
+msgstr "Sharhingiz muvaffaqiyatli yuborildi!"
 
 #: main/views.py:92
 msgid "Sharh yuborishda xatolik yuz berdi. Iltimos, qayta urinib ko'ring."
-msgstr ""
+msgstr "Sharh yuborishda xatolik yuz berdi. Iltimos, qayta urinib ko‘ring."
 
 #: main/views.py:136
 msgid "Sizning so'rovingiz qabul qilindi!"
-msgstr ""
+msgstr "So‘rovingiz muvaffaqiyatli qabul qilindi!"
 
 #: main/views.py:139
 msgid "Xatolik yuz berdi. Iltimos, qayta urinib ko'ring."
-msgstr ""
+msgstr "Xatolik yuz berdi. Iltimos, yana urinib ko‘ring."
 
 #: templates/404.html:5
 msgid "Sahifa topilmadi"
-msgstr ""
+msgstr "Sahifa topilmadi"
 
 #: templates/404.html:18
 msgid "Xatolik"
-msgstr ""
+msgstr "Xatolik"
 
 #: templates/404.html:19
 msgid ""
 "Siz qidirgan sahifa mavjud emas yoki boshqa joyga ko'chirilgan. Boshqa "
 "sahifani sinab ko'ring yoki quyidagi tugma orqali bosh sahifaga o'ting."
 msgstr ""
+"Siz izlayotgan sahifa mavjud emas yoki boshqa joyga ko‘chirilgan. Iltimos, boshqa sahifani sinab ko‘ring yoki quyidagi tugma orqali bosh sahifaga qayting."
 
 #: templates/404.html:20
 msgid "Bosh sahifaga qaytish"
-msgstr ""
+msgstr "Bosh sahifaga qaytish"
 
 #: templates/about.html:6 templates/base.html:91 templates/base.html:217
 msgid "Kompaniya haqida"
-msgstr ""
+msgstr "Kompaniya haqida"
 
 #: templates/about.html:13
 msgid "DGD Consulting kompaniyasi haqida"
-msgstr ""
+msgstr "DGD Consulting kompaniyasi haqida"
 
 #: templates/about.html:14
-msgid ""
-"“Ilm bilan yer qa’rini o‘rganamiz, mehnat bilan konlarni bunyod etamiz!”"
-msgstr ""
+msgid "Ilm bilan yer qa’rini o‘rganamiz, mehnat bilan konlarni bunyod etamiz!"
+msgstr "Ilm bilan yer qa’rini o‘rganamiz, mehnat bilan konlarni bunyod etamiz!"
 
 #: templates/about.html:41 templates/news-detail.html:256
 msgid "Biz haqimizda"
-msgstr ""
+msgstr "Biz haqimizda"
 
 #: templates/about.html:42
 msgid ""
@@ -198,6 +198,7 @@ msgid ""
 "savollarga javob berish uchun qidiruv dasturlarini ko'rib chiqamiz, "
 "baholaymiz, loyihalashtiramiz va amalga oshiramiz."
 msgstr ""
+"Biz geologik qidiruv ishlarining turli bosqichlarida muhim geologik savollarga javob berish uchun qidiruv dasturlarini ko‘rib chiqamiz, baholaymiz, loyihalashtiramiz va amalga oshiramiz."
 
 #: templates/about.html:43
 msgid ""
@@ -208,72 +209,87 @@ msgid ""
 "foydalanamiz va ilg'or qidiruv ma'lumotlar bazalarini yaratish va ular bilan "
 "ishlashda yuqori malakaga egamiz."
 msgstr ""
+"Bizning geologlarimiz turli geologik sharoitlarda ma’danlashuvning paydo bo‘lishi va tarqalish mexanizmlari bo‘yicha chuqur bilim va tajribaga ega.\n"
+"Biz dala geologik ishlaridan tortib, ma’lumotlarni qayta ishlash va baholashgacha bo‘lgan bosqichlarda zamonaviy dasturiy ta’minotlardan foydalanamiz va ilg‘or qidiruv ma’lumotlar bazalarini yaratish hamda ular bilan ishlashda yuqori malakaga egamiz."
 
 #: templates/about.html:49
-msgid "Qidiruv dasturlarini ishlab chiqish va amalga oshirish."
+msgid ""
+"Ma’dan (noma’dan) kon zaxiralarini hisoblash uchun razvedka "
+"konditsiyalarining Texnik Iqtisodiy Asoslari (TIA) ishlarini amalga oshirish."
 msgstr ""
+"Ma’dan (noma’dan) kon zaxiralarini hisoblash uchun razvedka konditsiyalarining Texnik-Iqtisodiy Asoslarini (TIA) ishlab chiqish."
 
 #: templates/about.html:50
-msgid "Geologik jarayonlar bo‘yicha chuqur bilim."
+msgid ""
+"Ma’dan va qamrovchi tog’ jinslarining moddiy tarkibini o’rganish uchun "
+"mineralogik-petrografik tadqiqotlar o’tkazish."
 msgstr ""
+"Ma’dan va qamrovchi tog‘ jinslarining moddiy tarkibini o‘rganish uchun mineralogik-petrografik tadqiqotlar o‘tkazish."
 
 #: templates/about.html:56
-msgid "Zamonaviy texnologiyalardan foydalanish."
+msgid ""
+"Mineralogik va petrografik tadqiqotlart uchun shaffof shlif va anshliflar "
+"tayyorlab berish"
 msgstr ""
+"Mineralogik va petrografik tadqiqotlar uchun shaffof shlif va anshliflar tayyorlab berish"
 
 #: templates/about.html:57
-msgid "Ma’lumotlar bazasi yaratish va boshqarish."
-msgstr ""
+msgid "Topogeodezik xizmat ko’rsatish."
+msgstr "Topogeodezik xizmatlar ko‘rsatish."
 
 #: templates/about.html:70
 msgid "Jamoamiz bilan hamkorlik qilish imkoniyatlari."
-msgstr ""
+msgstr "Jamoamiz bilan hamkorlik qilish imkoniyatlari."
 
 #: templates/about.html:84
 msgid "Ekspert geologik maslahat xizmatlari"
-msgstr ""
+msgstr "Ekspert geologik maslahat xizmatlari"
 
 #: templates/about.html:85
 msgid "Geologiya sohasida professional maslahat xizmatlarini taqdim etamiz."
-msgstr ""
+msgstr "Geologiya sohasida professional maslahat xizmatlarini taqdim etamiz."
 
 #: templates/about.html:99
 msgid "Mukammal loyiha hujjatlarini tayyorlash"
-msgstr ""
+msgstr "Mukammal loyiha hujjatlarini tayyorlash"
 
 #: templates/about.html:100
 msgid ""
 "Loyihalar uchun puxta ishlangan va yuqori sifatli hujjatlarni tayyorlash "
 "xizmatlarini taklif etamiz."
 msgstr ""
+"Loyihalar uchun puxta ishlab chiqilgan va yuqori sifatli hujjatlarni tayyorlash xizmatlarini taklif etamiz."
 
 #: templates/about.html:114
 msgid ""
 "Samarali geologik qidiruv ishlarini amalga\n"
 "                      oshirish"
-msgstr ""
+msgstr "Samarali geologik qidiruv ishlarini amalga oshirish"
 
 #: templates/about.html:116
 msgid ""
 "Geologik natijalarni kompleks baholash va xalqaro standartlarga mos ravishda "
 "hisobotlar tayyorlash xizmatlarini taklif etamiz."
 msgstr ""
+"Geologik natijalarni kompleks baholash va xalqaro standartlarga muvofiq hisobotlar tayyorlash xizmatlarini taklif etamiz."
 
 #: templates/about.html:126
 msgid "Bizning maqsadimiz"
-msgstr ""
+msgstr "Bizning maqsadimiz"
 
 #: templates/about.html:127
 msgid ""
 "Mijozlarimizga yuqori sifatli xizmatlar ko‘rsatish va ularning loyihalarini "
 "yangi rivojlanish bosqichiga olib chiqishdir."
 msgstr ""
+"Mijozlarimizga yuqori sifatli xizmatlar ko‘rsatish va ularning loyihalarini yangi rivojlanish bosqichiga olib chiqishdir."
 
 #: templates/about.html:128
 msgid ""
 "Har bir loyihaga individual yondashuv asosida ishlaymiz va zamonaviy "
 "texnologiyalardan foydalanamiz."
 msgstr ""
+"Har bir loyihaga individual yondashuv bilan yondashamiz va zamonaviy texnologiyalardan foydalanamiz."
 
 #: templates/about.html:129
 msgid ""
@@ -282,11 +298,13 @@ msgid ""
 "etamiz, bu jarayonda ilg‘or texnologiyalar va metodikalardan foydalanib, "
 "aniq va ishonchli natijalarni taqdim etamiz."
 msgstr ""
+"Barcha ishlarimizda xalqaro standartlarga qat’iy rioya qilamiz.\n"
+"Maxsus geologik tadqiqot ishlarini yuqori darajada tashkil etamiz. Bu jarayonda ilg‘or texnologiyalar va metodikalardan foydalanib, aniq va ishonchli natijalarni taqdim etamiz."
 
 #: templates/about.html:131 templates/blog.html:48 templates/blog.html:108
-#: templates/home.html:23
+#: templates/home.html:22
 msgid "Batafsil"
-msgstr ""
+msgstr "Batafsil"
 
 #: templates/about.html:154
 msgid ""
@@ -294,20 +312,22 @@ msgid ""
 "oshirilgan tadqiqotlar bilan bog‘liq. Ushbu bilim va amaliy harakatlarning "
 "kombinatsiyasi muvaffaqiyatning kalitidir.”"
 msgstr ""
+"“Geologiya sohasidagi har bir kashfiyot — bu yerni chuqur tushunish va olib borilgan tadqiqotlarning natijasidir. Ushbu bilim va amaliy harakatlarning uyg‘unligi — muvaffaqiyat kalitidir.”"
 
 #: templates/about.html:158
 msgid "Geolog"
-msgstr ""
+msgstr "Geolog"
 
 #: templates/about.html:166
 msgid ""
 "“Rivojlanish va muvaffaqiyat sirlari sabr-toqat va uzluksiz harakatlardan "
 "iboratdir. Har bir kichik harakat katta natijalar sari yo‘l ochadi.”"
 msgstr ""
+"“Rivojlanish va muvaffaqiyat siri — bu sabr-toqat va uzluksiz harakatdir. Har bir kichik qadam — katta yutuqlar sari yo‘l ochadi.”"
 
-#: templates/about.html:170 templates/home.html:404
+#: templates/about.html:170 templates/home.html:405
 msgid "Marketing mutaxassisi"
-msgstr ""
+msgstr "Marketing mutaxassisi"
 
 #: templates/about.html:178
 msgid ""
@@ -316,474 +336,508 @@ msgid ""
 "muvaffaqiyatli yo‘lni tanlashda emas, balki to‘g‘ri yo‘nalishda harakat "
 "qilishda hamdir.\""
 msgstr ""
+"\"Agar hayotda yuqori sifatli natijalarga erishmoqchi bo‘lsak, qat’iylik va izchillik bilan harakat qilishimiz zarur. Natija — bu nafaqat to‘g‘ri yo‘lni tanlash, balki shu yo‘ldan to‘g‘ri yurishda hamdir.\""
 
 #: templates/about.html:182
 msgid "Moliya analitigi"
-msgstr ""
+msgstr "Moliya analitigi"
 
 #: templates/about.html:207
 msgid "Bizning professional jamoa."
-msgstr ""
+msgstr "Bizning professional jamoamiz."
 
 #: templates/about.html:260 templates/contact.html:194
 msgid "Yakunlangan loyihalar"
-msgstr ""
+msgstr "Yakunlangan loyihalar"
 
-#: templates/about.html:266 templates/contact.html:199 templates/home.html:342
-#: templates/service.html:222
+#: templates/about.html:266 templates/contact.html:199 templates/home.html:343
+#: templates/service.html:228
 msgid "Mamnun mijozlar"
-msgstr ""
+msgstr "Mamnun mijozlar"
 
 #: templates/about.html:272
 msgid "Professional xodimlar"
-msgstr ""
+msgstr "Professional xodimlar"
 
 #: templates/about.html:278
 msgid "Kutilayotgan loyihalar"
-msgstr ""
+msgstr "Kutilayotgan loyihalar"
 
 #: templates/about.html:301
 msgid ""
 "Biz bilan hamkorlik qilishga tayyormisiz? Unda, biz bilan bog‘laning va "
 "birgalikda yangi marralarni zabt etamiz!"
 msgstr ""
+"Biz bilan hamkorlik qilishga tayyormisiz? Unda, biz bilan bog‘laning va birgalikda yangi cho‘qqilarni zabt etamiz!"
 
-#: templates/about.html:307 templates/home.html:466
+#: templates/about.html:307 templates/home.html:467
 msgid "Manzil"
-msgstr ""
+msgstr "Manzil"
 
 #: templates/about.html:308
 msgid "Navro'z ko'chasi, 10/06 Yangidarxon tumani"
-msgstr ""
+msgstr "Navro‘z ko‘chasi, 10/06, Yangidarxon tumani"
 
-#: templates/about.html:308 templates/contact.html:51 templates/home.html:468
+#: templates/about.html:308 templates/contact.html:51 templates/home.html:469
 msgid "Toshkent, O'zbekiston"
-msgstr ""
+msgstr "Toshkent, O‘zbekiston"
 
-#: templates/about.html:316 templates/contact.html:60 templates/home.html:477
+#: templates/about.html:316 templates/contact.html:60 templates/home.html:478
 msgid "Telefon raqam"
-msgstr ""
+msgstr "Telefon raqam"
 
 #: templates/about.html:325 templates/base.html:245 templates/contact.html:133
 msgid "Elektron pochta"
-msgstr ""
+msgstr "Elektron pochta"
 
 #: templates/base.html:89 templates/contact.html:17 templates/termscond.html:16
 msgid "Bosh sahifa"
-msgstr ""
+msgstr "Bosh sahifa"
 
 #: templates/base.html:90 templates/base.html:218 templates/service.html:5
 msgid "Xizmatlar"
-msgstr ""
+msgstr "Xizmatlar"
 
 #: templates/base.html:92
 msgid "Shartlar va Qoidalar"
-msgstr ""
+msgstr "Shartlar va Qoidalar"
 
 #: templates/base.html:93 templates/base.html:220 templates/blog.html:6
 msgid "Yangiliklar"
-msgstr ""
+msgstr "Yangiliklar"
 
 #: templates/base.html:138 templates/contact.html:5 templates/contact.html:18
-#: templates/home.html:457
+#: templates/home.html:458
 msgid "Bog'lanish"
-msgstr ""
+msgstr "Bog'lanish"
 
 #: templates/base.html:182
 msgid "Barcha huquqlar himoyalangan."
-msgstr ""
+msgstr "Barcha huquqlar himoyalangan."
 
 #: templates/base.html:205
 msgid ""
 "Navruz ko'chasi, 10/06 Yangidarxon tumani,\n"
 "                Toshkent, O'zbekiston"
 msgstr ""
+"Navro‘z ko‘chasi, 10/06 Yangidarxon tumani,\n"
+"                Toshkent, O‘zbekiston"
 
 #: templates/base.html:215
 msgid "Ma'lumot"
-msgstr ""
+msgstr "Ma'lumot"
 
 #: templates/base.html:219
 msgid "Shartlar va qoidalar"
-msgstr ""
+msgstr "Shartlar va qoidalar"
 
 #: templates/base.html:229
 msgid "Obuna bo'lish"
-msgstr ""
+msgstr "Obuna bo'lish"
 
 #: templates/base.html:230
 msgid ""
 "Yangiliklarimiz va takliflarimizdan xabardor bo'lish uchun elektron "
 "pochtangizni kiriting..."
 msgstr ""
+"Yangiliklarimiz va takliflarimizdan xabardor bo‘lish uchun elektron "
+"pochtangizni kiriting..."
 
 #: templates/base.html:246 templates/contact.html:164
 #: templates/news-detail.html:242
 msgid "Yuborish"
-msgstr ""
+msgstr "Yuborish"
 
 #: templates/blog.html:13
 msgid "Kompaniya yangiliklari"
-msgstr ""
+msgstr "Kompaniya yangiliklari"
 
 #: templates/blog.html:14
 msgid ""
 "Yangiliklar bo‘limimizga xush kelibsiz! Ushbu bo‘limda kompaniyamizga oid "
 "so‘nggi yangiliklar va dolzarb maqolalarni topishingiz mumkin."
 msgstr ""
+"Yangiliklar bo‘limimizga xush kelibsiz! Bu yerda kompaniyamiz bilan bog‘liq "
+"so‘nggi yangiliklar va dolzarb maqolalarni topishingiz mumkin."
 
 #: templates/blog.html:35 templates/blog.html:96 templates/news-detail.html:73
 #: templates/news-detail.html:103
 msgid "Your browser does not support the video tag."
-msgstr ""
+msgstr "Sizning brauzeringiz video tegini qo‘llab-quvvatlamaydi."
 
 #: templates/contact.html:14
 msgid "Biz bilan bogʻlanish"
-msgstr ""
+msgstr "Biz bilan bogʻlanish"
 
 #: templates/contact.html:50
 msgid "Ofis manzili"
-msgstr ""
+msgstr "Ofis manzili"
 
-#: templates/contact.html:51 templates/home.html:467
+#: templates/contact.html:51 templates/home.html:468
 msgid "Navro'z ko'chasi, 10/06 Yangidarxon tumani,"
-msgstr ""
+msgstr "Navro‘z ko‘chasi, 10/06 Yangidarxon tumani,"
 
-#: templates/contact.html:70 templates/home.html:487
+#: templates/contact.html:70 templates/home.html:488
 msgid "Elektron pochta manzili"
-msgstr ""
+msgstr "Elektron pochta manzili"
 
 #: templates/contact.html:103
 msgid "Qayta qo'ng'iroq"
-msgstr ""
+msgstr "Qayta qo‘ng‘iroq"
 
 #: templates/contact.html:104
 msgid ""
 "Kontakt ma'lumotlaringizni qoldiring va menejerimiz sizga tez orada javob "
 "beradi"
 msgstr ""
+"Aloqa ma'lumotlaringizni qoldiring — menejerimiz siz bilan tez orada bog‘lanadi."
 
 #: templates/contact.html:111
 msgid "Ism"
-msgstr ""
+msgstr "Ism"
 
 #: templates/contact.html:112 templates/contact.html:121
 #: templates/contact.html:135 templates/contact.html:149
 #: templates/contact.html:158
 msgid "To'g'ri kiritildi!"
-msgstr ""
+msgstr "To‘g‘ri kiritildi!"
 
 #: templates/contact.html:113
 msgid "Iltimos, ismingizni kiriting."
-msgstr ""
+msgstr "Iltimos, ismingizni kiriting."
 
 #: templates/contact.html:120
 msgid "Familya"
-msgstr ""
+msgstr "Familiya"
 
 #: templates/contact.html:122
 msgid "Iltimos, familiyangizni kiriting."
-msgstr ""
+msgstr "Iltimos, familiyangizni kiriting."
 
 #: templates/contact.html:136
 msgid "Iltimos, elektron pochta manzilini kiriting."
-msgstr ""
+msgstr "Iltimos, elektron pochta manzilini kiriting."
 
 #: templates/contact.html:147
 msgid "Telefon raqamingiz"
-msgstr ""
+msgstr "Telefon raqamingiz"
 
 #: templates/contact.html:150
 msgid "Iltimos, telefon raqamingizni kiriting."
-msgstr ""
+msgstr "Iltimos, telefon raqamingizni kiriting."
 
 #: templates/contact.html:157
 msgid "Xabar"
-msgstr ""
+msgstr "Xabar"
 
 #: templates/contact.html:159
 msgid "Iltimos, xabaringizni kiriting."
-msgstr ""
+msgstr "Iltimos, xabaringizni kiriting."
 
 #: templates/contact.html:165
 msgid "Bu maydonlarni to'ldirish talab qilinadi."
-msgstr ""
+msgstr "Bu maydonlarni to‘ldirish majburiy."
 
 #: templates/contact.html:184
 msgid ""
 "“100 dan ortiq kompaniyalar bizga ishonch bildirgan. Hozir ular safiga "
 "qo‘shiling va biznesingizni yangi cho‘qqilarga olib chiqing!”"
 msgstr ""
+"“100 dan ortiq kompaniyalar bizga ishonch bildirgan. Ularga qo‘shiling va "
+"biznesingizni yangi cho‘qqilarga olib chiqing!”"
 
 #: templates/contact.html:204
 msgid "Tajribali mutaxassislar"
-msgstr ""
+msgstr "Tajribali mutaxassislar"
 
 #: templates/home.html:16
-msgid "Ye'r qarini ilmimiz bilan o'rganamiz"
-msgstr ""
+msgid "“Ilm bilan yer qa’rini o‘rganamiz”"
+msgstr "“Ilm bilan yer qa’rini o‘rganamiz”"
 
-#: templates/home.html:17
+#: templates/home.html:16
 msgid "mehnatimiz bilan,kon ochamiz"
-msgstr ""
+msgstr "mehnatimiz bilan kon ochamiz"
 
-#: templates/home.html:19
+#: templates/home.html:18
 msgid ""
 "Biz loyihalaringizning \n"
 "            har bir bosqichida ishonchli yechimlarni taqdim etish maqsadida "
 "geologik izlanishlarni sinchkovlik bilan rejalashtiramiz va amalga oshiramiz."
 msgstr ""
+"Biz loyihalaringizning har bir bosqichida ishonchli yechimlar taqdim etish maqsadida "
+"geologik izlanishlarni sinchkovlik bilan rejalashtiramiz va amalga oshiramiz."
 
-#: templates/home.html:54 templates/service.html:80
+#: templates/home.html:53 templates/service.html:82
 msgid "Biz nima qilamiz?"
-msgstr ""
+msgstr "Biz nima qilamiz?"
 
-#: templates/home.html:55 templates/service.html:81
+#: templates/home.html:54 templates/service.html:83
 msgid ""
 "Biz taklif qilayotgan xizmatlar geologiya sohasidagi ehtiyojlaringizni "
 "qondirish uchun maxsus ishlab chiqilgan."
 msgstr ""
+"Bizning xizmatlarimiz geologiya sohasidagi ehtiyojlaringizni qondirish uchun maxsus ishlab chiqilgan."
 
-#: templates/home.html:66 templates/service.html:31
-msgid "Geologik tadqiqotlar olib boramiz"
-msgstr ""
+#: templates/home.html:65
+msgid "Geologik qidiruv ishlarini amalga oshirish"
+msgstr "Geologik qidiruv ishlarini amalga oshirish"
 
-#: templates/home.html:67 templates/service.html:32
+#: templates/home.html:66
 msgid ""
-"Yerni o’rganish, foydali qazilmalarni aniqlash va tabiiy resurslarni "
-"baholash bo’yicha ilmiy va amaliy ishlarni olib boramiz."
+"Geologik qidiruv ishlarni amalga Milliy va Xalqaro standartlarga (CRIRSCO/"
+"JORC) mos ravishda amalga oshiramiz."
 msgstr ""
+"Geologik qidiruv ishlarini milliy va xalqaro (CRIRSCO/JORC) standartlarga muvofiq tarzda amalga oshiramiz."
 
-#: templates/home.html:68 templates/home.html:77 templates/home.html:86
-#: templates/home.html:95 templates/service.html:82
+#: templates/home.html:67 templates/home.html:76 templates/home.html:85
+#: templates/home.html:94 templates/service.html:84
 msgid "Ko'proq"
-msgstr ""
+msgstr "Ko‘proq"
 
-#: templates/home.html:75 templates/service.html:43
-msgid "Geofizik tahlillarni o’tkazamiz"
-msgstr ""
+#: templates/home.html:74
+msgid "Tog’ lahmlarini o’tish (kanava/kichik shurf)"
+msgstr "Tog‘ lahmlarini o‘tish (kanava/kichik shurf)"
 
-#: templates/home.html:76 templates/service.html:44
+#: templates/home.html:75
 msgid ""
-"Yerning fizik xususiyatlarini aniqlash uchun zamonaviy texnologiyalar va "
-"uskunalardan foydalanamiz, bu esa tabiiy resurslardan samarali foydalanishga "
-"imkon beradi."
+"Malakali mutaxassislarimizga va moddiy texnik-bazamizga tayangan holda turli "
+"tog’ lahmlari o’tish ishlarini baharish."
 msgstr ""
+"Malakali mutaxassislarimiz va texnik bazamiz yordamida har xil tog‘ lahmlarini o‘tish ishlarini bajarish."
 
-#: templates/home.html:84 templates/service.html:55
-msgid "Geologik xaritalar yaratamiz"
-msgstr ""
+#: templates/home.html:83
+msgid "Geologik qidiruv ishlari va boshqalar uchun burg’ulash ishlari"
+msgstr "Geologik qidiruv va boshqa maqsadlar uchun burg‘ulash ishlari"
 
-#: templates/home.html:85 templates/service.html:56
+#: templates/home.html:84
 msgid ""
-"Hududlarning tuzilmasi va geologik xususiyatlarini aks ettiruvchi yuqori "
-"aniqlikdagi xaritalarni ishlab chiqib, bilim va qaror qabul qilishni yangi "
-"bosqichga olib chiqamiz."
+"Burg’ulash (Reverse Circulation drilling/Diamond drilling) ishlari "
+"hajmlarini sifatli amalga oshiramiz."
 msgstr ""
+"RC va Diamond uslubida burg‘ulash ishlarini yuqori sifatda amalga oshiramiz."
 
-#: templates/home.html:93 templates/service.html:67
-msgid "Resurslarni boshqarishda yordam beramiz"
-msgstr ""
+#: templates/home.html:92
+msgid "Geologik hujjatlashtirish"
+msgstr "Geologik hujjatlashtirish"
 
-#: templates/home.html:94 templates/service.html:68
+#: templates/home.html:93
 msgid ""
-"Foydali qazilmalardan oqilona foydalanish va barqaror rivojlanishni "
-"ta’minlash bo‘yicha professional maslahatlar beramiz."
+"Tog’ lahmlari va kernlarini an’anaviy va zamonaviy raqamli texnologiyalar "
+"yordamida geologik hujjatlashtiramiz."
 msgstr ""
+"Tog‘ lahmlari va burg‘u namunalarini an’anaviy va zamonaviy raqamli texnologiyalar orqali geologik hujjatlashtiramiz."
+
+#: templates/home.html:116
+msgid "Bu qanday ishlaydi?"
+msgstr "Bu qanday ishlaydi?"
 
 #: templates/home.html:117
-msgid "Bu qanday ishlaydi?"
-msgstr ""
-
-#: templates/home.html:118
 msgid "Bu yerda muvaffaqiyatga erishishning 3 asosiy bosqichi keltirilgan."
-msgstr ""
+msgstr "Muvaffaqiyatga erishishning 3 asosiy bosqichini keltiramiz."
+
+#: templates/home.html:124
+msgid "Tog’ lahmlari va burg’u quduqlarini geologik namunalash"
+msgstr "Tog‘ lahmlari va burg‘u quduqlaridan geologik namuna olish"
 
 #: templates/home.html:125
-msgid "Tahlil va ma’lumotlarni yig’ish"
-msgstr ""
-
-#: templates/home.html:126 templates/service.html:114
 msgid ""
-"Biz hududni o‘rganish uchun dastlabki tahlillarni o‘tkazamiz. Bu bosqichda "
-"geologik xaritalar, tuproq namunalarini yig‘ish va zamonaviy uskunalar "
-"yordamida ma’lumotlarni to‘playmiz."
-msgstr ""
+"Namunalash ishlarini sifatli QA/QC talablari darajasida amalga oshiramiz."
+msgstr "Namuna olish ishlarini QA/QC talablariga muvofiq sifatli bajarishga kafolat beramiz."
+
+#: templates/home.html:134
+msgid "Maxsus geologik takliflar"
+msgstr "Maxsus geologik takliflar"
 
 #: templates/home.html:135
-msgid "Tahlil natijalarini o‘rganish va rejalashtirish"
-msgstr ""
-
-#: templates/home.html:136 templates/service.html:119
 msgid ""
-"Olingan ma’lumotlarni maxsus dasturlar yordamida tahlil qilib, geologik "
-"xaritalar va modellar yaratamiz. Bu bizga qazilma resurslarini aniqlash va "
-"ekologik xavflarni baholash imkonini beradi."
+"Yer ustini geologik-strukturaviy o’rganish bo’yicha geologik marshrutlar "
+"kabi maxsus ishlarni taklif etamiz."
 msgstr ""
+"Yer usti geologik-strukturaviy o‘rganish bo‘yicha marshrutlarni o‘tkazish kabi maxsus xizmatlarni taklif qilamiz."
+
+#: templates/home.html:144
+msgid ""
+"Foydali qazilmalarning birlamchi oreollar bo’yicha geokimyoviy xaritalash"
+msgstr "Foydali qazilmalarning birlamchi oreollar bo‘yicha geokimyoviy xaritalash"
 
 #: templates/home.html:145
-msgid "Natijalarni amalga tatbiq etish"
-msgstr ""
-
-#: templates/home.html:146 templates/service.html:124
 msgid ""
-"Yaratilgan xaritalar va hisobotlar asosida foydali qazilmalarni qazib olish, "
-"qurilish yoki boshqa loyihalarni rejalashtirish va amalga oshirish bo‘yicha "
-"aniq tavsiyalarni taqdim etamiz."
+"Birlamchi oreollar asosida geokimyoviy xaritalash kristalli fundament "
+"ochilmalari ko‘p joylarda ma’danli minerallashuv va metosomatik "
+"o‘zgarishlarni yer ustida aniqlashda samaralidir. Biz zamonaviy texnologik "
+"yechimlarni taklif qilamiz: namunalarni xalqaro standartlar asosida olish, "
+"dala ishlarini raqamli geologik hujjatlashtirish, trek va nuqtalarni "
+"belgilash, \n"
+"                  fotosuratlarni GIS tizimiga integratsiya qilish orqali ish "
+"sifati va samaradorligini ta’minlaymiz."
 msgstr ""
-
-#: templates/home.html:168
-msgid "Nega aynan bizni tanlashingiz kerak?"
-msgstr ""
+"Birlamchi oreollar asosida geokimyoviy xaritalash kristalli fundament ochilmalari "
+"ko‘p joylarda ma’danli minerallashuv va metosomatik o‘zgarishlarni aniqlashda samarali usuldir. "
+"Biz quyidagilarni taqdim etamiz: xalqaro standartlarga muvofiq namunalar olish, dala ishlarini raqamli geologik hujjatlashtirish, trek va nuqtalarni belgilash, "
+"GIS tizimiga fotosuratlarni integratsiyalash orqali yuqori sifat va samaradorlik."
 
 #: templates/home.html:169
+msgid "Nega aynan bizni tanlashingiz kerak?"
+msgstr "Nega aynan bizni tanlaysiz?"
+
+#: templates/home.html:170
 msgid "Mijozlarimiz bizni tanlashlariga sabablar"
-msgstr ""
+msgstr "Mijozlarimiz bizni tanlashining sabablari"
 
-#: templates/home.html:176
+#: templates/home.html:177
 msgid "Tajriba va Ishonch"
-msgstr ""
+msgstr "Tajriba va ishonch"
 
-#: templates/home.html:183
+#: templates/home.html:184
 msgid ""
 "Bizning jamoamiz tajribali geologlar va soha mutaxassislaridan iborat "
 "bo‘lib, har bir loyihada aniqlik va ishonchlilikni ta’minlaydi."
 msgstr ""
+"Bizning jamoamiz tajribali geologlar va soha mutaxassislaridan iborat bo‘lib, "
+"har bir loyihada aniqlik va ishonchlilikni ta’minlaydi."
 
-#: templates/home.html:194
+#: templates/home.html:195
 msgid "Zamonaviy Texnologiyalar"
-msgstr ""
+msgstr "Zamonaviy texnologiyalar"
 
-#: templates/home.html:201
+#: templates/home.html:202
 msgid ""
 "Biz eng ilg‘or asbob-uskunalar va innovatsion usullarni qo‘llab, sizning "
 "ehtiyojlaringizga mos keladigan samarali va aniq natijalarni taqdim etamiz."
 msgstr ""
+"Biz eng ilg‘or uskunalar va innovatsion texnologiyalar yordamida sizga eng aniq va samarali natijalarni taqdim etamiz."
 
-#: templates/home.html:212
+#: templates/home.html:213
 msgid "Mijozga Yo‘naltirilgan Xizmat"
-msgstr ""
+msgstr "Mijozga yo‘naltirilgan xizmat"
 
-#: templates/home.html:219
+#: templates/home.html:220
 msgid ""
 "Har bir mijozning ehtiyojlariga individual yondashamiz va ularning "
 "maqsadlariga erishishda ishonchli hamkor bo‘lamiz. Ekologik xavfsizlikni "
 "ta’minlashga e’tibor qaratib, tabiiy resurslardan oqilona va barqaror "
 "foydalanishni maqsad qilganmiz."
 msgstr ""
+"Biz har bir mijozga individual yondashamiz va ularning maqsadlariga erishishda ishonchli hamkor bo‘lamiz. "
+"Ekologik xavfsizlik va tabiiy resurslardan oqilona foydalanishni o‘z oldimizga maqsad qilganmiz."
 
-#: templates/home.html:244
+#: templates/home.html:245
 msgid "“Bizning hamkorlar safimizga qo’shiling”"
-msgstr ""
+msgstr "“Bizning hamkorlarimiz safiga qo‘shiling”"
 
-#: templates/home.html:247
+#: templates/home.html:248
 msgid ""
 "Bizga 20+ geologik loyiha ishonib topshirilgan. Bizning xizmatlardan "
 "foydalanib, ularga qo‘shiling va tabiiy resurslaringizdan samarali "
 "foydalaning."
 msgstr ""
+"20 dan ortiq geologik loyihalar bizga ishonib topshirilgan. Siz ham bizning xizmatlarimizdan foydalaning va tabiiy resurslaringizdan samarali foydalaning."
 
-#: templates/home.html:248
+#: templates/home.html:249
 msgid "Bizga qo‘shiling"
-msgstr ""
-
-#: templates/home.html:265
-msgid "Geologik Tadqiqotlar"
-msgstr ""
+msgstr "Bizga qo‘shiling"
 
 #: templates/home.html:266
+msgid "Geologik Tadqiqotlar"
+msgstr "Geologik tadqiqotlar"
+
+#: templates/home.html:267
 msgid ""
 "Yer qatlamlarini chuqur o'rganish va innovatsion yechimlarga ega "
 "loyihalarimiz bilan tanishing."
 msgstr ""
-
-#: templates/home.html:324
-msgid "Bizning loyihalarimiz"
-msgstr ""
+"Yer qatlamlarini chuqur o‘rganish va innovatsion yechimlarga ega loyihalarimiz bilan tanishing."
 
 #: templates/home.html:325
+msgid "Bizning loyihalarimiz"
+msgstr "Bizning loyihalarimiz"
+
+#: templates/home.html:326
 msgid "Biz o‘z ishlarimizdan faxrlanamiz"
-msgstr ""
+msgstr "Biz o‘z ishlarimiz bilan faxrlanamiz"
 
-#: templates/home.html:335 templates/service.html:217
+#: templates/home.html:336 templates/service.html:223
 msgid "Bajarilgan loyihalar"
-msgstr ""
+msgstr "Bajarilgan loyihalar"
 
-#: templates/home.html:349
+#: templates/home.html:350
 msgid "Erishilgan yutuqlar"
-msgstr ""
+msgstr "Erishilgan yutuqlar"
 
-#: templates/home.html:387
+#: templates/home.html:388
 msgid ""
 "“Moliyaviy qarorlaringiz uchun aniq tahlil va strategik yechimlar. Bizning "
 "maqsadimiz – sizning muvaffaqiyatingizni raqamlar orqali kafolatlash. "
 "Ishonchli va chuqur tahlil yordamida moliyaviy istiqbollaringizni yangi "
 "cho‘qqilarga olib chiqing.”"
 msgstr ""
+"“Moliyaviy qarorlaringiz uchun aniq tahlil va strategik yechimlar. Bizning maqsadimiz – muvaffaqiyatingizni raqamlar orqali kafolatlash. Ishonchli va chuqur tahlillar yordamida moliyaviy istiqbollaringizni yangi cho‘qqilarga olib chiqing.”"
 
-#: templates/home.html:391
+#: templates/home.html:392
 msgid "Moliyaviy menejer"
-msgstr ""
+msgstr "Moliyaviy menejer"
 
-#: templates/home.html:400
+#: templates/home.html:401
 msgid ""
 "“Ijodkorlik va strategiya orqali biznesingizni yangi darajaga olib chiqamiz. "
 "Samarali marketing echimlari bilan mijozlaringizni jalb qilish va "
 "brendingizni mustahkamlashga yordam beramiz. Har bir loyiha – bu "
 "muvaffaqiyat sari qadam.”"
 msgstr ""
+"“Ijodkorlik va strategiya orqali biznesingizni yangi darajaga olib chiqamiz. Samarali marketing yechimlari yordamida mijozlaringizni jalb etish va brendingizni mustahkamlashga ko‘maklashamiz. Har bir loyiha — bu muvaffaqiyat sari qadamdir.”"
 
-#: templates/home.html:413
+#: templates/home.html:414
 msgid ""
 "“Yer qa’rining sirlarini ochib, kelajak imkoniyatlarini yaratamiz. Geologik "
 "tadqiqotlarimiz aniq tahlil va ishonchli natijalarga asoslangan. "
 "Resurslaringizni samarali boshqarish va rivojlantirish uchun mukammal "
 "yechimlar taqdim etamiz.”"
 msgstr ""
+"“Yer qa’rining sirlarini ochib, kelajak imkoniyatlarini yaratamiz. Geologik tadqiqotlarimiz aniq tahlil va ishonchli natijalarga asoslangan. Resurslaringizni samarali boshqarish va rivojlantirish uchun mukammal yechimlar taqdim etamiz.”"
 
-#: templates/home.html:417
+#: templates/home.html:418
 msgid "Geological Engineer"
-msgstr ""
+msgstr "Geolog muhandis"
 
-#: templates/home.html:459
+#: templates/home.html:460
 msgid "Biz bilan bog‘laning va birgalikda yangi marralarni zabt etamiz!"
-msgstr ""
+msgstr "Biz bilan bog‘laning va birgalikda yangi marralarni zabt etamiz!"
 
 #: templates/news-detail.html:84
 msgid "No Media Available"
-msgstr ""
+msgstr "Hech qanday media mavjud emas"
 
 #: templates/news-detail.html:137
 msgid "Ulashish"
-msgstr ""
+msgstr "Ulashish"
 
 #: templates/news-detail.html:154
 msgid "Mavzuga oid"
-msgstr ""
+msgstr "Mavzuga oid"
 
 #: templates/news-detail.html:205
 msgid "Izohlar"
-msgstr ""
+msgstr "Izohlar"
 
 #: templates/news-detail.html:225
 msgid "Izohlar yo'q."
-msgstr ""
+msgstr "Izohlar yo‘q."
 
 #: templates/news-detail.html:231
 msgid "Fikringizni bildirishni xohlaysizmi?"
-msgstr ""
+msgstr "Fikringizni bildirmoqchimisiz?"
 
 #: templates/news-detail.html:232
 msgid "Kerakli maydonlar * bilan belgilangan."
-msgstr ""
+msgstr "Majburiy maydonlar * bilan belgilangan."
 
 #: templates/news-detail.html:236
 msgid "Ismingizni kiriting *"
-msgstr ""
+msgstr "Ismingizni kiriting *"
 
 #: templates/news-detail.html:240
 msgid "Matn kiriting *"
-msgstr ""
+msgstr "Matn kiriting *"
 
 #: templates/news-detail.html:257
 msgid ""
@@ -793,70 +847,169 @@ msgid ""
 "ekologik barqarorlikni ta’minlash bo‘yicha keng ko‘lamli xizmatlar "
 "ko‘rsatamiz.</p>"
 msgstr ""
+"<p>Bizning kompaniya — <strong>DGD Consulting</strong>, geologiya va tabiiy resurslarni o‘rganish sohasida yetakchi tashkilotlardan biridir. Biz yer qa’rini tadqiq qilish, foydali qazilmalarni qidirish va baholash, shuningdek, ekologik barqarorlikni ta’minlash bo‘yicha keng ko‘lamli xizmatlar ko‘rsatamiz.</p>"
 
 #: templates/news-detail.html:269
 msgid "So'nggi yangiliklar"
-msgstr ""
+msgstr "So‘nggi yangiliklar"
 
 #: templates/service.html:12
 msgid "Bizning xizmatlar"
-msgstr ""
+msgstr "Bizning xizmatlar"
 
 #: templates/service.html:13
 msgid ""
 "Biz geologiya sohasida mijozlar bilan uzoq muddatli hamkorlikni yo‘lga "
 "qo‘yishga e’tibor qaratadigan innovatsion kompaniyamiz."
 msgstr ""
+"Biz geologiya sohasida mijozlar bilan uzoq muddatli hamkorlikni yo‘lga qo‘yishga e’tibor qaratadigan innovatsion kompaniyamiz."
 
-#: templates/service.html:109
-msgid "Bizning jarayon"
+#: templates/service.html:31
+msgid "Geologik ishlar uchun hujjatlar tayyorlash"
+msgstr "Geologik ishlar uchun hujjatlar tayyorlash"
+
+#: templates/service.html:32
+msgid ""
+"Istiqbolli maydonlarda foydali qazilmalarni qidirish va qazib olish uchun "
+"litsenziya hujjatlarini tayyorlash va maslahat berish."
 msgstr ""
+"Istiqbolli maydonlarda foydali qazilmalarni qidirish va qazib olish uchun litsenziya hujjatlarini tayyorlash va maslahat berish."
 
-#: templates/service.html:110
+#: templates/service.html:43
+msgid "Loyihalarni samaradorligini baholashga ekspert-konsalting xizmati"
+msgstr "Loyihalarni samaradorligini baholashga ekspert-konsalting xizmati"
+
+#: templates/service.html:44
+msgid ""
+"Geologik qidiruv ishlari va foydali qazilmalarni qazib olishning amalga "
+"oshirilishini baholash va samaradorlikni oshirish uchun kerakli tavsiyalarni "
+"berish."
+msgstr ""
+"Geologik qidiruv ishlari va foydali qazilmalarni qazib olishning amalga oshirilishini baholash va samaradorlikni oshirish uchun kerakli tavsiyalarni berish."
+
+#: templates/service.html:55
+msgid ""
+"Loyihalarning atrof-muhitga ta’sirini kamaytirish bo’yicha ekologik qismini "
+"ishlab chiqish"
+msgstr ""
+"Loyihalarning atrof-muhitga ta’sirini kamaytirish bo‘yicha ekologik qismini ishlab chiqish"
+
+#: templates/service.html:56
+msgid ""
+"Geologik qidiruv ishlari va foydali qazilmalarni qazib olishda atrof-muhitga "
+"ta’sirni kamaytirish bo‘yicha kompleks chora-tadbirlarni ishlab chiqish va "
+"ekologik hujjatlarni professional tarzda tayyorlab berish."
+msgstr ""
+"Geologik qidiruv ishlari va foydali qazilmalarni qazib olishda atrof-muhitga ta’sirni kamaytirish bo‘yicha kompleks chora-tadbirlarni ishlab chiqish va ekologik hujjatlarni professional tarzda tayyorlab berish."
+
+#: templates/service.html:67
+msgid "Geologik qidiruv ishlari uchun loyiha-smeta tayyorlash."
+msgstr "Geologik qidiruv ishlari uchun loyiha-smeta tayyorlash."
+
+#: templates/service.html:68
+msgid ""
+"Loyiha-smetalarni tuzishda O’zbekiston Respublikasi Qonunchiligi, Tog’-kon "
+"va Geologiya Vazirligi talablariga mos tarzda shakllantirishib berish.\n"
+"                      Geologik qidiruv ishlari va foydali qazilmalarni qazib "
+"olish uchun loyiha-smeta hujjatlarini, hamda ish hajmlarini amalga oshirish "
+"uchun kalendar-grafik va boshqa hujjatlarni professional tarzda tayyorlab "
+"berish.\n"
+"                      "
+msgstr ""
+"Loyiha-smetalarni tuzishda O‘zbekiston Respublikasi qonunchiligi, Tog‘-kon va Geologiya vazirligi talablariga mos ravishda shakllantirish.\n"
+"Geologik qidiruv ishlari va foydali qazilmalarni qazib olish uchun loyiha-smeta hujjatlari, ish hajmlari, kalendar-grafik va boshqa zarur hujjatlarni professional tarzda tayyorlab berish."
+
+#: templates/service.html:111
+msgid "Bizning jarayon"
+msgstr "Bizning jarayon"
+
+#: templates/service.html:112
 msgid ""
 "Geologik tadqiqotlar jarayonining modelini yaratish bo‘yicha bilishingiz "
 "kerak bo‘lgan barcha ma’lumotlarni bilib oling."
 msgstr ""
+"Geologik tadqiqotlar jarayonining modelini yaratish bo‘yicha bilishingiz kerak bo‘lgan barcha ma’lumotlar bilan tanishing."
 
-#: templates/service.html:113
-msgid "1. Tahlil va ma’lumotlarni yig’ish"
-msgstr ""
+#: templates/service.html:115
+msgid "1. Atmogeokimyoviy oreollarni o’rganish"
+msgstr "1. Atmogeokimyoviy oreollarni o‘rganish"
 
-#: templates/service.html:118
-msgid "2. Tahlil natijalarini o‘rganish va rejalashtirish"
+#: templates/service.html:116
+msgid ""
+"Geologik qidiruv ishlarida atmogeokimyoviy oreollar bo’yicha geokimyoviy "
+"xaritalash maydon zamonaviy yotqiziqlar bilan qoplangan landshaf "
+"sharoitlarida, yopiq ma’danli minerallashuv bilan bog’liq chuqur yer yoriqli "
+"strukturalarni yer ustida ajratishda samarali hisoblanadi. Bunda tuproqning "
+"yuza qismida Hg, yonuvchi gazlar (metan, propan va b.)ni aniqlashga "
+"asoslanadi. Germaniya va Rossiyadan keltrilgan yuqori aniqlikka ega, "
+"zamonaviy asbob-uskunalar qo’llaniladi.\n"
+"                  Ekologik maqsadda ham qo’llash imkoniyati mavjud.\n"
+"                  "
 msgstr ""
+"Geologik qidiruv ishlarida atmogeokimyoviy oreollar bo‘yicha geokimyoviy xaritalash zamonaviy yotqiziqlar bilan qoplangan landshaft sharoitlarida, yopiq ma’danli minerallashuv bilan bog‘liq chuqur yer yoriqli strukturalarni yer ustida ajratishda samarali hisoblanadi. Bunda tuproqning yuza qismida Hg va yonuvchi gazlar (metan, propan va boshqalar)ni aniqlashga asoslaniladi. Germaniya va Rossiyadan olib kelingan yuqori aniqlikka ega zamonaviy asbob-uskunalardan foydalaniladi.\n"
+"Bu usulni ekologik maqsadlarda ham qo‘llash mumkin."
+
+#: templates/service.html:122
+msgid ""
+"2. Foydali qazilmalarning ikkilamchi oreollar bo’yicha geokimyoviy xaritalash"
+msgstr "2. Foydali qazilmalarning ikkilamchi oreollar bo‘yicha geokimyoviy xaritalash"
 
 #: templates/service.html:123
-msgid "3.Natijalarni amalga tatbiq etish"
+msgid ""
+"Ikkilamchi oreollar bo’yicha geokimyoviy xaritalash maydon bo’yicha kristal "
+"fundament ochilmalari juda kam va mavjud bo’lmagan landshaf sharoitlarida, "
+"yopiq ma’danli minerallashuvni yer ustida ajratishda samarali hisoblanadi.\n"
+"                  Ishni amalga oshirishda eng zamonaviy yechimlarni taklif "
+"qilamiz. Har bir namunani xalqaro standartlar asosida olishni, dala ishlari "
+"jarayonini zamonaviy texnologik yechimlar asosida geologik hujjatlashtirish, "
+"treyklari va namunalash nuqtalari, hamda olingan fotosuratlari GIS-tizimga "
+"integratsiya qilinganligi amalga oshiradigan ish sifati va samaradorligini "
+"ta’minlaydi.\n"
+"                  "
 msgstr ""
+"Ikkilamchi oreollar asosida geokimyoviy xaritalash, kristalli fundament ochilmalari juda kam yoki mavjud bo‘lmagan landshaft sharoitlarida yopiq ma’danli minerallashuvni yer ustida aniqlashda samaralidir.\n"
+"Biz eng zamonaviy texnologik yechimlarni taklif qilamiz: har bir namunani xalqaro standartlar asosida olish, dala ishlarini zamonaviy texnologiyalarga asoslangan holda geologik hujjatlashtirish, treyklari va namunalash nuqtalari, fotosuratlarni GIS tizimiga integratsiya qilish orqali ish sifati va samaradorligini ta'minlaymiz."
 
-#: templates/service.html:145
+#: templates/service.html:129
+msgid "3. Yotqiziqlarning biostratigrafik (nisbiy) yoshini o’rganib berish"
+msgstr "3. Yotqiziqlarning biostratigrafik (nisbiy) yoshini aniqlash"
+
+#: templates/service.html:130
+msgid ""
+"Karbonat tog’ jinslaridan topilgan (paleontologik) mikro va makroskopik  "
+"organiq qoldiqlar asosida tog’ jinslarining nisbiy yoshini aniqlash orqali "
+"foydali qazilmalarga boy bo’lgan kuchli dislokatsiyaga uchragan kesmalarni "
+"ketma – ketligini tiklashda keng qo’llaniladi."
+msgstr ""
+"Karbonat tog‘ jinslaridan topilgan mikro va makroskopik organik (paleontologik) qoldiqlar asosida tog‘ jinslarining nisbiy yoshini aniqlash orqali, foydali qazilmalarga boy va kuchli dislokatsiyaga uchragan geologik kesmalarning ketma-ketligini tiklashda keng qo‘llaniladi."
+
+#: templates/service.html:151
 msgid ""
 "Biz mijozlarimiz uchun hayotni yengillashtiruvchi tezkor geologik "
 "yechimlarni taqdim etamiz."
-msgstr ""
+msgstr "Biz mijozlarimiz uchun hayotni yengillashtiruvchi tezkor geologik yechimlarni taqdim etamiz."
 
-#: templates/service.html:148
+#: templates/service.html:154
 msgid "Geologik tadqiqotlar"
-msgstr ""
+msgstr "Geologik tadqiqotlar"
 
-#: templates/service.html:152
+#: templates/service.html:158
 msgid "Strategik rejalashtirish"
-msgstr ""
+msgstr "Strategik rejalashtirish"
 
-#: templates/service.html:156
+#: templates/service.html:162
 msgid "Ma’lumotlar tahlili"
-msgstr ""
+msgstr "Ma’lumotlar tahlili"
 
-#: templates/service.html:160
+#: templates/service.html:166
 msgid "Loyiha ishlab chiqish"
-msgstr ""
+msgstr "Loyiha ishlab chiqish"
 
-#: templates/service.html:175
+#: templates/service.html:181
 msgid "Innovatsion geologik yechimlar bilan ishonchli natijalarga erishing."
-msgstr ""
+msgstr "Innovatsion geologik yechimlar bilan ishonchli natijalarga erishing."
 
-#: templates/service.html:176
+#: templates/service.html:182
 msgid ""
 "Geologik tadqiqotlar natijasida yer osti boyliklarini aniq baholash va "
 "ekspluatatsiya qilish imkoniyatlari aniqlanadi.\n"
@@ -865,68 +1018,77 @@ msgid ""
 "ta’minlaydi. Zamonaviy texnologiyalar yordamida har bir loyiha uchun "
 "ishonchli yechimlar ishlab chiqiladi."
 msgstr ""
+"Geologik tadqiqotlar orqali yer osti boyliklarini aniq baholash va ulardan foydalanish imkoniyatlari aniqlanadi.\n"
+"Foydali qazilma zaxiralari, tuproq tarkibi va tog‘ jinslari tuzilmasi bo‘yicha chuqur tahlillar geologik jarayonlarning aniqligini ta’minlaydi.\n"
+"Zamonaviy texnologiyalar yordamida har bir loyiha uchun ishonchli va samarali yechimlar ishlab chiqiladi."
 
-#: templates/service.html:181
-msgid "Geologik qidiruv ishlari va tahlil."
-msgstr ""
-
-#: templates/service.html:182
-msgid "Qurilish uchun muhandislik-geologik tadqiqotlar."
-msgstr ""
+#: templates/service.html:187
+msgid "Geokimyoviy ma’lumotlarni geostatistik qayta ishlash."
+msgstr "Geokimyoviy ma’lumotlarni geostatistik qayta ishlash."
 
 #: templates/service.html:188
-msgid "Yer osti va usti resurslarini aniqlash."
-msgstr ""
+msgid "Yerni masofadan zondlash ma’lumotlarini qayta ishlash."
+msgstr "Yerni masofadan zondlash ma’lumotlarini qayta ishlash."
 
-#: templates/service.html:189
-msgid "Mineral va foydali qazilma konlarini baholash."
+#: templates/service.html:194
+msgid ""
+"Sun’iy intellect (AI) texnologiyalari asosida geologik qidiruv ishlari uchun "
+"zamonaviy yechimlar ishlab chiqish."
 msgstr ""
+"Sun’iy intellekt (AI) texnologiyalari asosida geologik qidiruv ishlari uchun zamonaviy yechimlar ishlab chiqish."
 
-#: templates/service.html:206
+#: templates/service.html:195
+msgid ""
+"Foydali qazilmalarning zahiralar (resurslar)ini an’anaviy va zamonaviy "
+"usulda amalga oshirish."
+msgstr "Foydali qazilmalar zaxiralarini an’anaviy va zamonaviy usullar asosida baholash va amalga oshirish."
+
+#: templates/service.html:212
 msgid "Bizning kompaniyamizning ajralmas qismiga aylaning"
-msgstr ""
+msgstr "Bizning kompaniyamizning ajralmas qismiga aylaning"
 
-#: templates/service.html:207
+#: templates/service.html:213
 msgid ""
 "Bizga ishonch bildirgan 5000+ mijozlar qatoriga qo‘shiling va biznesingizni "
 "rivojlantiring!"
 msgstr ""
+"Bizga ishonch bildirgan 5000+ mijozlar safiga qo‘shiling va biznesingizni rivojlantiring!"
 
-#: templates/service.html:227
+#: templates/service.html:233
 msgid "Tajribali xodimlar"
-msgstr ""
+msgstr "Tajribali xodimlar"
 
 #: templates/termscond.html:5
 msgid "Foydalanish shartlari va qoidalari"
-msgstr ""
+msgstr "Foydalanish shartlari va qoidalari"
 
 #: templates/termscond.html:13 templates/termscond.html:17
 msgid "Foydalanish shartlari"
-msgstr ""
+msgstr "Foydalanish shartlari"
 
 #: templates/termscond.html:35 templates/termscond.html:52
 msgid "1. Foydalanish Shartlari"
-msgstr ""
+msgstr "1. Foydalanish Shartlari"
 
 #: templates/termscond.html:36 templates/termscond.html:73
 msgid "2. Maxfiylik Siyosati"
-msgstr ""
+msgstr "2. Maxfiylik Siyosati"
 
 #: templates/termscond.html:37 templates/termscond.html:97
 msgid "3. Foydalanuvchi Siyosati"
-msgstr ""
+msgstr "3. Foydalanuvchi Siyosati"
 
 #: templates/termscond.html:38 templates/termscond.html:116
 msgid "4. Mualliflik Huquqlari"
-msgstr ""
+msgstr "4. Mualliflik Huquqlari"
 
 #: templates/termscond.html:39 templates/termscond.html:129
 msgid "5. Cookie-fayllar"
-msgstr ""
+msgstr "5. Cookie-fayllar"
 
 #: templates/termscond.html:40
 msgid "6. Hisob va To‘lovlar"
-msgstr ""
+msgstr "6. Hisob va To‘lovlar"
 
 #: templates/termscond.html:53
 msgid ""
@@ -935,192 +1097,204 @@ msgid ""
 "qilishga rozilik bildirasiz.</p>\n"
 "                <p>Xizmatlar ko‘rsatish</p>"
 msgstr ""
+"<p>Ushbu shartlar <b>dgdconsulting.uz</b> xizmatlaridan foydalanish "
+"qoidalarini belgilaydi. Saytimizga kirish orqali siz ushbu shartlarga rioya qilishga rozilik bildirasiz.</p>\n"
+"<p>Xizmatlar ko‘rsatish</p>"
 
 #: templates/termscond.html:56
 msgid "Saytimiz faqat qonuniy maqsadlarda foydalanish uchun mo‘ljallangan"
-msgstr ""
+msgstr "Saytimiz faqat qonuniy maqsadlarda foydalanish uchun mo‘ljallangan"
 
 #: templates/termscond.html:57
 msgid ""
 "Foydalanuvchilar xizmatdan noqonuniy yoki noto‘g‘ri maqsadlarda "
 "foydalanmasliklari shart."
-msgstr ""
+msgstr "Foydalanuvchilar xizmatdan noqonuniy yoki noto‘g‘ri maqsadlarda foydalanmasliklari shart."
 
 #: templates/termscond.html:58
 msgid ""
 "Kompaniya xizmatni istalgan vaqtda o‘zgartirish yoki to‘xtatib qo‘yish "
 "huquqiga ega."
-msgstr ""
+msgstr "Kompaniya xizmatni istalgan vaqtda o‘zgartirish yoki to‘xtatib turish huquqiga ega."
 
 #: templates/termscond.html:60
 msgid "Javobgarlik"
-msgstr ""
+msgstr "Javobgarlik"
 
 #: templates/termscond.html:62
 msgid ""
 "Saytda mavjud ma’lumotlar faqat umumiy ma’lumot berish uchun mo‘ljallangan."
-msgstr ""
+msgstr "Saytda mavjud ma’lumotlar faqat umumiy ma’lumot berish uchun mo‘ljallangan."
 
 #: templates/termscond.html:63
 msgid ""
 "Biz texnik xatoliklar yoki saytga kirishdagi uzilishlar uchun javobgar "
 "emasmiz."
-msgstr ""
+msgstr "Biz texnik xatoliklar yoki saytga kirishdagi uzilishlar uchun javobgar emasmiz."
 
 #: templates/termscond.html:74
 msgid "Ma’lumotlarni yig‘ish"
-msgstr ""
+msgstr "Ma’lumotlarni yig‘ish"
 
 #: templates/termscond.html:75
 msgid "Biz foydalanuvchilardan quyidagi ma’lumotlarni yig‘amiz:"
-msgstr ""
+msgstr "Biz foydalanuvchilardan quyidagi ma’lumotlarni yig‘amiz:"
 
 #: templates/termscond.html:77
 msgid "Shaxsiy ma’lumotlar (ism, email, telefon raqami)."
-msgstr ""
+msgstr "Shaxsiy ma’lumotlar (ism, email, telefon raqami)."
 
 #: templates/termscond.html:78
 msgid "Foydalanuvchi faoliyati ma’lumotlari (cookie-fayllar, IP-manzillar)."
-msgstr ""
+msgstr "Foydalanuvchi faoliyati ma’lumotlari (cookie-fayllar, IP-manzillar)."
 
 #: templates/termscond.html:80
 msgid "Ma’lumotlardan foydalanish"
-msgstr ""
+msgstr "Ma’lumotlardan foydalanish"
 
 #: templates/termscond.html:82
 msgid ""
 "Sizning ma’lumotlaringiz xizmatlarni yaxshilash va shaxsiylashtirish uchun "
 "ishlatiladi."
-msgstr ""
+msgstr "Sizning ma’lumotlaringiz xizmatlarni yaxshilash va shaxsiylashtirish uchun ishlatiladi."
 
 #: templates/termscond.html:83
 msgid ""
 "Ma’lumotlaringiz hech qanday sharoitda uchinchi tomonlarga ruxsatsiz "
 "uzatilmaydi."
-msgstr ""
+msgstr "Ma’lumotlaringiz hech qanday sharoitda uchinchi tomonlarga ruxsatsiz uzatilmaydi."
 
 #: templates/termscond.html:85
 msgid "Ma’lumotlarni himoya qilish"
-msgstr ""
+msgstr "Ma’lumotlarni himoya qilish"
 
 #: templates/termscond.html:87
 msgid ""
 "Ma’lumotlaringiz xavfsizligini ta’minlash uchun zamonaviy texnologiyalar "
 "ishlatiladi."
-msgstr ""
+msgstr "Ma’lumotlaringiz xavfsizligini ta’minlash uchun zamonaviy texnologiyalar ishlatiladi."
 
 #: templates/termscond.html:98
 msgid "Foydalanuvchi majburiyatlari"
-msgstr ""
+msgstr "Foydalanuvchi majburiyatlari"
 
 #: templates/termscond.html:100
 msgid "Saytdan noto‘g‘ri yoki noqonuniy maqsadlarda foydalanmaslik."
-msgstr ""
+msgstr "Saytdan noto‘g‘ri yoki noqonuniy maqsadlarda foydalanmaslik."
 
 #: templates/termscond.html:101
 msgid "Saytga zarar yetkazuvchi har qanday faoliyatni amalga oshirmaslik."
-msgstr ""
+msgstr "Saytga zarar yetkazuvchi har qanday faoliyatni amalga oshirmaslik."
 
 #: templates/termscond.html:103
 msgid "Hisobni boshqarish"
-msgstr ""
+msgstr "Hisobni boshqarish"
+
 
 #: templates/termscond.html:105
 msgid "Foydalanuvchi hisob ma’lumotlarini xavfsiz saqlash majburiyatiga ega."
-msgstr ""
+msgstr "Foydalanuvchi hisob ma’lumotlarini xavfsiz saqlash majburiyatiga ega."
 
 #: templates/termscond.html:106
 msgid ""
 "Agar hisob bilan bog‘liq ruxsatsiz faoliyat aniqlansa, darhol kompaniyaga "
 "xabar berilishi kerak."
 msgstr ""
+"Agar hisob bilan bog‘liq ruxsatsiz faoliyat aniqlansa, darhol kompaniyaga "
+"xabar berilishi lozim."
 
 #: templates/termscond.html:118
 msgid ""
 "Saytda joylashtirilgan barcha matnlar, rasmlar, videolar va boshqa "
 "materiallar [sayt nomi] mulki hisoblanadi."
 msgstr ""
+"Saytda joylashtirilgan barcha matnlar, rasmlar, videolar va boshqa "
+"materiallar [sayt nomi] mulki hisoblanadi."
 
 #: templates/termscond.html:119
 msgid ""
 "Ushbu materiallarni ruxsatsiz ko‘chirish, nusxalash yoki tarqatish qat’iyan "
 "man etiladi."
-msgstr ""
+msgstr "Ushbu materiallarni ruxsatsiz ko‘chirish, nusxalash yoki tarqatish qat’iyan taqiqlanadi."
 
 #: templates/termscond.html:120
 msgid ""
 "Mualliflik huquqlarining buzilishi qonuniy javobgarlikka olib kelishi mumkin."
-msgstr ""
+msgstr "Mualliflik huquqlarining buzilishi qonuniy javobgarlikka olib kelishi mumkin."
 
 #: templates/termscond.html:130
 msgid "Cookie-fayllar nima?"
-msgstr ""
+msgstr "Cookie-fayllar nima?"
 
 #: templates/termscond.html:131
 msgid ""
 "Cookie-fayllar foydalanuvchining qurilmasida saqlanadigan kichik ma’lumotlar "
 "bo‘lib, sayt faoliyatini optimallashtirish uchun ishlatiladi."
 msgstr ""
+"Cookie-fayllar foydalanuvchining qurilmasida saqlanadigan kichik ma’lumotlar bo‘lib, sayt faoliyatini optimallashtirish uchun ishlatiladi."
 
 #: templates/termscond.html:132
 msgid "Biz qanday cookie-fayllarni ishlatamiz?"
-msgstr ""
+msgstr "Biz qanday cookie-fayllarni ishlatamiz?"
 
 #: templates/termscond.html:134
 msgid "Sessiya cookie-fayllari (sayt ishlashini ta’minlash uchun)."
-msgstr ""
+msgstr "Sessiya cookie-fayllari (sayt faoliyatini ta’minlash uchun)."
 
 #: templates/termscond.html:135
 msgid "Tahliliy cookie-fayllar (sayt faoliyati tahlili uchun)."
-msgstr ""
+msgstr "Tahliliy cookie-fayllar (sayt faoliyatini tahlil qilish uchun)."
 
 #: templates/termscond.html:137
 msgid "Cookie-fayllarni boshqarish"
-msgstr ""
+msgstr "Cookie-fayllarni boshqarish"
 
 #: templates/termscond.html:139
 msgid ""
 "Foydalanuvchilar cookie-fayllarni brauzer sozlamalaridan boshqarishlari yoki "
 "o‘chirishlari mumkin."
 msgstr ""
+"Foydalanuvchilar cookie-fayllarni brauzer sozlamalaridan boshqarishlari yoki "
+"ularni o‘chirishlari mumkin."
 
 #: templates/termscond.html:149
 msgid "6. Hisob va To'lovlar"
-msgstr ""
+msgstr "6. Hisob va To‘lovlar"
 
 #: templates/termscond.html:150
 msgid "Hisob yaratish"
-msgstr ""
+msgstr "Hisob yaratish"
 
 #: templates/termscond.html:152
 msgid ""
 "Foydalanuvchi ro‘yxatdan o‘tishda haqiqiy va dolzarb ma’lumotlarni taqdim "
 "etishi kerak."
 msgstr ""
+"Foydalanuvchi ro‘yxatdan o‘tishda haqiqiy va dolzarb ma’lumotlarni taqdim etishi kerak."
 
 #: templates/termscond.html:153
 msgid "Foydalanuvchi hisob ma’lumotlarini sir saqlash majburiyatiga ega."
-msgstr ""
+msgstr "Foydalanuvchi hisob ma’lumotlarini sir saqlash majburiyatiga ega."
 
 #: templates/termscond.html:155
 msgid "To‘lovlar"
-msgstr ""
+msgstr "To‘lovlar"
 
 #: templates/termscond.html:157
 msgid "To‘lov shartlari xizmat turiga qarab farqlanadi."
-msgstr ""
+msgstr "To‘lov shartlari xizmat turiga qarab farqlanadi."
 
 #: templates/termscond.html:158 templates/termscond.html:163
 msgid ""
 "Noto‘g‘ri yoki noto‘liq to‘lov uchun foydalanuvchi javobgar hisoblanadi."
-msgstr ""
+msgstr "Noto‘g‘ri yoki noto‘liq to‘lov uchun foydalanuvchi javobgar hisoblanadi."
 
 #: templates/termscond.html:160
 msgid "Qaytarib berish siyosati"
-msgstr ""
+msgstr "Qaytarib berish siyosati"
 
 #: templates/termscond.html:162
 msgid ""
 "To‘lovlar qaytarib berish bo‘yicha shartlar har bir xizmat uchun alohida "
 "belgilanadi."
-msgstr ""
+msgstr "To‘lovlarni qaytarish bo‘yicha shartlar har bir xizmat uchun alohida belgilanadi."

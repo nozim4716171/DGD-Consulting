@@ -22,7 +22,7 @@ DEBUG = config('DEBUG', default=False, cast=bool)
 
 
 if DEBUG:
-    ALLOWED_HOSTS = ['127.0.0.1', 'localhost']
+    ALLOWED_HOSTS = ['dgdconsulting.uz', 'www.dgdconsulting.uz']
 else:
     ALLOWED_HOSTS = config('ALLOWED_HOSTS', default='').split(',')
 
